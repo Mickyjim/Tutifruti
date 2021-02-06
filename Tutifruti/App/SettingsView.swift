@@ -24,7 +24,7 @@ struct SettingsView: View {
                     
                     GroupBox(
                         label:
-                            SettingsLabelView(labelText: "How much fruit nutrition should be included in our daily diet?", labelImage: "info.circle")) {
+                            SettingsLabelView(labelText: "Disclaimer", labelImage: "info.circle")) {
                         Divider().padding(.vertical, 4)
                         
                         HStack(alignment: .center, spacing: 10) {
@@ -35,11 +35,9 @@ struct SettingsView: View {
                                 .cornerRadius(9)
                             
                             Text("""
-Research studies suggest that one may eat any servings of fruits daily. It is recommended to eat at least 2-3 servings of fresh fruits every day.
+The information and reference guides in this app are intended solely for the general information for the reader. The contents of this app are not intended to offer personal medical advice, diagnose health problems or for treatment purposes. It is not a substitute for medical care provided by a licensed and qualified health professional. Please consult your health care provider for any advice on medications.
 
-The term, "one fruit serving" is about 250 g of cleaned, "edible-portion" of the fruit, excluding discards like the peel, seeds, etc.
-
-Include seasonal fruits in the daily diet. Varieties of fruits types (tropical, sub-arctic berries, tree fruits, etc.), color (blueberries, mangoes, pink guava, yellow-watermelon, black grapes, black sapodilla, etc.), and different flavored should be encouraged to get maximum health benefits. Yellow and orange color fruits are rich sources of &alfa; and ß carotenes, zeaxanthin, and cryptoxanthin, while blue, black colored like black or blueberries are an excellent source of polyphenolic anthocyanin antioxidants.
+The information in the site does not mention brand names, nor does it endorse any particular products.
 """)
                                 .font(.footnote)
                         }
@@ -47,7 +45,7 @@ Include seasonal fruits in the daily diet. Varieties of fruits types (tropical, 
                 }
                 
             }//: VSTACK
-            .navigationBarTitle(Text("Consumption"), displayMode: .large)
+            .navigationBarTitle(Text("Medical disclaimer"), displayMode: .large)
             .navigationBarItems(
                 trailing: Button(action: {
                     presentationMode.wrappedValue.dismiss()

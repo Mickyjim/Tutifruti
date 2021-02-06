@@ -1686,5 +1686,1127 @@ let fruitData: [Fruit] = [
               Total measured antioxidant strength (ORAC value) of watermelon is 142 Âµmol TE/100 g.
           """,
         nutrition: ["127 kJ (30 kcal)","6.2 g","0.15 g","0.61 g","A, B1, B2, B3, B5, B6, C, Choline","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
+    )]
+
+let driedFruitData: [DriedFruit] = [
+    DriedFruit(
+        title: "Dried Apricot",
+        headline: "Scientific name: Prunus Armenia",
+        image: "dried_apricot",
+        gradientColors: [Color("ColorDriedApricotLight"), Color("ColorDriedApricotDark")],
+        description: """
+          Full of fragrance and sweet, golden-orange apricots are another summer delicacies of Asian origin. These much-prized fruits were first brought to Europe by Greeks, who named them as “golden eggs of the sun."
+
+          Botanically, the fruit is closely related to peaches and nectarine; sharing with them in the broader Rosaceae family of fruit-trees in the genus; Prunus.
+
+          Today, some of the main producing regions of this fruit are Turkey, Iran, Italy, France, Spain, Syria, Greece, and China.
+
+          Apricot is a medium-sized deciduous tree that grows best in well-drained mountain slope soils. During the spring, it bears plenty of beautiful pinkish-white flowers that attract bees.
+
+          The fruits have almost uniform size, 4-5 cm in diameter, and weigh about 35 g. In structure; apricot is a drupe, consisting of a centrally located single pit surrounded by crunchy, aromatic edible flesh. The seed enclosed in a hard stony shell often called as "stone."
+
+          Fresh, ripe apricots have a sweet flavor similar to plums. Sundried organic apricots are nutritiously denser than fresh ones, although they have less in vitamin-C content. Its seed-kernel is also edible and taste like that of almond nut. Oil extracted from these kernels employed in cooking.
+
+          Health benefits of apricots
+
+              Fresh fruits are low in calories, composing just 48 calories per 100 g weight. Nonetheless, they are an excellent source of dietary fiber, antioxidants, vitamins, and minerals.
+
+              Apricots are good source of numerous health promoting phytochemicals that help prevent heart disease, reduce LDL, ("bad cholesterol") levels and offer protection against cancers.
+
+              Apricots are excellent sources of vitamin-A and carotenes. 100 grams of fresh fruits carry 1926 IU or 64% of daily required levels of vitamin-A. These compounds known to have antioxidant properties and are essential for vision.
+
+              Vitamin-A also required for maintaining healthy mucosa and skin. Consumption of natural fruits rich in carotenes helps protect the body from lung and oral cavity cancers.
+
+              Fresh fruits contain vitamin-C, another natural antioxidant. Vitamin-C helps the human body develop resistance against infectious agents and scavenge harmful oxygen-free radicals.
+
+              They are an also good source of minerals such as potassium, iron, zinc, calcium and manganese. Potassium is a heart-healthy mineral; an important component of cell and body fluids that help regulate heart rate and blood pressure.
+
+              The total antioxidant or ORAC value of fresh apricots is 1115 μmol TE/100 g. Most of this value attributed to some important health promoting flavonoid poly phenolic antioxidants such as lutein, zeaxanthin, and beta-cryptoxanthin. Altogether, these compounds act as protective scavengers against oxygen-derived free radicals and reactive oxygen species (ROS) that play a role in aging, cancers and various disease process.
+
+              Further, zeaxanthin, a carotenoid selectively concentrated in the retinal "macula lutea" in the human eyes where it is thought to provide antioxidant and protective UV light-filtering functions. Thus, consumption of fruits rich in zeaxanthin helps eyes protect from age-related macular disease (AMRD), especially in the older adults.
+          """,
+        nutrition: ["1009 kJ (241 kcal)","53 g","0.5 g","3.4 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Dried Dates",
+        headline: "Scientific name: Phoenix Dactylifera",
+        image: "dried_dates",
+        gradientColors: [Color("ColorDriedDatesLight"), Color("ColorDriedDatesDark")],
+        description: """
+          What nutrients are there in dates? A lot indeed! Here are sweet, delicious fruits from the tropical oasis, brimming with much-needed minerals and energy to help stay fit and healthy.
+
+          Botanically they are the "drupe" (single pitted) fruits, grow on the palm tree belonging to the family of Arecaceae, in the genus: Phoenix. The tree is believed to originate in the lands on the banks of Nile and Euphrates Rivers of ancient Egypt and Mesopotamia. Date palm is now grown extensively for its edible fruits under warmer climates across all the continents.
+
+          The date fruit is a "drupe," in which its outer fleshy part (exocarp and mesocarp) surrounds a shell (the pit or stone) of hardened endocarp with a seed inside. The fruit is oval to cylindrical in shape, 3–7 cms long, and 2–3 cms diameter, and ripe dates range from golden yellow, amber, bright-red to deep-brown depending on the cultivar type.
+
+          There are many varieties of date palm cultivated. ‘Amir Hajj,’ ‘Saidy,’ 'Khadrawy' and 'Medjool' are some of the important varieties popular for their rich taste, flavor, and superior quality.
+
+          Health benefits of dates
+
+              Wonderfully delicious, dates are one of the most popular fruits packed with an impressive list of phyotnutrients, vitamins, and minerals that are essential for normal growth, development, and overall well-being.
+
+              Fresh dates compose of soft, easily digestible flesh and simple sugars like fructose and dextrose. 100 g of mejdool dates hold 277 calories. When eaten, they replenish energy and revitalize the body instantly. For these qualities, they traditionally served to break the fast during Ramadan month since ancient times.
+
+              The fruit is rich in dietary fiber, which prevents LDL cholesterol absorption in the gut. Additionally, the fiber diet works as a bulk laxative. It, thus, helps protect the colon mucous membrane from cancer-causing chemicals binding to it in the colon.
+
+              They contain health benefiting flavonoid polyphenolic antioxidants known as tannins. Tannins are known to possess anti-infective, anti-inflammatory, and anti-hemorrhagic (prevent easy bleeding tendencies) properties.
+
+              They are minor sources of vitamin-A (contains 149 IU or 5% of RDA per 100 g), which is known to have antioxidant properties and essential for vision. Additionally, it is also required maintaining healthy mucosa and skin. Consumption of natural fruits rich in vitamin-A is known to help protect from lung and oral cavity cancers.
+
+              They compose antioxidant flavonoids such as ß-carotene, lutein, and zeaxanthin. These antioxidants found to have the ability to protect cells and other structures in the body from harmful effects of oxygen-free radicals. Thus, eating dates found to offer some protection from colon, prostate, breast, endometrial, lung, and pancreatic cancers.
+
+              Zeaxanthin is an important dietary carotenoid that selectively absorbed into the retinal macula lutea, where it thought to provide antioxidant and protective light-filtering functions. It thus offers protection against age-related macular degeneration, especially in the older adults.
+
+              Dates are excellent source of iron, carry 0.90 mg/100 g of fruits (about 11% of RDI). Iron, being a component of hemoglobin inside the red blood cells, determines the oxygen-carrying capacity of the blood.
+
+              Further, they are excellent sources of potassium. 100 g contains 696 mg or 16% of daily recommended levels of this electrolyte. Potassium is an important component of cell and body fluids that help regulate heart rate and blood pressure. They, thus, offer protection against stroke and coronary heart diseases.
+
+              Date fruits are also rich in minerals like calcium, manganese, copper, and magnesium. Calcium is an important mineral that is an essential constituent of bone and teeth and required by the body for muscle contraction, blood clotting, and nerve impulse conduction. The human body uses manganese as a co-factor for the antioxidant enzyme, superoxide dismutase. Copper required for the production of red blood cells. Magnesium is essential for bone growth.
+
+              Further, the fruit has moderate levels of the B-complex group of vitamins as well as vitamin-K. It contains healthy amounts of pyridoxine (vitamin B-6), niacin, pantothenic acid, and riboflavin. These vitamins are acting as cofactors help body metabolize carbohydrates, protein, and fats. Vitamin-K is essential for many coagulant factors in the blood as well as in bone metabolism.
+          """,
+        nutrition: ["1159 kJ (277 kcal)","66 g","0.2 g","1.8 g","A, B1, B2, B3, B5, B6, B9, C, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Dried Fig",
+        headline: "Scientific name: Ficus Carica",
+        image: "dried_fig",
+        gradientColors: [Color("ColorDriedFigLight"), Color("ColorDriedFigDark")],
+        description: """
+          Delicious, sweet fig fruit is one of the popular fruits enjoyed since ancient times. Fig is rich in natural health benefiting phytonutrients, antioxidants, and vitamins. Entirely developed and ripe fig features bell or pear shape with succulent, juicy flesh inside. Dried figs, indeed, are a highly concentrated source of minerals and vitamins.
+
+          Botanically figs belong to the mulberry family (Moraceae), in the genus: Ficus.
+
+          The fig tree is native to temperate regions of Asia Minor or Turkey, and today, grown as an important fruit of commerce in the eastern Mediterranean climates, USA, and Spain. It also cultivated as a fruit tree in the home gardens in many other regions as well. During each season, fig bears several hundreds of pear-shaped fruits twice a year, which vary in size and color depending on the variety.
+
+          Interiorly, fig fruit features numerous, tiny club-shaped ovaries extending towards the central hollow cavity. In their natural habitat, “caprifigs” pollinated by tiny "gall wasp" (Blastophaga psenes) insect that enters flower clusters through a small opening at the apex.
+
+          Several cultivars of fig exist; some of the traditional varieties commonly grown in the USA are Brown Turkey, Conadria, Kadota, and Black mission. However, since the wasp does not exist in the North America, most of these fruits develop by parthenogenesis (without pollination) and therefore, do not possess "true" seeds.
+
+          Health benefits of figs
+
+              Fig fruit is low in calories. 100 g fresh fruits carry only 74 calories. However, they contain health benefiting soluble dietary fiber, minerals, vitamins, and pigment antioxidants that contribute immensely towards optimum health and wellness.
+
+              Dried figs are an excellent source of minerals, vitamins and antioxidants. In fact, dried figs possess higher concentrations of energy, minerals, and vitamins. 100 g dried figs provide 249 calories.
+
+              Fresh figs, especially black mission, contain polyphenolic flavonoid antioxidants such as carotenes, lutein, tannins, chlorogenic acid, etc. Their antioxidant value is comparable to that of apples at 3200 umol/100 g (Trolox equivalents).
+
+              Additionally, fresh figs contain adequate levels of some of the anti-oxidant vitamins such as vitamin-A, E, and K. Altogether these phytochemical compounds in fig fruit help scavenge harmful oxygen-derived free radicals from the human body and thereby protect us from cancers, diabetes, degenerative diseases, and infections.
+
+              Furthermore, research studies suggest that chlorogenic acid in the figs help lower blood sugar levels and control blood glucose levels in type-II diabetes mellitus (adult-onset) condition.
+
+              Fresh, as well as dried figs, contain healthy levels of a B-complex group of vitamins such as niacin, pyridoxine, folates, and pantothenic acid. These vitamins function as co-factors for metabolism of carbohydrates, proteins, and fats.
+
+              Dried figs are excellent sources of minerals like calcium, copper, potassium, manganese, iron, selenium and zinc. 100 g of dried figs contain 680 mg of potassium, 162 mg of calcium, and 2.03 mg of iron. Potassium is an important component of cell and body fluids that helps controlling heart rate and blood pressure. Copper required in the production of red blood cells. Iron is essential for red blood cell formation as well for cellular oxidation.
+          """,
+        nutrition: ["1041 kJ (249 kcal)","47.9 g","0.93 g","3.3 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Dried Goji Berry",
+        headline: "Scientific name: Lycium Barbarum",
+        image: "dried_goji_berry",
+        gradientColors: [Color("ColorDriedGojiLight"), Color("ColorDriedGojiDark")],
+        description: """
+          In Chinese legends, goji berry symbolizes longevity of life. These tiny orange-red color berries obtained from a nightshade family plant growing naturally in many Asian and Mediterranean regions.
+
+          Botanically, goji belongs to the Solanaceae (nightshade) family of plants. Wolfberry, matrimony vine are other names to goji. Eggplant, tomato, potato are other interesting family members in this nightshade family.
+
+          Ningxia province in Northwest China is the important region where wolfberry grew on a commercial scale. Goji berries grown in Ningxia, especially in Zhongning, are renowned worldwide for their exceptional quality.
+
+          Goji berry is a deciduous, thick woody vine that prefers loamy, well-drained soil. The two common goji cultivars grown in China are L. barbarum, and L. chinense (Chinese wolfberry). L. barbarum or NingXia (Gou Qi) berries considered as the best and most popular in the western world.
+
+          Goji reaches about 2-3 meters in height and begins fruit yielding by the second year of plantation. The plant bears small, purple color flowers in the summer which undergo self-pollination to develop green, raw berries in bunches. The berries turn deep orange-red and can be ready for harvesting by August. Each berry measures about 2 to 2.5 cm in length and 1 cm in diameter, has ellipsoid shape and waxy, glossy skin. Inside, it consists of tiny, creamy-white, flat seeds interspersed at its center. Traditionally, fresh berries harvested by hand-picking and sun-dried for several days, sorted and dispatch for markets.
+
+          Every year during the harvesting time, locals in the Ningxia province celebrate goji berry festival in the month of August to commemorate the importance of goji berry in their culture.
+
+          Health benefits of goji berry
+
+              L. barbarum plant parts, including fruits, leaves, flowers, have long been recognized as a functional food praised in Chinese culture. The berries, in particular, are packed with an impressive list of essential nutrients, anti-oxidants, vitamins, and minerals.
+
+              Dry, red ripe goji berries are concentrated sources of carotenoids, calories, vitamins, and minerals.
+
+              Antioxidant carotenoids and flavonoids found abundantly in goji berries. β -carotene, zeaxanthin, cryptoxanthin, and lutein play a vital role in protecting the skin and mucosa from free radical injury.
+
+              Certain flavonoids found in goji berries are quercetin, kaempferol, myricetin, hesperidin and rutin. They act as antioxidants, anti-inflammatory, and anti-cancer agents.
+
+              Zeaxanthin is a natural antioxidant which has UV (ultra-violet) rays filtering actions in the macula lutea portion of the retina in the eyes. Thus, it may offer protection from "age-related macular disease" (ARMD) in the elderly.
+
+              Fresh, as well as, dried goji are excellent sources of vitamin-A. 100 g of dried berries carry astoundingly 26,822 IU of vitamin-A. Vitamin-A is a powerful natural anti-oxidant and is required by the body for maintaining the integrity of skin and mucosa. It is also an essential vitamin for good vision. Research studies suggest that natural foods rich in this vitamin may help the human body protect against lung and oral cavity cancers.
+
+              Vitamin C is another natural anti-oxidant found in right concentration in goji. 100 grams of dried goji composes 48.4 mg or 80% of daily required levels of this vitamin.
+
+              Dried goji berries are an excellent source of calcium (190 mg or 19% of RDI), iron 6.80 mg/100 g of fruits (about 85% of RDI). Iron, being a component of hemoglobin inside the red blood cells, determines the oxygen-carrying capacity of the blood. Calcium is an important mineral that is an essential constituent of bone and teeth and required by the body for muscle contraction, blood clotting, and nerve impulse conduction.
+
+              Further, fresh as well as dry berries carry adequate daily recommended levels of the B-complex group of vitamins. Dried goji contains very good amounts of pyridoxine (vitamin B-6), thiamin niacin, pantothenic acid, and riboflavin. These vitamins are acting as cofactors help the human body metabolize carbohydrates, protein, and fats.
+
+          Medicinal uses of goji berry
+
+              Almost all parts of the goji plant have been found utilization in the traditional Chinese medicine. Chinese physicians advocate different parts of the plant for each of the four divisions of the year. Its leaf in spring, flower in summer, fruits in autumn and root in winter.
+
+              The berries employed in medicines to cure inflammations, as a blood thinner, a healh tonic for skin and eyes, to relief nervousness, and to improve memory.
+          """,
+        nutrition: ["1460 kJ (349 kcal)","45.61 g","0.39 g","14.26 g","A, C","Calcium, Iron, Sodium"]
+    ),
+    DriedFruit(
+        title: "Dried Raisins",
+        headline: "Scientific name: Vitis Vinifera",
+        image: "dried_raisin",
+        gradientColors: [Color("ColorDriedRaisinLight"), Color("ColorDriedRaisinDark")],
+        description: """
+          Raisins are dried grapes/currants. However, unlike fresh grapes, they indeed rich and concentrated sources of energy, vitamins, electrolytes, and minerals. On a weight per weight comparison basis, 100 g of dried grapes hold 249 calories, several times more fiber, vitamins, minerals and polyphenol antioxidants than the fresh grapes.
+
+          Raisins, however, contain fewer amounts of vitamin-C, folic acid, carotenes, lutein and xanthins than fresh grapes.
+
+          In general, fresh grapes, either seedless or seed types of the Vinifera species such as Thompson seedless (Sultana), Sugarone, Calmeria, Corinth, etc., are subjected to dry under sunlight or mechanical drying techniques. In some cases, the whole bunch of grapes may be allowed to dry on the plant itself (vine-dried). Ordinarily, their moisture content should not exceed 16% of dry weight.
+
+          Thoroughly dried raisins are then further stemmed, cap-stemmed, sorted and cleaned in order to obtain high quality, dried berries. At the wholesale level, raisins are processed and graded further before sent to the markets.
+
+          Types (varieties) of processed raisins:
+
+              Type I - Seedless.
+
+              Type II - Golden seedless.
+
+              Type III - Raisins with seeds.
+
+              Type IV - Sultana.
+
+              Type V - Zante currant.
+
+              Type VI - Mixed species or varieties.
+
+          Health benefits of raisins
+
+              Raisins, like dried apricots, figs, and prunes, are dense sources of energy, vitamins, minerals, and antioxidants. Additionally, they packed with many health benefiting polyphenolics antioxidants, dietary fiber, and other phytonutrients.
+
+              The total measured antioxidant strength (ORAC value) of 100 g raisin is 3037 µmol Trolox Equivalents (TE), while that of fresh grapes 1118 µmol TE/100 g.
+
+              As in grapes, raisins also contain phytochemical compound resveratrol. Resveratrol, a polyphenol antioxidant, has anti-inflammatory, anti-cancer, blood cholesterol lowering activities. Studies suggest that resveratrol has been found to have protective action against cancers like melanoma, colon, and prostate, and diseases such as coronary heart disease (CHD), degenerative nerve disease, Alzheimer's disease and viral/ fungal infections.
+
+              Also, resveratrol reduces stroke risk by altering at the cell molecular level inside the blood vessels. It does so firstly by reducing the susceptibility of blood vessels damage by decreasing the activity of angiotensin (a systemic hormone causing blood vessel constriction that would elevate blood pressure) and secondly, through increased production of the vasodilator substance, nitric oxide (a beneficial compound that causes relaxation of blood vessels).
+
+              Like in grapes they, especially those derived from red/purple grapes, are very high in anthocyanins, another class of polyphenolic anti-oxidants. Anthocyanins have been found to have anti-allergic, anti-inflammatory, anti-microbial and anti-cancer activities.
+
+              100 g raisins provide 3.7 g or 10% of daily required levels of dietary fiber. Studies suggest moderate fiber in the diet help lower body weight, cholesterol concentrations in the blood, and colon and breast cancer incidence. Additionally, it helps relieve constipation episodes by decreasing gut transit time of food. Furthermore, they are also abundant in flavonoid compounds such as tartaric acid, tannins, catechins, etc. Together with inulin and fiber, these compounds aid in smooth bowel movements through their laxative function.
+
+              They are free of gluten protein and can be safely consumed as an alternative healthy food by people who are intolerant gluten.
+
+              Raisins are dense sources of minerals like calcium, iron, manganese, magnesium copper, fluoride, and zinc. Copper and manganese are an essential cofactor for the antioxidant enzyme, superoxide dismutase. 100 g provides 23% daily requirement levels of iron.
+
+              Further, they are rich in a heart-healthy electrolyte, potassium. 100 grams hold 749 mg of potassium. By countering pressing effects of sodium, it reduces heart rate, blood pressure and thereby helps prevent stroke, CHD, and peripheral vascular diseases.
+
+              Furthermore, they are also a good source of some B-complex vitamins such as thiamin, pyridoxine, riboflavin, and pantothenic acid.
+          """,
+        nutrition: ["1251 kJ (299 kcal)","0 g","0.46 g","3.07 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Almonds",
+        headline: "Scientific name: Prunus Dulcis",
+        image: "almond",
+        gradientColors: [Color("ColorAlmondLight"), Color("ColorAlmondDark")],
+        description: """
+          Wonderfully delicious, almonds have long been revered as an epitome of wellness and health. The kernels are among the richest sources of health-benefiting nutrients essential for optimum health.
+
+          Botanically, the kernels inside the fruit and obtained from a medium size tree in the family of Rosaceae, and genus: Prunus. The plant is a deciduous tree, probably originated mineral-rich West-Asian mountain ranges that provide fertile conditions favorable for their growth. In recent years, its cultivation and processing spread across many regions of the world, including the USA, as a major commercial crop.
+
+          During each spring season, an almond tree bears pinkish-white flowers that subsequently develop into fruits by autumn. In structure, the fruit is a "drupe" with centrally placed edible "almond nut" (kernel) enveloped inside a hard shell. Almond kernel features brown outer skin, oval to conical in shape, measures about 2 cm long and 1 cm wide, and weigh about 1 to 1.5 g.
+
+          Health Benefits of Almonds
+
+              Almond nuts are rich sources of vitamins, and minerals and packed with numerous health promoting phytochemicals. These nuts compose of well-balanced food principles that are essential for optimum health and wellness.
+
+              Almonds are one of the complete sources of energy as well as nutrients. The nuts, especially, are rich in mono-unsaturated fatty acids like oleic, and palmitoleic acids that help in lowering LDL or "bad cholesterol" and increasing HDL or "good cholesterol" in the human body. Research studies suggest that the Mediterranean diet which is excellent in monounsaturated fatty acids helps prevent coronary artery disease and strokes by favoring healthy blood lipid profile.
+
+              The nuts are an excellent source of vitamin E; hold about 25 mg per 100 grams (about 170% of RDA). Vitamin E is a powerful lipid soluble antioxidant. It protects and restores cell membrane integrity of mucosa and skin from harmful effects of oxygen free radicals.
+
+              Almonds are gluten free food items. For the same reason, they are one of the favorite ingredients in the preparation of gluten-free food formulas. Such formula preparations are, in fact, healthy alternatives for people suffering from gluten food allergy, and celiac disease.
+
+              The nuts packed with many important B-complex groups of vitamins such as riboflavin, niacin, thiamin, pantothenic acid, vitamin B-6, and folates. Altogether, these vitamins work as co-factors for enzymes during cellular substrate metabolism inside the human body.
+
+              Furthermore, almonds are also an incredible source of minerals such as manganese, potassium, calcium, iron, magnesium, zinc, and selenium.
+
+              Almond oil, extracted from the nuts, can be employed as an emollient. When applied regularly, it helps keep skin well protected from dryness. Additionally, the oil employed in cooking in Iran, and Turkey. It is also used as “carrier or base oil” in various traditional medicines, in aromatherapy, pharmaceutical, and cosmetic industries.
+
+          A handful of almonds a day provides much of recommended levels of minerals, vitamins, and protein. Besides, almond oil extracted from the nuts employed in cooking and medicine.
+
+          Safety profile
+
+          Almond nut allergy, although not so common as other tree nut allergies like cashew, pistachio, etc., may often cause hypersensitivity cross-reactions in some people to food substances prepared using them. The type and severity of symptoms may vary and may include vomiting, diarrhea, pain abdomen, swelling of lips, and throat leading to breathing difficulty, and chest congestion. Therefore, caution should be exercised in those with nut allergic syndrome while consuming food items prepared almond nuts.
+          """,
+        nutrition: ["2423 kJ (579 kcal)","4.4 g","49.9 g","21.2 g","A, B1, B2, B3, B5, B6, B9, C, Choline, D, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Brazil nuts",
+        headline: "Scientific name: Bertholletia Excelsa",
+        image: "brazil_nut",
+        gradientColors: [Color("ColorBrazilNutLight"), Color("ColorBrazilNutDark")],
+        description: """
+          Amazon's dense forest holds some of the unique plant species like Brazil nuts, açaí berry., guarana, that can be found nowhere else on the planet earth. Botanically, brazil-nut tree belongs to the family of Lecythidaceae, in the genus: Bertholletia.
+
+          Native Amazonians cherished these delicious nuts since ages, which provided them much-needed protein, fats, and other essential nutrients. Some of the common names in local dialects are castanha-do-pará, castania, para-nut, cream-nut, Castaña-de-Brazil (chestnuts of Brazil), etc.
+
+          Brazil nut trees are conspicuous in the non-flooded forests of Brazil, Bolivia, and Peru. They, indeed, are one of the tallest, and long-living plant species among all the tropical rain forests. Each tree can grow up to 50 meters in height with large erect stem and wide umbrella-like foliage canopy near its top 1/3. Its lifespan is about 500 to 700 years.
+
+          Each mature tree bears up to 300 fruit pods in a season. A brazil nut pod features thick outer shell as in coconuts and may weigh up to 2.5 kg in weight. It takes about 14 months for the fruit to mature after pollination. Upon maturity, the pod falls itself from the tree, usually with a thud. The pods may remain intact even after falling from such a height. At their natural habitat, brazil nut pods exclusively depend upon caviomorph rodents (agoutis, Dasyprocta spp. that have the ability to gnaw open woody shell) to free and disperse leftover seeds for germination.
+
+          Internally, each fruit pod features 10-25 seeds (kernels), arranged in segments. Each kernel, in turn, is encased in its thick dark-brown thin shell. An edible white meat kernel features a triangular base with sloping sides, and sweet, nutty flavor and weighs about 5 g.
+
+          Health benefits of Brazil nuts
+
+              Brazil nuts are high in calories, contain good quantities of vitamins, anti-oxidants, and minerals. Its kernels, in fact, have been major energy sources of native Amazonians even today.
+
+              100 g of brazil nuts provide about 656 calories. Their high caloric content chiefly comes from their fats. However, much of this fat content is monounsaturated fatty acids (MUFA) like palmitoleic acid (16:1) and oleic acid (18:1) that helps lower LDL or "bad cholesterol" and increase HDL or "good cholesterol" levels in the blood. Research studies suggest that Mediterranean diet that is rich in monounsaturated fatty acids offers protection from coronary artery disease and strokes by favoring healthy blood lipid profile.
+
+              The nuts are also a great source of vitamin-E; contain about 7.87 mg per 100 g (about 52% of RDA). Vitamin-E is a powerful lipid soluble antioxidant. It required for maintaining the integrity of mucosa and skin by protecting it from harmful oxygen-free radicals.
+
+              Brazil nuts hold exceptionally high levels of selenium. 100 g nuts provide about 1917 µg, or 3485% of the recommended daily intake of selenium, rating them as the highest natural sources of this mineral. Selenium is an essential cofactor for the anti-oxidant enzyme, glutathione peroxidase. Just 1-2 nuts a day provides enough of this trace element. Adequate selenium in the diet can help prevent coronary artery disease, liver cirrhosis, and cancers.
+
+              Furthermore, just as in almonds and pine nuts, brazil nuts too are free from gluten protein. For the same reason, they are one of the popular ingredients in the preparation of gluten-free food formulas. These formula preparations are, in fact, healthy alternatives in people with wheat food allergy and celiac disease.
+
+              Additionally, these creamy nuts are an excellent source of the B-complex group of vitamins such as thiamin (51% of RDA per 100 g), riboflavin, niacin, pantothenic acid, vitamin B-6 (pyridoxine), and folates. Altogether, these vitamins work as co-factors for enzymes during cellular substrate metabolism inside the body.
+
+              In addition to selenium, they hold superb levels of other minerals such as copper, magnesium, manganese, potassium, calcium, iron, phosphorus, and zinc. Copper helps prevent anemia and bone weakness (osteoporosis). Manganese is an all-important co-factor for the antioxidant enzyme, superoxide dismutase.
+
+          Brazil nut oil, extracted from these nuts, has many traditional medicinal applications as an emollient and massage oil. It has clear yellow color with a pleasant sweet smell and taste. Its emollient property helps keep skin well protected from dryness. It has also employed in the cooking, and as “carrier or base oil” in traditional medicines in aromatherapy, in the pharmaceutical and cosmetic industry.
+
+          Safety profile
+
+          Brazil nut allergy, like other tree-nut allergies, may occur in some sensitive individuals. The reaction symptoms may range from simple skin itching (hives) to severe form of anaphylactic manifestations, including breathing difficulty, pain abdomen, vomiting, and diarrhea. Cross-reactions may occur to some other nuts and fruits, especially of Anacardiaceae family such as mango, cashew nuts, pistachio, etc. Persons with known allergic reactions to any of these nuts may, therefore, need to observe caution.
+
+          Excess consumption of these nuts may result in selenium toxicity. Often, the symptoms may be severe, including nausea, vomiting, a garlicky smell in the breath, and emotional disturbances. Other likely manifestations may include dental caries, alopecia (loss of hair), neuropathic pain, and dermatitis. It is, therefore, advised to eat only a few nuts (2-4 nuts) per day (each nut weighs about 5 g).
+          """,
+        nutrition: ["2757 kJ (659 kcal)","2.33 g","67.1 g","14.32 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Buckwheat",
+        headline: "Scientific name: Fagopyrum Esculentum",
+        image: "buckwheat",
+        gradientColors: [Color("ColorBuckwheatLight"), Color("ColorBuckwheatDark")],
+        description: """
+          Buckwheat is neither a cereal grain nor related to the wheat. It is, in fact, a dicotyledon seed but treated in a similar way as any other common cereal grains. Binomially, it belongs to the family of Polygonaceae, which also includes sorrel, rhubarb, Japanese knotweed, etc.
+
+          Buckwheat crop was first cultivated in the high plains of southeastern China and Himalayas centuries ago where it was a staple food of the inhabitants much before rice, and other cereal grains gradually replaced its cultivation. Its grains, indeed, provided much needed essential nutrients, protein, fats and minerals to the local inhabitants during early civilization times, enabling them to thrive well under inhospitable terrains. Lately, a renewed interest is growing on its revival as mainstream crop among the food and nutrition scientists.
+
+          Common buckwheat, much similar to quinoa, is not a novel food item as one may think about but just an old crop. The plant is a dicotyledon (like pulses/beans) and cultivated as annual, flowering herb. It is a short-season crop which grows well even under less than optimum soil conditions. Frost, however, could prove detrimental to its survival.
+
+          The plant reaches about 45-60 cm in height with branches and bears pink or white flowers in clusters that attract honeybees depending on the cultivar type. Each buckwheat seed features three sides pyramidal shape, brown to gray in color with a thick outer hull. Inside, its seed-kernel is cream white and has a nutty flavor.
+
+          Buckwheat's well-balanced starch, protein, fat and mineral composition has found a renewed interest, particularly among the food scientists. Additionally, its seeds compose proportionately more starch and less fat content than fellow oil seeds hence can be handled in a similar way as any other staple grains. Being a short-season crop and sustainable characteristic of thriving under drought conditions, it can be an answer for malnutrition alleviation programs, particularly in regions where famine is common.
+
+          Health benefits of buckwheat
+
+              Buckwheat grains compose proportionately more starch than other similar seeds like quinoa and amaranth. 100 g seeds (grains) provide 343 calories. Its grains are moderate sources of energy. Calorie content of ts seeds may be compared to that of major cereals such as wheat, maize, rice and that of pulses like chickpea, mung bean, cowpea (black-eyed pea), etc.
+
+              The protein level in buckwheat grains is in the range of 11-14 g per 100 g; relatively less than that in quinoa and pulses. Nonetheless, it composes almost all of the essential amino acids at right proportions, especially lysine which otherwise is a limiting amino acid in grains like wheat, maize, rice, etc.
+
+              Buckwheat seeds are a very rich source of soluble and insoluble dietary fiber. 100 g provide 10 g or 26% of daily requirement of fiber. Fiber increases the bulk of the food and helps prevent constipation problems by speeding up bowel movements through the gut. Fiber also binds to toxins and aid in their excretion through the gut and, thereby help protect colon mucosa from cancers. Also, dietary fibers bind to bile salts (produced from cholesterol) and decrease their re-absorption in the colon, thus help lower serum LDL-cholesterol levels.
+
+              Buckwheat is another gluten-free food source. Gluten is a protein present in certain grass (wheat) family grains and may induce stomach upset and diarrhea in individuals with Celiac disease.
+
+              The grains compose of several polyphenolic antioxidant compounds such as rutin, tannins, and catechin. Rutin (quercetin rutinoside) is found to have anti-inflammatory, and antioxidant properties and help prevent platelet clot formation inside the blood vessels. Early laboratory studies suggest that rutin may offer a cure in hemorrhoids and clotting disorders.
+
+              Buckwheat grains have more B-complex group of vitamins than that of quinoa seeds, especially riboflavin (vitamin B2) and niacin (vitamin B3).
+
+              Finally, buckwheat has more concentration of minerals like copper, and magnesium. Copper is required for the production of red blood cells. Magnesium relaxes blood vessels leading to brain and found to have healing effects on depression, and headache.
+
+          Safety profile
+
+          Buckwheat hull and seed kernel compose of polyphenolic flavonoid compound rutin (quercetin rutinoside) in small quantities. Rutin has been found to have anti-inflammatory, antioxidant, anti-platelet aggregation (blood thinner) functions, in experimental models and may interact with routine medications.
+          """,
+        nutrition: ["1435 kJ (343 kcal)","0 g","3.40 g","13.25 g","A, B1, B2, B3, B5, B6, B9, C","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Cashew nut",
+        headline: "Scientific name: Anacardium Occidentale",
+        image: "cashew_nut",
+        gradientColors: [Color("ColorCashewLight"), Color("ColorCashewDark")],
+        description: """
+          Delicately sweet yet crunchy and delicious cashew nut packed with energy, antioxidants, minerals and vitamins that are essential for robust health. Cashew, or “caju” in Portuguese, is one of the popular ingredients in sweet as well savory dishes worldwide.
+
+          Botanically, cashew is an average sized tropical evergreen tree belonging to the Anacardiaceae family, of the genus: Anacardium.
+
+          The cashew tree is native to the Brazil’s Amazon rain forest. It spread all over the planet by Portuguese explorers and today; it is cultivated on a commercial scale in Brazil, Vietnam, India, and many African countries.
+
+          Cashew tree bears many, edible, pear-shaped false fruits or “accessory fruits'” called "cashew apples." Cashew nut which is a “true-fruit,” firmly attaching to the bottom end of cashew-apple, appearing like a clapper in the bell. Botanically, this tiny, bean shaped, gray “true fruit” is a drupe, featuring hard outer shell enclosing a single edible kernel known commercially as “cashew nut.”
+
+          Structurally, this Cashew "drupe" is made up of outer, hard shell and inner, edible kernel. Cashew shell composes of a toxic phenolic resin, urushiol; a potent caustic skin irritant toxin and therefore should be eliminated. In the processing units, the whole cashew is treated under the high flame to destroy urushiol resin. Thus roasted cashew becomes safe to handle with bare hands by workers, who then mechanically shell the nuts to extract underlying edible cashew kernel.
+
+          Cashew nut measures about an inch in length, 1/2 inches in diameter, and kidney or bean shape, with a smooth surface and smooth curvy pointed tip. Each nut splits into two halves as in legumes. The cream white kernel features firm yet crunchy texture and sweet, buttery flavor.
+
+          Health benefits of Cashew nuts
+
+              Cashews are high in calories. 100 g of nuts provide 553 calories. They packed with soluble dietary fiber, vitamins, minerals and numerous health-promoting phytochemicals that help protect from diseases and cancers.
+
+              They are rich in “heart-friendly” monounsaturated fatty acids like oleic, and palmitoleic acids. These essential fatty acids help lower harmful LDL-cholesterol while increasing good HDL cholesterol in the blood.
+
+              Research studies suggest that the Mediterranean diet which is rich in monounsaturated fatty acids contribute to preventing coronary artery disease and strokes by favoring healthy blood lipid profile.
+
+              Cashew nuts are abundant sources of essential minerals. Manganese, potassium, copper, iron, magnesium, zinc, and selenium are especially concentrated in them. A handful of cashew nuts a day in the diet would provide enough of these minerals and may help prevent deficiency diseases. Selenium is an important micronutrient, which functions as a co-factor for antioxidant enzymes such as Glutathione peroxidases, one of the most powerful antioxidants in the body.
+
+              Copper is a cofactor for many vital enzymes, including cytochrome c-oxidase and superoxide dismutase (other minerals function as co-factors for this enzyme are manganese and zinc). Zinc is a co-factor for many enzymes that regulate growth and development, gonadal function, digestion, and DNA (nucleic acid) synthesis.
+
+              Cashews are also good in many essential vitamins such as pantothenic acid (vitamin B5), pyridoxine (vitamin B-6), riboflavin, and thiamin (vitamin B-1). 100 g nuts provide 0.147 mg or 32% of daily recommended levels of pyridoxine. Pyridoxine reduces the risk of homocystinuria, and sideroblastic anemia. Niacin helps prevent "pellagra" or dermatitis.
+
+              Additionally, these vitamins are essential for the metabolism of protein, fat, and carbohydrates at the cellular level.
+
+              Further, they also hold a small amount of zeaxanthin, an important pigment flavonoid antioxidant, which selectively absorbed into the retinal macula lutea in the eyes. It thought to provide antioxidant and protective UV ray filtering functions and helps prevent age-related macular degeneration (ARMD) in the older adults.
+
+          Safety profile
+
+          Cashew nut allergy is a common hypersensitivity condition in some individuals, especially in the children. The reaction symptoms may range from simple skin itching (hives) to severe form of anaphylactic manifestations, including breathing difficulty, pain abdomen, vomiting, and diarrhea.
+
+          The allergic manifestations are due to chemical compound anacardic acid (urushiol) that is present in cashew apples, shells, and nuts. Cross-reactions may also occur with some other nuts and fruits of Anacardiaceae family such as mango, pistachio, etc.
+
+          Individuals with known allergic reactions to cashew nut and fruit may observe caution while eating them.
+          """,
+        nutrition: ["2314 kJ (553 kcal)","5.91 g","43.85 g","18.22 g","A, B1, B2, B3, B5, B6, B9, B12, C, D, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Chestnut",
+        headline: "Scientific name: Castanea Sativa",
+        image: "chestnut",
+        gradientColors: [Color("ColorChestnutLight"), Color("ColorChestnutDark")],
+        description: """
+          Starchy, sweet, rich in flavor, chestnuts are popular edible nuts of the northern hemisphere origin. The nuts are native to the mountainous forests of China, Japan, Europe, and North America. Botanically, they belong to the beech or Fagaceae family, in the genus: Castanea.
+
+          Castanea species are large deciduous trees. They are monoecious; bearing both male and female flowers (“catkins”) on the same tree. They have a remarkable survival history to narrate. Early in the 20th century, the once mighty American-chestnut tree was almost wiped out by pathogenic fungus chestnut blight (Cryphonectria parasitica). A renewed interest has been growing since then to revive native chestnut trees throughout of the USA.
+
+          Once pollinated, female flowers develop into large spiny burr or involucres, each enclosing about 2-3 edible kernels. The fruit is quite larger compared to other tree nuts like cashews, macadamia, etc. Each nut features smooth, glossy, dark-brown outer shell, 1-1.5 inch in diameter and weighing 8-12 g depending upon the species. Inside, its sweet and starchy kernel features outer brown but inner creamy white flesh.
+
+          Four main species of chestnut trees cultivated around the world for their nuts; Castanea sativa in Europe, C. dentata in North America, C.mollissima in China and C. crenata in Japan. The United States is the chief importer of chestnuts from the European Union, although China has been the largest exporter of nuts worldwide, especially to Japan.
+
+          Health benefits of chestnuts
+
+              Chestnuts, unlike other nuts and seeds, are relatively low in calories and fats. Nonetheless, they are rich sources of minerals, vitamins, and phytonutrients that immensely benefit health.
+
+              Another unique feature of chestnuts is that they primarily compose of starch (carbohydrates) in contrast to other kinds of tree seeds and nuts which are rather high in calorie, protein, and fat. Chestnuts nutrition composition is, therefore, comparable to that of other staple starch foods such as sweet potato, sweet corn, potatoes, plantain. Nevertheless, they are still good sources of minerals, vitamins and some good-quality protein than cereals and tubers.
+
+              They are an excellent source of dietary fiber; provide 8.1 g (about 21% of RDI) per 100 g. Fiber diet helps lower blood cholesterol levels by limiting excess cholesterol absorption in the intestines.
+
+              Chestnuts stand out from other edible nuts for their distinctive nutrition profile. They are exceptionally rich in vitamin-C. 100 g nuts provide 43 mg of vitamin-C (72 % of DRI). Vitamin-C is required for matrix formation in teeth, bones and blood vessels. Being a strong antioxidant, it offers protection from harmful free radicals.
+
+              Again, chestnuts are rich in folates akin to green leafy vegetables, which is quite a rare but unique feature for nuts and seeds. 100 g nuts provide 62 µg of folates (or 15.5%). Folic acid is essential for the formation of red blood cells, and DNA synthesis. Adequate consumption of food rich in folates during the peri-conception period helps prevent neural tube defects in the newborn.
+
+              Like true nuts, they too are a rich source of mono-unsaturated fatty acids like oleic acid (18:1) and palmitoleic acids (16:1). Studies suggest that monounsaturated fats (MUFs) in the diet help lower total as well as LDL (bad cholesterol) and increase HDL (good cholesterol) levels within the blood. Mediterranean diet which is rich in dietary fiber, MUFs, omega fatty acids, and antioxidants help prevent coronary artery disease and strokes by favoring healthy blood lipid profile.
+
+              The nuts are an excellent source of minerals such as iron, calcium, magnesium, manganese, phosphorus and zinc, besides providing a very good amount of potassium (518 mg / 100 g). Potassium counters hypertensive action of sodium, lowers heart rate and blood pressure. Iron helps prevent microcytic anemia. Magnesium and phosphorus are essential components of bone metabolism.
+
+              Further, they are also rich in many important B-complex groups of vitamins. 100 g of nuts provide 11% of niacin, 29% of pyridoxine (vitamin B-6), 100% of thiamin, and 12% of riboflavin.
+
+              Chestnuts, just like hazelnuts and almonds, etc., are gluten free food items. Moreover, for the same reason, they are one of the popular ingredients in the preparation of gluten-free food formulas intended for use in gluten-sensitive, wheat allergy, and celiac disease patients.
+
+              Chinese chestnuts (C. mollissima) are good in vitamin A; provide 202 IU per 100 g.
+          """,
+        nutrition: ["820 kJ (200 kcal)","11 g","1.3 g","1.6 g","A, B1, B2, B3, B5, B6, B9, B12, C","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Chia",
+        headline: "Scientific name: Salvia Hispanica",
+        image: "chia",
+        gradientColors: [Color("ColorChiaLight"), Color("ColorChiaDark")],
+        description: """
+          Does chia seeds are packed with all the nutrients to label them as numero uno, ultimate foodgrains? Alternatively, are they just another novel entrant to the spectrum of food items so-called "superfoods"?
+
+          Chia are tiny, oblong shaped, oilseeds consumed as one of the staples by the ancient Aztecs. The crop, in fact, was cultivated in the same measure to corn and amaranth by native Mexicans. Many nutrition experts believe chia top the list of functional foods because of its wholesome nutritional properties. In fact, nutrition planners are looking up at chia as a single wholesome source of phytonutrients such as omega-3 fatty acids (α -Linolenic acid), antioxidants, minerals, vitamins and dietary fiber composed in right proportions.
+
+          Botanically, chia is a low-growing herb in the mint family of plants.
+
+          Chia (Salvia hispanica) is a small, annual, drought-tolerant, flowering herb. It flourishes well under sandy, fertile soils.
+
+          The Salvia hispanica plant can grow up to a meter in height, and bears broad, green leaves with serrated margins. Purple, pink-violet flowers in spikes appear after about four months after seedling.
+
+          Chia seeds come in variegated colors depending upon cultivar type and may vary in from black, brown to off-white. Its seeds measure about 1 mm in diameter and resemble like miniature pinto beans. Its smooth outer cover is made up of hygroscopic mucilage coat which absorbs water and swells up several times the original size.
+
+          Health benefits of chia seeds
+
+              Chia seeds compose almost all of the essential nutrients that deem critical to optimum growth and development such as protein, omega-3 fatty acids, antioxidants, dietary fiber, vitamins and minerals at right proportions.
+
+              Being an oilseed; chia is rich in calories. 100 g seeds provide 388 calories. However, much of its calories come from polyunsaturated fatty acids (PUF). Chia seeds compose excellent proportion of omega-3 to 6 poly-unsaturated fats; in the recommended ratio of 1:4.
+
+              The essential omega 3-fatty acid in chia is α -linolenic acid (ALA). Studies found that omega-3 fatty acids such as ALA by virtue of their anti-inflammatory actions help lower blood pressure, coronary artery disease, strokes and breast, colon, and prostate cancers risks. Adequate quantities of omega-3's in the diet may be essential for normal development and maturation of nervous system in infants and young children.
+
+              Chia seeds compose of many health benefiting antioxidants namely ferulic acid, caffeic acid, quercetin, etc.
+
+              100 g seeds provide about 91% of daily recommended intake levels of dietary fiber. The outer coat of the seeds consists of water-soluble mucilage, a non-starch polysaccharide (NSP), which swells up several times and acquires gel-like consistency. Mucilage helps in smooth digestion and bowel movements.
+
+              Chia is a gluten-free grain. People with known sensitivity to gluten sensitivity or celiac's disease can safely include in their diet.
+
+              Chia are one of the low-glycemic index foods, and according to Nutritiondata.com has a fullness factor of 2.8. Foods that are low in glycemic index ensure effective regulation of daily blood glucose levels. Substitution of chia to rice and other cereal grains may benefit in individuals with diabetes.
+
+              The seeds are excellent source of vitamins like niacin, riboflavin, thiamin, folic acid. Niacin is an essential B-complex vitamin found abundantly in them; nearly more than twice the amount found in sesame seeds. 100 g of chia provides about 8.83 mg or 55% of daily required levels of niacin. Niacin helps reduce LDL-cholesterol levels in the blood. Besides, it enhances GABA (γ amino butyric acid) activity inside the brain which in turn helps reduce anxiety, and neurosis.
+
+              The seeds are good sources of many essential minerals. Calcium, phosphorous, iron, manganese, and magnesium particularly concentrated in the chia. Many of these minerals play a vital role in bone mineralization, red blood cell production, enzyme synthesis, as well as regulation of cardiac, and skeletal muscle activities.
+
+          Just a few tablespoonful of chia a day provides enough recommended levels of phenolic anti-oxidants, minerals, vitamins, and protein.
+
+          Safety profile
+
+          Chia seeds have been found to have no known intolerance or allergic reactions in humans. Pregnant and small children can safely consume the seeds in small quantities.
+          """,
+        nutrition: ["2030 kJ (486 kcal)","0 g","30.7 g","16.5 g","A, B1, B2, B3, B9, C, E","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Coconut",
+        headline: "Scientific name: Cocos Nucifera",
+        image: "coconut",
+        gradientColors: [Color("ColorCoconutLight"), Color("ColorCoconutDark")],
+        description: """
+          Coconut is a mature fruit of the Cocos nucifera palm. It is one of very versatile and indispensable food item for millions of inhabitants of South and South-East Asia and Pacific islands. It is one of the most sought-after ingredients in the kitchen since it employed in almost each and every recipe prepared in these parts of the world.
+
+          Cocos nucifera belongs to the large Palmaceae family of palm trees. Coco palm grows well in the tropical climates. The palm requires moist, sandy, well-drained soil and flourishes well all along the saline-rich coastal regions.
+
+          The palm coconut is an unbranched, erect, tall-growing tree that could reach more than 100 feet in height and has a lifetime of about 75 to 100 years. Once planted, it may take about 4-5 years to begin their first produce, and often, quite longer time in some varieties. Several hundred cultivars of the coconut palms grown all over the tropics and so, their taste of meat (kernel) and flavor of water thus may vary according to the saline content of the soil, distance from the seashore, the amount of rainfall, etc.
+
+          In a year, a single coconut palm may yield 20-150 mature nuts. The fruit is almost spherical to oval in shape and measure between 5-10 inches in width. Its rough outer husk is light green, which becomes dry and turns gray as the nut matures. The husk (exocarp) is about 1-2 inches in thickness and made of tough fibers. Underneath the husk, there is a woody shell enclosing inner edible meat (kernel-endosperm). Recently harvested mature fruits contain some amount of sweet water inside its central hollow cavity surrounded by the white meat (endosperm). The fruit with its shell, kernel (meat), and water together constitute a commercial "coconut" in the markets.
+
+          Health benefits of coconut
+
+              Coconut is a very versatile and indispensable food item for most people under the tropical belt. It is a complete food rich in calories, vitamins, and minerals. A medium-sized nut carrying 400 g edible meat and some 30-150 ml of water may provide almost all the daily-required essential minerals, vitamins, and energy of an average-sized individual.
+
+              100 g kernel holds 354 calories. Much of this comes from the fats and protein. Although its meat is disproportionately high in saturated fats in comparison to other common edible nuts, coconut has many health promoting bioactive compounds.
+
+              The important saturated fatty acid in the coconut is lauric acid (1:12 carbon fatty acid). Lauric acid increases good-HDL cholesterol levels in the blood. HDL is a high-density lipoprotein, which has beneficial effects on the coronary arteries by preventing vessel blockage (atherosclerosis). Physicians recommend high HDL to total cholesterol levels in the blood for the same reason.
+
+              Coconut water is a very refreshing drink to beat tropical summer thirst. The juice is packed with simple sugar, electrolytes, minerals, and bioactive compounds such as cytokinin, and enzymes such as acid phosphatase, catalase, dehydrogenase, peroxidase, polymerases, etc. Altogether, these enzymes aid in digestion and metabolism.
+
+              Coconut oil extracted from the dry kernel (copra) is an excellent emollient agent. It is used in cooking, applied over scalp as hair nourishment, employed in pharmacy and medicines.
+
+              Research studies suggest that cytokinins (e.g., kinetin and trans-zeatin) in coconut water showed significant anti-ageing, anti-carcinogenic, and anti-thrombotic effects.
+
+              The kernel is an excellent source of minerals such as copper, calcium, iron, manganese, magnesium, and zinc.
+
+              It is also a very good source of B-complex vitamins such as folates, riboflavin, niacin, thiamin, and pyridoxine. These vitamins are essential in the sense that body requires them from external sources to replenish.
+
+              Coconut meat and water contain a good amount of potassium. 100 g of fresh meat contains 356 mg or 7.5% of daily required levels of potassium.
+
+          Safety profile
+
+          Coconut is a very healthy ingredient that can be used safely as food. There are no reported allergic reactions of any sort notified so far following its consumption. Its sweet delicious kernel is not only cherished in healthy but considered safe and nutritious in pregnancy, infants as well as in sickness conditions.
+          """,
+        nutrition: ["1480 kJ (354 kcal)","6.23 g","33.49 g","3.33 g","A, B1, B2, B3, B5, B9, C, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Flax seed",
+        headline: "Scientific name: Linum Usitatissimum",
+        image: "flax_seed",
+        gradientColors: [Color("ColorFlaxLight"), Color("ColorFlaxDark")],
+        description: """
+          Flax seed, also known as linseed, is one of the ancient cultivated crops since Mesopotamian times, grown for its oilseeds and fiber. Its crunchy seeds packed with full of nutrients, omega-3 fatty acids, antioxidants, minerals, and essential vitamins. Of late, health benefits of flax have widely drawn the attention of nutrition researchers as well as health enthusiasts alike across the world.
+
+          Flax belongs to the family of Linaceae, of the genus of Linum.
+
+          Flax is an erect annual plant growing about 1 to 1.5 meters tall and bears light-blue color attractive flowers. It is one of the easily cultivated crops that flourishes well both in tropical as well as subtropical climates, with higher acreage production as a field crop noted in some fertile river valleys.
+
+          Flax fruit pod is a round, dry capsule of 6–9 mm diameter, containing several brown or golden-yellow seeds (depending on the cultivar type). Its seeds feature flat, smooth, glossy surface that somewhat appears like sesame seeds, but quite larger, measuring about 4–6 mm in length.
+
+          In general, there exist two common cultivars of flax; one predominantly grown for its oilseeds and the other commercial variety for obtaining fiber. Seed flax generally features brown, yellow, or golden-yellow color seeds, with most types having similar nutritional values and same amounts of short-chain omega-3 fatty acids.
+
+          Health benefits of Flax seed
+
+              As in other oilseeds, flax also is one of the calorie dense foods. 100 g of seeds carry 534 calories or 27% of daily required levels. Further, the seeds are an excellent source of many health-benefiting nutrients, dietary fiber (mucilage), minerals, antioxidants and vitamins that are essential for optimum health.
+
+              Flax seed is rich in monounsaturated fatty acids like oleic acid. It is also one of the top plant sources of omega-3 essential fatty acids such as α -linolenic acid (ALA). Regular intake of small portions of flax seeds in the diet helps to lower total as well as LDL or “bad cholesterol” and increases HDL or “good cholesterol” levels in the blood. Research studies suggest that Mediterranean diet that is rich in fiber, monounsaturated fatty acids, and omega-3 fatty acids help to prevent coronary artery disease and stroke risks through favoring healthy blood lipid profile.
+
+              Flax seeds are perhaps one of the most widely available botanical sources of n-3 or omega-3 fatty acids. Flaxseed oil consists of approximately 55% ALA (a-linolenic acid). One spoonful of flax seed oil provides about 8 g of omega-3 fatty acids. Research studies have suggested that n-3 fatty acids by their virtue of anti-inflammatory action may help lower the risk of blood pressure, coronary artery disease, strokes and breast, colon and prostate cancers. Adequate omega-3 levels are essential for overall development and maturation of nervous system in infants.
+
+              The seeds contain lignans, a class of phytoestrogens considered to have antioxidant and cancer-preventing properties.
+
+              Flax are an excellent source of vitamin-E, especially rich in gamma-tocopherol; containing about 20 g (133% of daily recommended values) per 100 g. vitamin-E is a powerful lipid soluble antioxidant, required for maintaining the integrity of mucosa and skin by protecting it from harmful oxygen-free radicals.
+
+              The seeds packed with many important B-complex groups of vitamins such as riboflavin, niacin, thiamin, pantothenic acid, vitamin B-6, and folates. Thiamin is an essential co-factor for carbohydrate metabolism and helps prevent beriberi disease. Folates contribute to avoiding neural tube defects in the fetus when consumed during pre-conception period and pregnancy.
+
+              Furthermore, flaxseed is a rich source of minerals such as manganese, potassium, calcium, iron, magnesium, zinc and selenium.
+
+              Flax or linseed oil has a deliciously nutty flavor. It is being employed in cooking, and as “carrier" or "base oil” in traditional medicines and pharmaceutical industry.
+
+          Safety profile
+
+          Flax-seeds have no harmful effects on health when used in small quantities. However, its seeds contain a lot of mucilage fiber in their outer coat which when eaten in large amounts may cause stomach pain, bloating, and laxative diarrhea. Eating raw flax seed is not advised for its possible risk of cyanogen-glycosides toxicity.
+
+          Also, lignans in flax possess estrogen-like activity. Therefore, excess consumption of flax, and its products may not be advised during pregnancy for its possible hormone interactions.
+          """,
+        nutrition: ["2234 kJ (534 kcal)","1.55 g","42.16 g","18.29 g","B1, B2, B3, B5, B9, C","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Hazelnut",
+        headline: "Scientific name: Corylus Avellana",
+        image: "hazelnut",
+        gradientColors: [Color("ColorHazelnutLight"), Color("ColorHazelnutDark")],
+        description: """
+          Hazelnuts are sweet, and incredibly nutritious edible kernels from the "birch" or Betulaceae family of trees. “Filbert” (C.maxima) is similar in kind and related to the common hazel but only differing in having its nut entirely covered within tubular involucre. In Britain, both of these nuts are in general enjoyed as "cobnuts."
+
+          The hazel is a small deciduous tree originated in southern Europe and Turkey. It is now being cultivated in many regions of the world, including the USA as a major commercial crop.
+
+          Hazels appear in clusters. Each nut is held inside the short leafy involucre or "capsule" enclosing about three-quarters of the kernel. Each yellow-brown color kernel is roughly spherical to oval in shape, about 1.5-2 cm long and 1.2 -2 cm broad, featuring a light scar at its base. They generally fall out of this leafy involucre or capsule once ripe about 7-8 months after pollination.
+
+          Hazelnut oil, extracted from the kernels, has been used in as base or carrier oil in medicine, and in aromatherapy.
+
+          Health Benefits of Hazelnuts
+
+              Hazelnuts are very high in energy and loaded with many health-benefiting nutrients that are essential for optimum health. 100 g nuts carry 628 calories. They are rich in mono-unsaturated fatty acids like oleic as well as essential fatty acid, linoleic acid that helps lower LDL or bad cholesterol and raises HDL or good cholesterol. Research studies suggest that Mediterranean diet plentiful in monounsaturated fatty acids contribute to preventing coronary artery disease, and strokes by favoring healthy blood lipid profile.
+
+              The nuts are rich in dietary fiber, vitamins, and minerals and packed with numerous health promoting phytochemicals. Altogether, they help protect from diseases and cancers.
+
+              Hazels are exceptionally rich in folate, which is a unique feature for the nuts. 100 g fresh nuts carry 113 µg; that is, about 28% recommended the daily intake of this vitamin. Folate is an essential B-complex vitamin that helps prevent megaloblastic anemia, and most importantly, neural tube defects in the newborn. Good news for the expectant mothers!
+
+              Hazel nuts are an excellent source of vitamin-E; contain about 15 g per 100 g (providing 100% of RDA). Vitamin-E is a powerful lipid soluble antioxidant required for maintaining the integrity of mucosa and skin by protecting it from harmful "free oxygen radicals".
+
+              The nuts, like in almonds, are free from gluten, and therefore, safe alternative food sources that can be employed in the preparation of gluten-free food formulas for gluten-sensitive, wheat allergic, and celiac disease patients.
+
+              Besides being rich in folates, they packed with many other important B-complex groups of vitamins such as riboflavin, niacin, thiamin, pantothenic acid, and pyridoxine (vitamin B-6).
+
+              They are rich source of minerals like manganese, potassium, calcium, copper, iron, magnesium, zinc, and selenium. Copper and manganese are essential co-factors for antioxidant enzyme, superoxide dismutase. Iron helps prevent microcytic-anemia. Magnesium and phosphorus are vital components of bone metabolism.
+
+              Hazelnut oil has a nutty aroma and has excellent astringent properties. It helps keep skin well protected from dryness. The oil has also been used in cooking, and as “carrier or base oil” in traditional medicines in massage therapy, aromatherapy, in the pharmaceutical and cosmetic industry.
+
+          Safety profile
+
+          Hazelnut allergy is a type-1 (Ig-E mediated) hypersensitivity response in some people to food substances prepared with using these nuts. In general, the allergic reaction is relatively more commonly precipitated by exposure to tree pollen.
+
+          The allergic symptoms, known as "oral allergy syndrome," may include itchiness around lips, tongue, and throat followed by swelling of lips and throat leading to breathing difficulty. Often, cross-reactions to certain other nuts, seeds, fruits, and vegetables are common. Individuals with known allergy to them are, therefore, advised to avoid any food preparations that contain hazelnut products.
+          """,
+        nutrition: ["2629 kJ (628 kcal)","4.34 g","60.75 g","14.95 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium,  Zinc"]
+    ),
+    DriedFruit(
+        title: "Lotus seed",
+        headline: "Scientific name: Nelumbo Nucifera",
+        image: "lotus_seed",
+        gradientColors: [Color("ColorLotusLight"), Color("ColorLotusDark")],
+        description: """
+          Lotus seeds are edible kernels of the lotus plant. The seeds are enclosed inside the "water can spout-like" fruit pod, arranged in a concentric fashion.
+
+          Lotus is a herbaceous perennial, belonging to Nelumbonaceae family of aquatic plants. Since ancient times, lotus flowers, roots and seeds esteemed in the Chinese and Japanese cultures. The seeds, however, symbolises the complete representation of all the four cardinal elements of nature; earth, water, air and heat.
+
+          Lotus seeds and roots are a major crop in Hubei, Hunan, Fujian, and Jiangxi provinces. Although perennial, the lotus plant flowers each year completig the cycle fro dormant, root eruption, flowers and seeds and again assuming dormant state again during winter. Its roots and stem grow under the water, while its large green leaf pads and flowers float on the water surface. Lotus buds begin blooming onto flowers by summer.
+
+          The flowers are white to pink, sweet-scented, 10-25 cm diameter and attract many insects including honeybees. Round, disc-like soft fruit pods develop from fertilized flowers. Each soft pad consists of polygonal pits encasing ovoid seeds. Mature seeds are black, possess hard outer shell and ovoid, mesuring about the size of a green pea. Inside, the dicotyledon kernel is creamy-white with light green plumule in between the cotyledons Fresh, raw lotus kernel has sweet chewy texture and taste like that of green almonds. Dried seeds has taste similar to chickpeas.
+
+          Inside of each lotus kernel, a light green plumule exist in between the two cotyledons. This lotus plumule is the embryonic shoot of the lotus plant. Botanical name: Plumula Nelumbinis Nuciferae. The plumule consits of two prominent inrolled leaves with attendant stem. Farmers separate these embryos from the kernel by gently pulling up using fingers. These pluules are dried in the sun to use in medicines and tea (lian xin cha).
+
+          Health benefits of lotus seeds
+
+              Raw, fresh lotus seeds are sweet and chewy, while dry seeds are crunchy, and delicious only after baked. Fresh raw seeds carry just 89 calories per 100 g; while dry kernels hold 324 calories per 100 g.
+
+              Lotus seeds energy chiefly comes from carbohydrates and proteins unlike as in other tree nuts whose high calorific value is mainly because of fats.
+
+              The seeds are also packed with fiber, vitamins, minerals, and numerous health promoting antioxidants.
+
+              Dry lotus seeds contain 15.4 g or 27% daily required levels of protein. Phenylalanine, tyrosine, leucine and lysine were the essentail amino acids in them. Studies revealed that the lotus seed protein is nutritionally well-balanced protein and might be of significant importance in the formulation of diets for humans.
+
+              Like other dicotylednous plant seeds, lotus seeds too are free from gluten protein. They can be safely used in the gluten-free food preparations as a healthy alternative in patients with the wheat gluten allergy, and celiac disease.
+
+              Fresh as well as dry lotus kernels are an excellent source of folates. 100 g seeds provide 104 μg or 26% of folates. Folate along with vitamin B-12 is one of the essential components of DNA synthesis and cell division. Adequate folate diet during pregnancy may help prevent neural-tube defects in the newborns.
+
+              Lotus kernels are also an excellent source of the B-complex group of vitamins such as thiamin (53% of RDA/100 g), riboflavin (11.5% of RDA/100 g), niacin, pantothenic acid and vitamin B-6 (48% of RDA//100 g). These vitamins work as cofactors for various enzymes during cellular substrate metabolism in the human body.
+
+              Moreover, the seeds contain excellent amounts of minerals like manganese (100% of RDA//100 g), potassium (29% of RDA/100 g), calcium, iron (44% of RDA//100 g), magnesium, zinc and selenium. Manganese is an all-important co-factor for antioxidant enzyme, superoxide dismutase. Together with other antioxidants like vitamin-A, consumption of lotus kernels may help in boosting immunity to fight against infectious agents and scavenge harmful oxygen-free radicals.
+
+          Medicinal values of lotus seeds.
+
+              In the traditional Chinese medicine (TCM), lotus seeds and plumule occupy special therapeutic importance. Research studies suggest that alkaloids in lotus plumule like liensiline, neferine and isoliensiline possess sedative, antispasmodic and antihypertensive which is beneficial to heart.
+
+              TCM recognises lotus seed as a yin energy food. It dispels excess heat from the heart and spontaneous bleeding episodes due to heat.
+
+              According to TCM lotus seed falls in the category of "sweet flavor" food. The alkaloid compounds actually slow down acute reactions and neutralize the toxic effects of other foods, and also lubricate and nourish the body.
+
+              In TCM, lotus plumule has been advoacated for sleep promotion, and to ease conditions associated with seminal and vaginal discharge.
+
+          Safety profile
+
+          Lotus seeds contain green embryo (plumule) in between the cotyledons. These plumules carry bitter alkaloids and should be removed before consumption. Plumules, on the other hand, used limitedly as a healthy herbal tea. Embryo treated seeds are safe in pregnant women.
+          """,
+        nutrition: ["278 kJ (66 kcal)","0.50 g","0.07 g","1.58 g","A, B1, B2, B3, B5, B6, B9, Choline, C","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium,  Zinc"]
+    ),
+    DriedFruit(
+        title: "Macadamia",
+        headline: "Scientific name: Macadamia Integrifolia",
+        image: "macadamia",
+        gradientColors: [Color("ColorMacadamiaLight"), Color("ColorMacadamiaDark")],
+        description: """
+          Sweet, delicious and flavorful macadamia nut is one of the lovely edible nuts packed with important health-benefiting nutrients. Botanically, macadamia belongs to the family of Proteaceae, in the genus: Macadamia. Some of the common names include Australia nut, Queensland nut, bush nut, etc.
+
+          Macadamia is native to the East Coast rainforests of North Eastern parts of Australia. Several regions of mineral rich, tropical and subtropical areas of Australia, Hawaiian Islands, Middle Americas, Brazil and South African parts grow these sweet and crunchy nuts in abundance.
+
+          Macadamia tree reaches to about 15 meters in height. In general, it achieves maturity and begins to produce fruit at around the seventh year of plantation.
+
+          There are at least about seven species of macadamia grown in their wild natural habitat. However, only two of which are edible and cultivated in the horticulture farms around the world. Macadamia integrifolia produces smooth-shelled nuts, whereas Macadamia tetraphylla has nuts with a rough shell.
+
+          During each summer, the tree bears elongated chains of beautiful creamy-white flowers in racemes, which subsequently develop into tough shelled, round fruits with a conical tip. Depending upon the cultivar type its shell may possess smooth or rough outer surface. Each fruit features 0.5 to 1 inch in diameter consisting of a husk enveloping around the single kernel. Inside, a white edible kernel features smooth buttery surface and sweet taste.
+
+          Health benefits of Macadamia nuts
+
+              Macadamia nuts are a rich source of energy. 100 g of nuts provide about 718 calorie/100 g, which is one of the highest calorific values for the seeds and kernels.
+
+              They packed with many health-benefiting nutrients, minerals, antioxidants and vitamins that are essential for optimum health and wellness.
+
+              100 g of macadamia provides 8.6 g or 23% of daily recommended levels of dietary fiber. Additionally, they are an excellent source of phytosterols such as ß-sitosterol. Besides, they carry no cholesterol.
+
+              Since macadamia nuts nutrition is free from gluten protein; it is one of the popular ingredients preferred in the gluten-free food formula preparations. Such formula preparations are a healthy alternative in patients with the wheat gluten allergy and celiac disease. .
+
+              The nuts are rich source of monounsaturated fatty (MUFA) like oleic acid (18:1) and palmitoleic acids (16:1). Studies suggest that MUF fats in the diet help lower total as well as LDL (bad) cholesterol and increase HDL (good) cholesterol levels in the blood. The Mediterranean diet, which is rich in fiber, MUF fats and antioxidants work favorably in maintaining healthy blood lipid profile and thus offer protection from coronary artery disease and strokes.
+
+              Macadamias are an excellent source of minerals such as calcium, iron, magnesium, manganese and zinc. 100 g nuts provide 3.6 µg of selenium. Selenium is a cardio-protective trace element and an essential antioxidant cofactor for the glutathione peroxidase enzyme.
+
+              Furthermore, the nuts are also rich in many important B-complex vitamins that are vital for metabolic functions. 100 g of nuts provide 15% of niacin, 21% of pyridoxine (vitamin B-6), 100% of thiamin, and 12% of riboflavin.
+
+              They contain small amounts of vitamin-E. These fat-soluble vitamins are potent antioxidants and help protect cell membranes and DNA damage from harmful oxygen-free radicals.
+
+          In short, sweet, refreshing macadamias provide essential minerals, vitamins, and heart-friendly monounsaturated fatty acids.
+
+          Safety profile
+
+          Macadamia nut allergy is quite a rare occurrence and not as common as other tree nut allergies like cashew, and pistachios. However, sometimes it might cause hypersensitivity reactions in sensitive people to food substances prepared with them. The type and severity of symptoms may range from gastrointestinal symptoms like vomiting, diarrhea, pain abdomen; and respiratory tract symptoms like swelling of lips, throat pain, breathing difficulty, and chest congestion. Therefore, caution should be exercised in those with nut allergic syndrome while using food preparations that contain these nut products.
+          """,
+        nutrition: ["3080 kJ (740 kcal)","4.57 g","75.8 g","7.9 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Peanut",
+        headline: "Scientific name: Arachis Hypogaea",
+        image: "peanut",
+        gradientColors: [Color("ColorPeanutLight"), Color("ColorPeanutDark")],
+        description: """
+          Delicious, crunchy, and nutty peanuts are one of the popular oilseeds known to humankind since centuries. The kernels enriched with many noteworthy health-benefiting nutrients essential for optimum health and wellness. They are actually legumes but carry almost all the qualities of other popular edible nuts such as pistachio, almonds, etc.
+
+          Botanically, they are small sized, underground fruit pods of a plant belonging to the Fabaceae family, in the genus, Arachis. Some of the common names are groundnut, earthnuts, etc.
+
+          Peanut is a small, annual dicotyledon herb growing up to a foot above the ground. It is thought to have originated in the Central Americas and from where it spread to rest of the world through Spanish explorers. Today, it is one of the widely cultivated oilseeds and established principal commercial crop in China, India, African nations, and the United States of America.
+
+          Peanut plant takes approximately 120 to 150 days to produce the crop after sowing its seed. The process of peanut development is quite interesting! Its yellow flowers, after self-pollination, develop into "ovaries" called pedicels, which elongate rapidly to turn downward to bury several inches deep underground, from where the fruits develop into peanut pods we know.
+
+          To harvest, the entire plant including roots dug out of the soil. Each plant may hold 10-150 fruit pods. The pods have a thick, wrinkled outer shell with 2-3 constrictions as in bean pods. Each peanut kernel is covered with a papery thin, brown layer and can be split into two halves as in any other legumes.
+
+          Bambara groundnuts (Vigna subterranea L. Verdc) are different from American peanuts (Arachis hypogaea) in that they appear somewhat like round cowpeas. Bambara groundnuts are indeed one of the popular legume crops in many African regions, providing much-needed protein, fat and other essential nutrients of vegetable origin.
+
+          Health Benefits of Peanuts
+
+              Peanuts are rich in energy (567 calories per 100 g) and contain health benefiting nutrients, minerals, antioxidants and vitamins that are essential for optimum health.
+
+              They compose sufficient levels of monounsaturated fatty acids (MUFA), especially oleic acid. MUFA helps lower LDL or "bad cholesterol" and increases HDL or "good cholesterol” level in the blood. Research studies suggest that the Mediterranean diet which is rich in monounsaturated fatty acids help prevent coronary artery disease and stroke risk by favoring healthy serum lipid profile.
+
+              Peanut kernels are a good source of dietary protein; compose fine quality amino acids that are essential for growth and development.
+
+              Research studies have shown that peanuts contain high concentrations of polyphenolic antioxidants, primarily p-coumaric acid. This compound has been thought to reduce the risk of stomach cancer by limiting the formation of carcinogenic nitrosamines in the stomach.
+
+              Peanuts are an excellent source of resveratrol, another polyphenolic antioxidant. Resveratrol has been found to have a protective function against cancers, heart disease, degenerative nerve disease, Alzheimer's disease, and viral/fungal infections.
+
+              Furthermore, studies suggest that resveratrol may reduce stroke risk through altering molecular mechanisms in the blood vessels (reducing susceptibility to vascular damage through decreased activity of angiotensin, a systemic hormone responsible for blood vessel constriction that would elevate blood pressure), and by increasing production of vasodilator hormone, nitric oxide.
+
+              Recent research studies suggest that roasting/boiling enhances antioxidant bioavailability in the peanuts. It has been found that boiled peanuts have two and four-fold increase in isoflavone antioxidants biochanin-A and genistein content, respectively. (Journal of agricultural and food chemistry).
+
+              The kernels are an excellent source of vitamin-E(α -tocopherol); containing about 8 g per100 g. vitamin-E is a powerful lipid soluble antioxidant which helps maintain the integrity of mucosa and skin by protecting from harmful oxygen free radicals.
+
+              The nuts are packed with many important B-complex groups of vitamins such as riboflavin, niacin, thiamin, pantothenic acid, vitamin B-6, and folates. 100 g of peanuts provide about 85% of RDI of niacin, which contributes to health and blood flow to the brain.
+
+              The nuts are a rich source of minerals like copper, manganese, potassium, calcium, iron, magnesium, zinc, and selenium.
+
+              Just a handful of peanuts per day provide enough recommended levels of phenolic antioxidants, minerals, vitamins, and protein.
+
+          Safety profile
+
+          Peanut allergy is a type of hypersensitivity response in some people to food substances prepared using these nuts. The resultant over-reaction of the immune system may manifest as severe physical symptoms like vomiting, stomach pain, swelling of lips and throat leading to breathing difficulty, chest congestion, and sometimes death. It is, therefore, advised to avoid any food preparations that contain peanut products in these individuals.
+
+          Peanuts are one of the crops that easily susceptible to fungal (mold) infection, especially by Aspergillus flavus which produces aflatoxin. Aflatoxin is a potent and dangerous known carcinogen that may cause liver cirrhosis and cancer. Roasting helps reduce toxin levels in these nuts and thus offers some protection against aflatoxin.
+          """,
+        nutrition: ["2385 kJ (570 kcal)","0 g","48 g","25 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Pecans",
+        headline: "Scientific name: Carya Illinoinensis",
+        image: "pecans",
+        gradientColors: [Color("ColorPecansLight"), Color("ColorPecansDark")],
+        description: """
+          Delicious, buttery yet rich-flavored pecans are one of the popular edible tree nuts known to American aborigines since centuries ago. They are enriched with many health-benefiting nutrients, minerals, vitamins that are essential for optimum health.
+
+          Pecan is a large sized deciduous tree belonging to the member of the hickory family, Juglandaceae. The tree is native to central and southern parts of the United States of America. Today, however, it is being cultivated in many regions of the world as an important commercial tree-nuts crop.
+
+          Several cultivars of pecans exist; some of the highly recommended species include Cape fear, Elliott, and Moreland.
+
+          During each spring season, pecan tree bears catkins, consisting of clusters of monoecious flowers arranged closely along a central stem that ultimately develops into fruits by autumn.
+
+          Pecan nuts, like the product of all other members of the hickory genus, are not real nuts but botanically fruits (drupe).
+
+          Each fruit features dark brown, oval to an oblong shape, measuring 1 to 3 inches long and 0.5–1 inch broad. Their rough, outer husk or involucre is 3-4 mm thick. The hull splits off into four sections at maturity to release an edible kernel lying inside. Pecans generally harvested from October through December. Raw nuts then subjected to dehydration, the process which is essential to remove moisture and to improve their keeping quality.
+
+          Health Benefits of Pecans
+
+              Pecan nuts are a rich source of energy, carry 690 calories/100 g and contain health benefiting nutrients, minerals, antioxidants and vitamins that are essential for wellness.
+
+              The nuts are rich in monounsaturated fatty acids like oleic acid and an excellent source of phenolic antioxidants. Regular addition of pecan nuts in the diet helps to decrease total as well as LDL or “bad cholesterol” and increases HDL or “good cholesterol” levels in the blood. Research studies suggest that the Mediterranean diet, which is rich in dietary fiber, monounsaturated fatty acids, and antioxidants would help to prevent coronary artery disease and strokes by favoring healthy blood lipid profile.
+
+              Pecan nuts are a rich source of many phytochemical substances that may contribute to their overall antioxidant activity, including polyphenolic antioxidant ellagic acid, vitamin E, beta-carotene, lutein, and zeaxanthin. Research studies have been suggestive of that these compounds help the body remove toxi oxygen-free radicals and thus, protect the body from diseases, cancers, as well as infections.
+
+              Anti-proliferative properties of ellagic acid are because of its ability to inhibit DNA binding of certain carcinogens such as nitrosamines and polycyclic aromatic hydrocarbons, thus, offering protection to the human body from cancers.
+
+              Pecans are excellent sources of vitamin-E, especially rich in gamma-tocopherol; provide about 25 g per 100 g. Vitamin E is a powerful lipid soluble antioxidant, required for maintaining the integrity of cell membrane of mucus membranes and skin by protecting it from harmful oxygen-free radicals.
+
+              The nuts are very rich sources of several important B-complex groups of vitamins such as riboflavin, niacin, thiamin, pantothenic acid, vitamin B-6, and folates. Together, these vitamins work as co-factors for the enzyme metabolism inside the human body.
+
+              The nuts are also a rich source of minerals like manganese, potassium, calcium, iron, magnesium, zinc, and selenium.
+
+          Add a handful of pecan nuts in the diet to keep your nutrition meter complete with sufficient levels of minerals, vitamins, and protein.
+
+          Safety profile
+
+          Pecans allergy is a type-1 (Ig-E mediated) hypersensitivity response in some people to food substances prepared with these nuts. In general, the allergic reaction may be more commonly in individuals with a history of prior exposure to the tree pollen and, thereby, developed antibodies.
+          """,
+        nutrition: ["2889 kJ (690 kcal)","3.97 g","71.97 g","9.17 g","A, B1, B2, B3, B5, B6, B9, C, D, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Pine nut",
+        headline: "Scientific name: Pinus Pinea",
+        image: "pine",
+        gradientColors: [Color("ColorPineLight"), Color("ColorPineDark")],
+        description: """
+          Crunchy yet butter textured, pleasantly sweet and delicious pine nuts are small edible seeds of the female cone in a pine tree. Pine kernels are, indeed, a splendid source of plant derived nutrients, essential minerals, vitamins and "heart friendly" monounsaturated fatty acids that help benefit in reducing cholesterol levels in the blood.
+
+          Botanically, pine trees belong to the family of Pinaceae, in the genus: Pinus. Some of the common names are pinon nuts, pignoli, cedar nuts, chilgoza, pinyon pinenuts, etc.
+
+          Pine trees grow chiefly in the wild cold and taiga forests of the northern hemisphere, particularly in Siberia and Canada. They are huge, straight erect trees with a large stem which may reach up to 75 feet in height with pyramidal or umbrella-like dense foliage cover.
+
+          The "flowers" of pine tree subsequently develop into a cone. The female cones take about two–three years to mature after pollination. At maturity, the female cones (ovulate or seed cones) may reach from as small as 3 cm long to a very large one reaching about 35 cm. Scales at the base and tip of the cone tend to be small and sterile, and therefore, bear no seeds. Once mature and dry, the cone naturally split open to release the kernel.
+
+          The two prominent pine species known for their large edible kernels include Pinus sibirica and Pinus koraiensis. Western (stone) pines have long slender kernels in comparison to the Oriental pines, in which the seeds are broad, large and have higher fat content.
+
+          Pine nuts feature tough dark-brown outer coat or shell. Inside, its edible kernel has cream white, delicate buttery flavor, and sweet taste.
+
+          Chilgoza pine nut (Pinus gerardiana) is another distinct pine variety found in the western Himalayan forests of Pakistan, India (Kashmir, Himachal Pradesh), and Afghanistan. Chilgoza pines have similar in appearance as stone pines; featuring long slender, pointed kernels.
+
+          Health benefits of pine nuts
+
+              Pine nuts are one of the calorie-rich edible nuts. 100 g of dry kernels provide 673 calories. Additionally, they comprise of numerous health promoting phytochemicals, vitamins, antioxidants, and minerals.
+
+              Their high caloric content chiefly comes from fats. Indeed, the nuts are especially rich in monounsaturated fatty acids like oleic acid (18:1 undifferentiated fat) that helps to lower LDL or "bad cholesterol" and increases HDL or "good cholesterol" in the blood. Research studies suggest that Mediterranean diet which contains useful amounts of monounsaturated fatty acids, vitamins, and antioxidants, helps to prevent coronary artery disease and strokes by favoring healthy blood lipid profile.
+
+              Pine or cedar nuts contain essential fatty acid (the omega-6 fat), pinolenic acid. Recent research has shown its potential use in weight loss by curbing appetite. Pinolenic acid triggers the release of hunger-suppressant enzymes cholecystokinin and Glucagon-like peptide-1 (GLP-1) in the gut. Also, pinolenic acid has thought to have LDL-lowering properties by enhancing hepatic LDL uptake.
+
+              Likewise in almonds, pines too are an excellent source of vitamin-E; contain about 9.33 mg per 100 g (about 62% of RDA). Vitamin-E is a powerful lipid soluble antioxidant, required for maintaining the integrity of cell membrane of mucosa and skin by protecting it from harmful free oxygen radicals.
+
+              Furthermore, pines are one of gluten-free tree nuts, and therefore, are a popular ingredient in the preparation of gluten-free food formulas. Such formula preparations can be a healthy alternative in people with wheat food allergy and celiac disease.
+
+              Pine nuts are an excellent source of the B-complex group of vitamins such as thiamin, riboflavin, niacin, pantothenic acid, vitamin B-6 (pyridoxine) and folates. These vitamins work as co-factors for enzymes in cellular substrate metabolism inside the human body.
+
+              Furthermore, pine nuts contain healthy amounts of essential minerals like manganese, potassium, calcium, iron, magnesium, zinc and selenium. At 8.802 mg per 100 g (about 383% of daily recommended intake), pines are one of the richest sources of manganese. Manganese is an all-important co-factor for antioxidant enzyme, superoxide dismutase. Therefore, consumption of pine kernels helps the human body develop resistance against infectious agents and scavenge harmful oxygen-free radicals.
+
+          Pine nut oil has a delicate flavor with sweet aroma and is being employed in many traditional medicinal remedies. The main chemical components in pine oil are borneol, bornyl acetate, α and ß-phellandrene, α-pinene and ß-pinene. Its emollient property helps to keep skin well protected from dryness. It has also been employed in cooking, and as “carrier or base oil” in traditional medicines and aromatherapy, in the pharmaceutical and cosmetic industry.
+
+          Safety profile
+
+          There are several reported cases of altered taste perception (cacogeusia or pine mouth) following to pine nut consumption. It appears few days after eating the nuts and may persist for up to a week. However, Pine mouth is self-limited condition and resolves on its own without any sequel.
+
+          Pine nut allergy may occur in some sensitive individuals. The reaction symptoms may range from simple skin itching (hives) to severe form of anaphylactic manifestations, including breathing difficulty, pain abdomen, vomiting, and diarrhea. Cross-reactions may also occur with some other nuts and fruits, especially of Anacardiaceae family members such as mango, cashew nuts, pistachio, etc. Persons with known allergic reactions to these nuts may, therefore, need to observe caution while eating them.
+          """,
+        nutrition: ["2815 kJ (673 kcal)","3.6 g","68.4 g","13.7 g","A, B1, B2, B3, B5, B6, B9, Choline, C, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Pistachio",
+        headline: "Scientific name: Pistacia Vera",
+        image: "pistachio",
+        gradientColors: [Color("ColorPistachioLight"), Color("ColorPistachioDark")],
+        description: """
+          Wonderfully delicious pistachio nuts have long been cherished as the symbol of wellness and robust health since ancient times. The kernels are enriched with many health-benefiting nutrients essential for the optimum health.
+
+          Pistachio is a tree nut in the Anacardiaceae family, of the genus: Pistacia.
+
+          P. vera is a medium-sized, broad, bushy, deciduous tree, believed to have originated in the mountain ranges of West-Asia and Turkey region (Anatolia). Male and female trees (dioecious) grow separately. Several cultivars exist; however, the most popular variety grown for the commercial purposes is Kerman cultivar which is one of the tastiest and best quality pistachios coming from the Kerman region of Iran.
+
+
+          Pistachios grow well under hot, dry summer and cool winters. They are currently being cultivated on a larger scale in the USA, Iran, Syria, Turkey, and China. After plantation, it takes approximately eight to ten years until the plant produces its first major crop. Once established, it keeps bearing fruits for many years to come.
+
+          During each season, the tree bears heavy clusters of fruits which appear somewhat like that of a grape bunch. Pista fruit, in fact, is a drupe (fruit with a large, central located single seed), and it is this seed kernel what actually a sought-after, "pistachio." On its exterior, a mature fruit features hard, an off-white color shell which splits open exposing a light green, oblong shape kernel inside. A pista kernel measures about 2 cm in length and 1 cm width and weighs about 0.7-1 gm.
+
+          Health benefits of Pistachios
+
+              Pistachios are delicious tree nuts recognized for their wholesome nutritional properties. Together with walnuts, almonds, and cashew, they offer good sources of protein, fats, and minerals to inhabitants living around otherwise dry and arid regions of Central, West and South Asia.
+
+              Pistachios are a rich source of energy; 100 g of kernels carry 557 calories.
+
+              Additionally, they compose proper amounts of monounsaturated fatty acids like oleic acid and antioxidants. Regular consumption of pistachios in the diet may help lowering total as well as bad LDL-cholesterol and increase good HDL-cholesterol levels in the blood.
+
+              Research studies suggest that the Mediterranean diet which is rich in dietary fiber, monounsaturated fatty acids, and antioxidants can help reduce coronary artery disease and stroke risk by favoring healthy blood lipid profile.
+
+              Pista kernels are rich source of many antioxidant phytochemical substances such as carotenes, vitamin-E, and polyphenolic antioxidant compounds. Research studies suggest that these compounds may help remove toxic free-radicals from the human body, and thus, protect it from diseases, cancers, and infections.
+
+              Pistachios are excellent sources of vitamin-E; especially rich in γ-tocopherol; compose about 23 g per100 g. vitamin-E is a potent lipid-soluble antioxidant essential for maintaining the integrity of mucosa and skin. Also, vitamin-E works as scavengers of harmful free-oxygen radicals.
+
+              The nuts are packed with many important B-complex groups of vitamins such as riboflavin, niacin, thiamin, pantothenic acid, vitamin B-6, and folates.
+
+              They are the storehouse of minerals like copper, manganese, potassium, calcium, iron, magnesium, zinc, and selenium. 100 g nuts provide 144% of daily recommended levels of copper. Copper is an essential trace mineral that is required in neurotransmission, metabolism, as well as red blood cell (RBC) production.
+
+              Pistachio oil extracted from kernels is one of the healthiest cooking oils. It has a pleasant nutty aroma and possesses excellent emollient properties. It helps keep skin well protected from dryness. Besides been used in the kitchen, it is also employed as “carrier or base oil” in traditional medicines in massage therapy, aromatherapy, in the pharmaceutical and cosmetic industries.
+
+              Just a handful of pistachios a day provides enough recommended levels of phenolic antioxidants, minerals, vitamins, and protein.
+
+          Safety profile
+
+          Pistachio nut allergy sometimes occurs as allergic manifestations because of the chemical compound anacardic acid (urushiol. Cross-reactions may also occur with some other related tree nuts and fruits of Anacardiaceae family such as mango, cashew nuts, etc. Persons with known allergic reactions to these nuts may, therefore, require to observe caution while eating cashews and mango, and conversely.
+
+          The reaction symptoms may range from simple skin itching (hives) to severe form anaphylactic manifestations including breathing difficulty, pain abdomen, vomiting, and diarrhea.
+          """,
+        nutrition: ["2351 kJ (582 kcal)","7.66 g","45.39 g","20.27 g","A, B1, B2, B3, B5, B6, B9, C, D, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Poppy seed",
+        headline: "Scientific name: Papaver somniferum",
+        image: "poppy",
+        gradientColors: [Color("ColorPoppyLight"), Color("ColorPoppyDark")],
+        description: """
+          Nutty and pleasant in taste, poppy seeds are nutritious oilseeds used as a condiment in cooking. Although the seeds obtained from the dry fruits (pods) of the poppy plant (opium poppy), they are entirely free from any harmful side effects of other poppy plant products such as opium poppy.
+
+          Poppy plant is a biennial herb of East Mediterranean and Asia Minor origin belonging to the Papaveraceae family, in the genus: Papaver.
+
+          Ancient Egyptians had knowledge of harvesting seeds from the poppy seedheads. Through the Arab traders, opium cultivation spread to Persia, ancient Khorasan, and India.
+
+          Today, seeds of poppy is a well-established commercial crop in many parts of the world including Czech Republic, Germany, Turkey, France, India, and East European region.
+
+          The poppy plant grows up to 5 feet in height. It requires full sunlight and fertile soil to flourish. Depending upon its variety, lilac, blue, red or white flowers appear during spring on long peduncles which subsequently turn into globular or oval shaped fruits (seed capsules).
+
+          Each globular poppy fruit head (capsule) measures about 4–6 cm in length and 3–4 cm in diameter, contains numerous tiny, bean (kidney) shaped seeds, which rattle when shaken inside dried capsules. Seeds poppy can be light gray to dark gray, black, or bluish depending on cultivar type.
+
+          Poppy seeds are popular ingredients and generally employed as a condiment and to press oil. The seeds, indeed, are very safe to use as food and contain negligible quantities of toxic alkaloids of the opium poppy.
+
+          Health benefits of poppy seeds
+
+              Poppy seeds contain many plant-derived chemical compounds that found to have antioxidant, disease preventing and health promoting properties.
+
+              Their unique nutty aromatic flavor is because of many fatty acids and essential volatile oils, which comprise about 50% of net weight. The seeds are especially rich in oleic and linoleic acids. Oleic acid, a mono-unsaturated fatty acid, helps lower LDL or "bad cholesterol" and increase HDL or "good cholesterol" levels in the blood.
+
+              Research studies suggest that Mediterranean diet which is rich in monounsaturated fatty acids helps to prevent coronary artery disease and strokes by favoring healthy blood lipid profile.
+
+              Poppy seeds outer husk is a good source of dietary fiber. 100 g raw seeds provide 19.5 g or 51% of recommended daily levels (RDA) of fiber. Much of this fiber is metabolically inert content which helps increase the bulk of the food by absorbing water down the digestive tract and thereby easing constipation problem.
+
+              Additionally, dietary fiber binds to bile salts (a product of cholesterol) and decrease their reabsorption in the colon. It thus helps in a further decrease in blood LDL cholesterol levels.
+
+              The seeds are excellent source B-complex vitamins such as thiamin, pantothenic acid, pyridoxine, riboflavin, niacin, and folic acid. Many of these vitamins functions as co-factors in the substrate metabolism, especially fat and carbohydrates inside the human body.
+
+              Poppy seeds contain good levels of minerals like iron, copper, calcium, potassium, manganese, zinc and magnesium. Copper utilized in the production of red blood cells. Zinc is a co-factor in many enzymes that regulate growth and development, sperm generation, digestion and nucleic acid synthesis.
+
+              Potassium is an important component of cell and body fluids that helps controlling heart rate and blood pressure. The human body uses manganese as a cofactor for the important antioxidant enzyme, superoxide dismutase.
+
+              Dry poppy seeds contain very small levels of opium alkaloids such as morphine, thebaine, codiene, papaverine, etc. When consumed in food, these compounds produce a minimal effect on the human nervous system. On the contrary, these chemicals found to have some beneficial effects on the human body; soothe nervous irritability, act as painkillers. Its seed extractions found useful in the pharmacy and many traditional medicines in the preparations of cough mixtures, expectorants, etc.
+
+          Safety profile
+
+          Allergic incidences to Poppy seeds are rare.They can be used safely even in pregnant women and children.
+
+          Sports personnel, however, need to keep in mind that they may test false positive when consumed food items containing poppy seeds for banned opiate substances like morphine, codiene, etc. However, these compounds may not be high enough to produce narcotic drug side effects.
+          """,
+        nutrition: ["2196 kJ (525 kcal)","2.99 g","41.56 g","21.22 g","A, B1, B2, B3, B5, B6, B9, C, Choline, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Pumpkin seed",
+        headline: "Scientific name: Cucurbita Pepo",
+        image: "pumpkin",
+        gradientColors: [Color("ColorPumpkinLight"), Color("ColorPumpkinDark")],
+        description: """
+          Pumpkin seeds (pepita) are edible kernels of fruit pumpkin. The seeds, indeed, are concentrated sources of many health-benefiting vitamins, minerals, antioxidants, and essential amino acids such as tryptophan, and glutamate.
+
+          Pumpkin fruit is a squash-like gourd in the Cucurbitaceae family of vegetables native to Mexico. In the Central Americas, hulled and gently roasted pumpkin kernels are popularly known as Pepita.
+
+          The pumpkin fruit, in general, is grown as a field vegetable crop. Its seeds, at the same time, have been in use as food, and to extract pumpkin seed oil since centuries. In fact, in some parts of central Europe (Styrian province in Austria, Slovenia, and Hungary), pumpkins are being cultivated solely for their seeds, as a major oilseed crop at a commercial scale.
+
+          Generally, the pumpkin fruit is allowed to mature completely in order to obtain good-quality seeds. Each fruit contains up to 500 cream-white husky seeds located at its central hollow cavity; interspersed in between mesh like a fiber network. The seeds are semi-flat, feature typical ovoid shape with a conical tip. Inside, its kernels feature olive-green color, sweet, buttery in texture and nutty in flavor. Pepitas enjoyed as a snack, added to desserts and savory dishes.
+
+          Health benefits of pumpkin seeds
+
+              Crunchy, delicious pumpkin seeds are high in calories; about 559 calories per 100 g. Also, they are packed with fiber, vitamins, minerals, and numerous health promoting antioxidants.
+
+              Their high calorific value mainly comes from protein and fats. Nonetheless, the kernels are especially rich in monounsaturated fatty acids (MUFA) like oleic acid (18:1) that helps lower bad LDL-cholesterol and increases good HDL-cholesterol in the blood. Research studies suggest that the Mediterranean diet which is liberal in monounsaturated fatty acids contribute to preventing coronary artery disease and stroke risk by favoring healthy blood lipid profile.
+
+              Pumpkin seeds carry good-quality protein. 100 g seeds provide 30 g or 54% of recommended daily allowance of protein. Also, the seeds are an excellent source of amino acid tryptophan and glutamate. Tryptophan is converted into serotonin and niacin. Serotonin is a beneficial neurochemical often labeled as nature's sleeping pill. Further, tryptophan is the precursor of B-complex vitamin, niacin (60 mg of tryptophan = 1 mg niacin).
+
+              Glutamate is essential for the synthesis of gamma-amino butyric acid (GABA). GABA, an anti-stress neurochemical in the brain, helps reducing anxiety, nervous irritability, and other neurotic conditions.
+
+              Pumpkin seeds are a very good source of antioxidant vitamin-E; contain about 35.10 mg of tocopherol-gamma per 100 g (about 237% of RDA). Vitamin-E is a powerful lipid soluble antioxidant. It prevents tissue cells from the free radical mediated oxidant injury. Thus, it helps maintain the integrity of mucosa and skin by protecting from harmful free-oxygen radicals.
+
+              Pumpkin kernels are also an excellent source of the B-complex group of vitamins such as thiamin, riboflavin, niacin, pantothenic acid, vitamin B-6 (pyridoxine) and folates. These vitamins work as cofactors for various enzymes during cellular substrate metabolism in the human body. Besides, niacin helps in the reduction of LDL-cholesterol levels in the blood. Along with glutamate, it enhances GABA activity inside the brain, which in turn reduces anxiety and nervous irritability.
+
+              Furthermore, its seeds contain good amounts of essential minerals like copper, manganese, potassium, calcium, iron, magnesium, zinc and selenium. Just as in pine nuts, pumpkin seeds too are very rich sources of manganese (provide 4543 mg per 100 g, about 198% of daily-recommended intake). Manganese is an all-important co-factor for antioxidant enzyme, superoxide dismutase. Therefore, consumption of pumpkin kernels help develop resistance against infectious agents and scavenge harmful oxygen-free radicals.
+
+          Medicinal values of pumpkin seeds.
+
+              Research studies suggest that some chemical compounds in the pumpkin seeds possess DHEA (Di-hydro-epi-androstenedione) hormone-blocking actions at the receptor levels. Exposure to high DHEA levels may lead to gonadal tumors. Thus, these seeds may cut the risk of prostate and ovarian cancers in the humans.
+
+              In addition, experimental studies suggest that certain phytochemical compounds in pumpkin seed oil may have a role in the prevention of diabetic nephropathy (diabetic kidney disease).
+
+          Safety profile
+
+          Unlike tree nuts allergy, it is rare to find true pumpkin seeds allergy incidences. However, a few allergic symptoms may appear in some known sensitive persons due to antigenic cross-reactions with some other nuts, seeds, and fruits, especially of Anacardiaceae family such as mango, cashew nuts, pistachio, etc. Persons with a previous history of allergic reactions to these seeds and nuts may, therefore, need to observe caution.
+          """,
+        nutrition: ["2401 kJ (574 kcal)","1.29 g","49.05 g","29.84 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Quinoa",
+        headline: "Scientific name: Chenopodium Quinoa",
+        image: "quinoa",
+        gradientColors: [Color("ColorQuinoaLight"), Color("ColorQuinoaDark")],
+        description: """
+          Quinoa (pronounced as kinwah; quinua in Spanish) is an incredibly nutritious "grain-like seed" obtained from the goosefoot family plant native to the highland plains of South-American Andes region. Ancient Incas believed quinua as “the mother grain,” since eating it as food would confer them long-lasting healthy life. The crop was once the staple food sources of Incas before the Spanish explorers forced them to abandon its cultivation.
+
+          Quinua is a goosefoot (Chenopodiaceae) family of annual herbs. White goosefoot (C. album), and Good King Henry (C. bonus-henricus) are some of the closely related species.
+          Botanically, chia is a low-growing herb in the mint family of plants.
+
+          Quinoa does not belong to the cereal-class of staple grains. Instead, it is a seed, much similar to other dicotyledons such as amaranth, and legume family plants. Nonetheless, its seeds feature proportionately less fat content than oil seeds, and hence treated in a way like any other staple grains.
+
+          The quinoa plant reaches about 3-6 feet in height and prefers well-drained, neutral PH and sandy soil. It, however, can thrive well in harsh environmental conditions and alkaline (salty) soils. For the same reason, it is being cultivated as one of the chief crops under rain-shadow highlands of Bolivia, Peru, Chile and Ecuador since ancient times.
+
+          At its natural habitat, quinoa begins flowering (inflorescence) in July which subsequently develop into edible seeds by the end of August through September. Its seeds measure about two mm in diameter, appear like that of amaranth seeds, and feature white, gray, pink to pale brown depending upon the cultivar type. Quinoa seeds exhibit outer seed coat containing bitter substances known as saponins, which should be removed before eating.
+
+          Quinoa indeed has found renewed interest, particularly among the food scientists, because of its sustainable characteristic of thriving well under stress growing conditions. Additionally, it's well-balanced protein, fat and mineral composition can be an answer to malnutrition alleviation in famine-prone regions around the world.
+
+          Health benefits of quinoa
+
+              100 g quinoa seeds (grains) carry 368 calories. Its grains are modest sources of energy, and their calorie content may be matched to that of some of the major cereals such as wheat, maize, rice, and that of pulses like chickpea, mung bean, cowpea (black-eyed pea), etc.
+
+              Quinoa grains carry 14-18 g of protein per 100 g. They compose almost all of the essential amino acids required for the human body at great proportions, especially in lysine which is otherwise a limiting amino acid in grains like wheat, maize, rice, etc.
+
+              Quinoa is one of the gluten-free staple foods. Gluten is a protein present in certain grass family grains like wheat, which may induce stomach upset and diarrhea in individuals with gluten sensitivity or celiac disease.
+
+              The grains are a rich source of soluble and insoluble dietary fiber. 100 g provide 7 g or 18.5% of daily requirement of fiber. Fiber increases bulkiness of the food and thus helps prevent constipation by speeding up its movement through the gut. In fact, the gastro-intestinal transit time of food is greatly decreased. It also binds to toxins, aid in their excretion from the gut, and thereby, helps protect the colon mucosa from cancers. Also, dietary fibers bind to bile salts (produced from cholesterol) and decrease their reabsorption in the colon, thus help lower serum LDL-cholesterol levels.
+
+              Quinoa grains are indeed an excellent sources of the B-complex group of vitamins, vitamin-E (α-tocopherol) and essential fatty acids such as linoleic and α-linolenic acid (18:3). 100 g of grains contain 184 µg or 46% of daily required levels of folates (B9).
+
+              Young, tender quinoa greens (leaves and shoots) and flowerheads are excellent sources of vitamin-A, folate, and antioxidants such as lutein, carotene, cryptoxanthin, and zeaxanthin. Yellow and red type seeds also rich in these pigment antioxidants. Altogether, these compounds indeed function as powerful antioxidants by removing harmful free radicals from the body thus protect it from cancers, infection, aging and degenerative neurological diseases.
+
+              Quinoa is an excellent source of minerals like iron, copper, calcium, potassium, manganese, and magnesium. Copper is required for the production of red blood cells. Iron is essential for red blood cell formation. Magnesium relaxes blood vessels leading to brain and found to have healing effects on depression, and headache. Zinc is a co-factor in many enzymes that regulate growth and development, sperm generation, digestion and nucleic acid synthesis. Potassium is an important component of cell and body fluids that helps controlling heart rate and blood pressure. The human body uses manganese as a cofactor for the potent antioxidant enzyme, superoxide dismutase.
+
+          Quinoa is not a cereal grain, but a dicotyledon seed (minute fruit) of goosefoot plant. Nonetheless, it has been treated like grain and consumed as one of the chief food sources along with potato and maize since ancient times by native Andean inhabitants. It features all the characteristics of a seed and composes right proportions of all the essential amino acids, fats, starch, fiber, minerals, and vitamins. Quinoa oil, extracted from its seeds indeed is an excellent source of essential fatty acids and vitamin-E.
+
+          Safety profile
+
+          Unpolished (unwashed) quinoa seed contains in its outer cover saponin, a triterpenoid compound. Saponin has a bitter soap-like taste which when consumed might result in stomach pain, flatulence, and laxative diarrhea. Naturally, this covering over the grains protects them from insects, and birds.
+
+          Quinoa leaves and flower-heads compose oxalic acid and should be blanched in boiling water before being eaten.
+          """,
+        nutrition: ["1539 kJ (368 kcal)","0 g","6.1 g","14.1 g","A, B1, B2, B3, B6, B9, Choline, E","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Sesame",
+        headline: "Scientific name: Sesamum Indicum",
+        image: "sesame",
+        gradientColors: [Color("ColorSesameLight"), Color("ColorSesameDark")],
+        description: """
+          One of the first oil seeds known to humankind, sesame seeds have been widely employed in culinary as well as in traditional medicines for their nutritive, preventive, and curative properties. Sesame is a primary source of phytonutrients such as omega-6 fatty acids, flavonoid phenolic anti-oxidants, vitamins, and dietary fiber with potential anti-cancer as well as health promoting properties.
+
+          Sesame plant is a tall annual herb in the Pedaliaceae family, which grows extensively in Asia, particularly in Burma, China, and India. It is also one of the chief commercial crops in Nigeria, Sudan, and Ethiopia.
+
+          Sesame plant requires well-drained sandy soil and tropical environment to flourish. It grows about 5 feet in height and bears plenty of pink-white foxglove-like flowers. The pods appear soon containing white, brown, or black seeds depending upon the cultivar type, arranged in vertical rows inside thin sacs. Each pod (2-5 cm in length) is a long rectangular box like a capsule with deep grooves on its sides. Each pod (1 to 2 inches in length) may contain up to 100 or more seeds.
+
+          Sesame seeds are small, almost oblate in shape. Toasted sesame features pleasant, nutty flavor.
+
+          Health benefits of sesame seeds
+
+              Flavorful, crunchy sesame seeds are widely considered as healthy foods. 100 grams of seeds carry 573 calories. Although much of its calorie comes from fats, sesame contains several essential health-benefiting nutrients, minerals, antioxidants, and vitamins.
+
+              The seeds are especially rich in mono-unsaturated fatty acid, oleic acid, which comprises of up to 50% of fatty acids in them. Oleic acid helps lower LDL or "bad cholesterol" and increases HDL or "good cholesterol" in the blood. Research studies suggest that Mediterranean diet which is rich in mono-unsaturated fats may help prevent coronary artery disease, and stroke by favoring healthy serum lipid profile.
+
+              The seeds are also valuable sources of dietary protein with fine quality amino acids that are essential for growth, especially in children. Just 100 g of seeds provide about 18 g of protein (32% of daily recommended values).
+
+              Sesame seeds contain many health benefiting compounds such as sesamol (3, 4-methylene-dioxyphenol), sesaminol, furyl-methanthiol, guaiacol (2-methoxyphenol), phenyl ethanthiol and furaneol, vinyl guacol, and decadienal. Sesamol and sesaminol are phenolic anti-oxidants. Together, these compounds help stave off harmful free radicals from the human body.
+
+              Sesame is among the seeds rich in quality vitamins, and minerals. They are an excellent sources of B-complex vitamins such as niacin, folic acid, thiamin (vitamin B1), pyridoxine (vitamin B6), and riboflavin.
+
+              100 g of sesame contains 97 µg of folic acid, about 25% of recommended daily intake. Folic acid is essential for DNA synthesis. When given to expectant mothers during their peri-conception period, it may prevent neural tube defects in the newborns.
+
+              Niacin is another B-complex vitamin found abundantly in sesame. About 4.5 mg or 28% of daily required levels of niacin provided from just 100 grams of seeds. Niacin helps reduce LDL-cholesterol concentrations in the blood. Also, it enhances GABA activity inside the brain, which in turn helps reduce anxiety and neurosis.
+
+              The seeds are incredibly rich sources of many essential minerals. Calcium, iron, manganese, zinc, magnesium, selenium, and copper especially concentrated in sesame seeds. Many of these minerals have a vital role in bone mineralization, red blood cell production, enzyme synthesis, hormone production, as well as regulation of cardiac and skeletal muscle activities.
+
+          Just a handful of sesame a day provides enough recommended levels of phenolic anti-oxidants, minerals, vitamins, and protein.
+
+          Safety profile
+
+          Sesame seed allergy is a kind of hypersensitivity reaction in some sensitive individuals. The reactions include hives, dermatitis, and itching. Sometimes, the disease manifestation may be severe and may lead to severe physical symptoms like vomiting, stomach pain, swelling of lips and throat leading to breathing difficulty, chest congestion, and death. It is, therefore, sesame products may be avoided as food in these individuals.
+          """,
+        nutrition: ["2400 kJ (573 kcal)","0.3 g","49.7 g","17.7 g","A, B1, B2, B3, B6, B9, E","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Sunflower seed",
+        headline: "Scientific name: Helianthus Annuus",
+        image: "sunflower",
+        gradientColors: [Color("ColorSunflowerLight"), Color("ColorSunflowerDark")],
+        description: """
+          Sweet, nutty sunflower seeds are an excellent source of essential fatty acids, vitamins, and minerals. Sunflower kernels actually employed to extract edible oil at commercial levels. Besides being eaten as popular snacks, they are also used in the kitchen to prepare a variety of recipes.
+
+          Sunflower is a tall, erect, herbaceous annual plant belonging to the family of Asteraceae, in the genus, Helianthus. It is native to Middle American region from where it spread as an important commercial crop all over the world through the European explorers. Today, Russian Union, China, USA, and Argentina are the leading producers of sunflower crop.
+
+          Sunflower flourishes well under well-drained moist, lime soil. It prefers good sunlight. Domesticated varieties bear single large flowerhead (Pseudanthium) at the top. Unlike its domestic cultivar type, wild sunflower plant exhibits multiple branches with each branch carrying its own individual flower-head. The sunflower head consists of two types of flowers. While its perimeter consists of sterile, large, yellow petals (ray flowers), the central disk is made up of numerous tiny fertile flowers arranged in concentric whorls, which subsequently convert into achenes (edible seeds).
+
+          Sunflower seeds are about 6 mm to 10 mm in length and feature conical shape with a smooth surface. Their black outer coat (hull) encloses single, gray-white edible-kernel inside. Each sunflower head may hold several hundreds of edible oil seeds.
+
+          Health benefits of sunflower seeds
+
+              Delicious, nutty, and crunchy sunflower seeds are widely considered as healthful foods. They are high in energy; 100 g seeds hold about 584 calories. Nonetheless, they are one of the incredible sources of health benefiting nutrients, minerals, antioxidants and vitamins.
+
+              Much of their calories come from fatty acids. The seeds are especially rich in poly-unsaturated fatty acid linoleic acid, which constitutes more 50% fatty acids in them. They are also good in mono-unsaturated oleic acid that helps lower LDL or "bad cholesterol" and increases HDL or "good cholesterol" in the blood. Research studies suggest that the Mediterranean diet which is rich in monounsaturated fats help to prevent coronary artery disease, and stroke by favoring healthy serum lipid profile.
+
+              Like in other seeds and nuts, sunflower also are an excellent source of proteins loaded with fine quality amino acids such as tryptophan that are essential for growth, especially in children. Just 100 g of seeds provide about 21 g of protein (37% of daily-recommended values).
+
+              Also, sunflower seeds contain health benefiting polyphenol compounds such as chlorogenic acid, quinic acid, and caffeic acids. These compounds are natural anti-oxidants, which help remove harmful oxidant molecules from the body. Further, chlorogenic acid helps reduce blood sugar levels by limiting glycogen breakdown in the liver.
+
+              Further, the seeds are indeed a very rich source of vitamin-E; contain about 35.17 g per 100 g (about 234% of RDA). Vitamin-E is a powerful lipid soluble antioxidant, required for maintaining the integrity of cell membrane of mucus membranes and skin by protecting it from harmful oxygen-free radicals.
+
+              Sunflower kernels are one of the finest sources of the B-complex group of vitamins. They are very good sources of B-complex vitamins such as niacin, folic acid, thiamin (vitamin B1), pyridoxine (vitamin B6), pantothenic acid, and riboflavin.
+
+              Sunflowers are incredible sources of folic acid. 100 g of kernels contains 227 µg of folic acid, which is about 37% of recommended daily intake. Folic acid is essential for DNA synthesis. When given in anticipant mothers during the peri-conceptional period, it may prevent neural tube defects in the baby.
+
+              Niacin and pyridoxine are other B-complex vitamins found abundantly in the sunflower seeds. About 8.35 mg or 52% of daily required levels of niacin is provided by just 100 g of seeds. Niacin helps reduce LDL-cholesterol levels in the blood. Besides, it enhances GABA activity inside the brain, which in turn helps reduce anxiety and neurosis.
+
+              The seeds are incredibly rich sources of many essential minerals. Calcium, iron, manganese, zinc, magnesium, selenium, and copper are especially concentrated in sunflower seeds. Many of these minerals play a vital role in bone mineralization, red blood cell production, enzyme secretion, hormone production, as well as in the regulation of cardiac and skeletal muscle activities.
+
+          Just a handful of sunflower kernels a day provides much of the recommended level of phenolic antioxidants, minerals, vitamins, and protein.
+
+          Safety profile
+
+          Sunflower seed allergy is relatively rare, unlike peanut or tree nuts (cashew, walnuts, hazelnut, etc.) allergies. In some susceptible individuals, however, its reactions may include itchiness of the skin, sneezing, itchiness in the eyes, gastritis, vomiting, etc. It is advised, therefore, to avoid the use of seeds in known allergic persons.
+          """,
+        nutrition: ["2445 kJ (584 kcal)","2.62 g","51.46 g","20.78 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
+    ),
+    DriedFruit(
+        title: "Walnut",
+        headline: "Scientific name: Juglans Regia",
+        image: "walnut",
+        gradientColors: [Color("ColorWalnutLight"), Color("ColorWalnutDark")],
+        description: """
+          Walnuts are nutritious kernels obtained from the tree belonging to the Juglandaceae family, in the genus, Juglans. The nuts have been revered since ancient times as the symbol of intellectuality. Their bi-lobed kernels feature convoluted surface resembling as that of a human brain! They enriched with many health-benefiting nutrients, especially omega-3 fatty acids that are essential for optimum health.
+
+          Juglans species are medium sized, semi-tropical, deciduous trees believed to be originating in the mountain ranges of Central Asian or Southern Europe region.
+
+          There at least 30 different cultivars types of walnut grown world-over. However, only three traditional varieties grown for their commercial purposes are English or Persian walnut (Juglans regia), Black walnut (Juglans nigra), and the White or butternut walnut (Juglans cinerea). They are being cultivated at the commercial scale in the United States of America, Romania, France, Turkey, and China. After plantation, the tree takes approximately four years until it produces its first major crop.
+
+          During each season, walnuts can be ready for harvest by August when their thick green hull (thin-cover) begins to crack open to expose light-brown, hard-shelled “walnut” inside. It features roughly spherical shape, about the size of a small lemon, weighing about 10-15 g, and enclosing single (bi-lobed) edible kernel inside.
+
+          Structurally, the walnut kernel consists of two uneven, off-white color corrugated lobes; covered by a papery thin, light brown skin. The flaps loosely attached to each other at center.
+
+          Oil extracted from the walnut kernels employed, apart from cooking, as a base or carrier oil in medicine, and in aromatherapy.
+
+          Health Benefits of Walnuts
+
+              Walnuts are a rich source of energy and hold many health-benefiting nutrients, minerals, antioxidants and vitamins that are essential for wellbeing.
+
+              They are a rich source of monounsaturated fatty acids (about 72%) like oleic acid and an excellent source of all-important omega-3 essential fatty acids such as linoleic acid, alpha-linolenic acid (ALA) and arachidonic acids. Regular consumption of walnuts in the diet, therefore, may help in lowering total as well as LDL or “bad cholesterol” and increases HDL or “good cholesterol” levels in the blood.
+
+              Research studies suggest that the Mediterranean diet which is rich in mono-unsaturated fatty acids, and omega-3 fatty acids may help cut-down chances of coronary artery disease, and strokes by favoring healthy blood lipid profile.
+
+              Eating as just as a handful (25 g) of walnuts every day can provide about 90% of RDI (recommended daily intake) of omega-3 fatty acids. Research studies suggest that n-3 fatty acids by their anti-inflammatory actions may help lower blood pressure, cut down coronary artery disease and stroke risk, and offer protection from breast, colon and prostate cancers.
+
+              Additionally, they are a rich source of many phytochemical substances that may contribute to their overall antioxidant activity, including melatonin, ellagic acid, vitamin-E, carotenoids, and polyphenolic compounds. These compounds are known to have potential health effects against cancer, aging, inflammation, and neurological diseases.
+
+              Scientists at the University of Scranton, Pennsylvania, had recently found that walnuts possess the highest levels of polyphenolic antioxidants of all the edible seeds and nuts. 100 g of the nuts carry 13,541 µmol TE (Trolox equivalents) of oxidant radical absorbance capacity (ORAC). Eating as many as six to seven walnuts a day could help stave off most of the disease-causing free radicals from the human body.
+
+              Further, they are an excellent source of vitamin-E, especially rich in γ -tocopherol; carry about 21 g per 100 g (about 140% of daily required levels). Vitamin-E is a powerful lipid soluble antioxidant essential for maintaining the integrity of cell membrane of mucosa and skin by protecting it from harmful oxygen-induced free radicals.
+
+              They are also packed with several important B-complex groups of vitamins such as riboflavin, niacin, thiamin, pantothenic acid, vitamin B-6, and folates.
+
+              They also very are a rich source of minerals such as manganese, copper, potassium, calcium, iron, magnesium, zinc, and selenium. Copper is a cofactor for many vital enzymes, including cytochrome C-oxidase and superoxide dismutase (other minerals function as co-factors for this enzyme are manganese and zinc). Zinc is a co-factor in many enzymes that regulate growth and development, gonadal development, digestion, and nucleic acid synthesis. Selenium is an important micronutrient, which functions as a co-factor for antioxidant enzymes such as glutathione peroxidases.
+
+              Walnut oil has a deliciously nutty aroma and possess excellent astringent properties. When applied locally, it helps maintain skin moisture and protect from dryness. It has also been employed in cooking, and as “carrier or base oil” in traditional medicines in massage therapy, aromatherapy, in the pharmaceutical and cosmetic industry.
+
+          Munch a handful of walnuts a day and you will get enough of recommended levels of minerals, vitamins, and protein.
+
+          Safety profile
+
+          Walnut allergy is a type of hypersensitivity reaction to food substances prepared to use these nuts. It is due to prior sensitization of the immune system by allergens in the kernels, which may lead to severe physical symptoms like pain abdomen, vomiting, swelling of lips and throat leading to breathing difficulty, and chest congestion. Therefore, it is advised to avoid any food preparations that contain these nut products in case of walnut allergic individuals.
+          """,
+        nutrition: ["2738 kJ (654 kcal)","2.61 g","65.21 g","15.23 g","A, B1, B2, B3, B5, B6, B9, B12, C, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium,, Zinc"]
     )
 ]
