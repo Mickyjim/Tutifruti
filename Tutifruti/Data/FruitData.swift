@@ -53,6 +53,38 @@ let fruitData: [Fruit] = [
         nutrition: ["534 kJ (70 kcal)","2 g","5 g","8 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
     Fruit(
+        title: "Acerola",
+        headline: "Scientific name: Malpighia Emarginata",
+        image: "acerola",
+        gradientColors: [Color("ColorAcerolaLight"), Color("ColorAcerolaDark")],
+        description: """
+          Delicately sweet and sour, acerola cherries are small-sized fruits of Caribbean origin.
+
+          Botanically, acerola cherry belongs to Malpighiaceae family of shrubs native to the Antilles, grow naturally in the wild in several parts of Central American, and Amazonian forests. Some of the common names are Barbados cherry, West-Indian cherry, Amazon cherry, etc.
+
+          Acerola is an evergreen large size bushy shrub that reaches about 8-18 feet in height. Its downy woody branches bear beautiful pink, lavender color flowers. Blooming occurs all along its leaf axils year round. Fruits are small-sized berries about the size of table grapes that appear single or in clusters along the entire length of its woody branches.
+
+          The fruit features bright-red color, round or oblate shape, with tri-lobes which are more obvious at its bottom. Each berry measures about 1.5 to 4 cm in diameter and weigh about 5-7 g. Inside, the pulp is juicy with sweet and tart flavor and consists of three tiny winged edible seeds. Ripe berries are sweeter and juicier than that of immature, green skinned ones that can be consumed out of hand.
+
+          Health benefits of Acerola
+
+              Acerola is very low in calories. 100 g fresh berries provide just 32 calories. Nonetheless, they compose many health benefiting components such as vitamins, and pigment anti-oxidants that contribute immensely towards optimum health and wellness.
+
+              The berries possess significantly high levels of antioxidants in comparison to some of other Amazonian fruits such as acai, abiu, wax jambu, etc. Poly-phenolic anthocyanidin compounds namely chlorogenic acid, ferulic acid, pelargonidin, malvidin, tannins, cyanidin-3-glycoside, quercetin, and kaempferol largely contribute to their antioxidant value.
+
+              Acerola possesses the highest content of vitamin C for any plant-derived fruits/berries, probably next only to another tiny-sized Amazonian berry, Camu Camu (2000 mg/100 g). 100 g fresh berries provide astoundingly 1677.6 mg of vitamin-C; that is about 1864% of daily-recommended intake. Eating as many as 2-3 would be sufficient enough to fulfill its daily requirements. Vitamin-C is an incredible natural antioxidant. Consumption of foods rich in vitamin-C helps the human body develop resistance against infectious agents and scavenge harmful, pro-inflammatory free radicals from the blood.
+
+              The combination of vitamin C and phytochemical compounds in this cherry would help rid off harmful oxygen-derived free radicals from the body, and thereby, help boost immunity, protect the body from cancers, aging, degenerative diseases, inflammation, and infections.
+
+              Additionally, research studies suggest that chlorogenic acid in these berries may help lower blood sugar levels and control blood glucose levels in type-II diabetes mellitus condition.
+
+              The berries also contain a small amount of B-complex group of vitamins such as niacin, folates, and pantothenic acid. It contains great amounts of vitamin B-6, niacin, riboflavin, pantothenic acid and folic acid. These vitamins act as co-factors to help the human body metabolize carbohydrates, protein, and fats.
+
+              Furthermore, they also contain an modest amounts of minerals and electrolytes such as potassium, manganese, copper, iron, and zinc.
+          """,
+        nutrition: ["134 kJ (70 kcal)","0 g","0.3 g","0.4 g","A, B1, B2, B3, B5, B6, B9, C","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
+    ),
+    Fruit(
         title: "Apple",
         headline: "Scientific name: Malus Domestica",
         image: "apple",
@@ -449,6 +481,36 @@ let fruitData: [Fruit] = [
         nutrition: ["209 kJ (50 kcal)","8.5 g","0.3 g","1 g","A, B1, B2, B3, B5, B6, B9, C, K","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
     Fruit(
+        title: "Chokeberry",
+        headline: "Scientific name: Aronia Melanocarpa",
+        image: "chokeberry",
+        gradientColors: [Color("ColorChokeberryLight"), Color("ColorChokeberryDark")],
+        description: """
+          Chokeberry is one of its own kinds of berries packed with essential phytonutrients, vitamins, and antioxidants. These tiny, wild, sub-arctic berries have recently grabbed the attention of fitness lovers and food scientists alike for their promising nutritive values.
+
+          Botanically, black chokeberries belong to the Rosaceae family, of the genus: Aronia. Red chokeberries belong to the same species.
+
+          At least two species of chokeberries cultivated, black and red. Black chokeberry is a small, deciduous shrub native to North-American cold regions. It grows to about 5 to 8 feet tall and bears many small, about 1 cm in diameter, fruits with relatively thick, pigmented skin in pendulous clusters. Red berries are sweeter than black varieties, while the latter are slightly bitter in taste. However, black and blue color berries are rather rich sources anthocyanin class of pigment antioxidants.
+
+          Health benefits of chokeberry
+
+              Chokeberries are low in calories and fats. 100 g of fresh berries carry around 50 calories. Nonetheless, they are one of the richest sources of flavonoid anthocyanin antioxidants among the bush berries. Also, they contain handsome levels of minerals and vitamins. Besides, their peel is also a good source of dietary fiber.
+
+              The oxygen radical absorbency capacity or ORAC (measurement of the antioxidant strength of food items) demonstrates chokeberry with one of the highest values recorded among berries-16,062 micromoles of Trolox Equivalents (TE) per 100 g.
+
+              Black chokeberries consist of significantly high amounts of phenolic flavonoid phytochemicals called anthocyanins. Total anthocyanin content is 1480 mg per 100 g of fresh berries, and proanthocyanidin concentration is 664 mg per 100 g (Wu et al. 2004, 2006). Scientific studies have shown that consumption of berries on a regular basis offers potential health benefits against cancer, aging and neurological diseases, inflammation, diabetes, and bacterial infections. (- By Dr. Paul Gross, 2007-07-09).
+
+              Laboratory analyses of anthocyanins in chokeberries have identified the following individual chemicals: cyanidin-3-galactoside, quercetin, peonidin, delphinidin, petunidin, epicatechin, caffeic acid, pelargonidin, and malvidin. These flavonoid poly-phenolic antioxidants have proven health benefits through scavenging dangerous oxygen-free radicals from the body.
+
+              Cancer research on anthocyanins in black chokeberry preparations was first used to inhibit chemically induced cancer in the rat esophagus and was found to reduce the disease severity by 30-60% and that of the colon cancer by up to 80%. Their tumor suppression activity works at a different level of tumor activity; at initiation and promotion/progression stages of tumor development. They can be a practical research tool and hold a promising therapeutic resource since they contain the highest amount of anthocyanins among native North American berries [J. Agric. Food Chem. 50 (12): 3495–500].
+
+              They are also rich in flavonoid antioxidants such as carotenes, lutein, and zeaxanthins. Zea-xanthin has photo-filtering effects on UV rays and thus protects eyes from the age-related macular disease in the elderly (ARMD).
+
+              Further, they are also good sources of many antioxidant vitamins like vitamin-C, vitamin-A, vitamin-E, beta-carotene and folate and minerals like potassium, iron, and manganese. 100 g of fresh berries provide about 35% of daily recommended levels of vitamin-C.
+          """,
+        nutrition: ["197 kJ (47 kcal)","4.3 g","0.5 g","1.4 g","A, B1, B2, B3, B5, B6, B9, C, K","Calcium, Iron, Magnesium, Potassium, Sodium, Zinc"]
+    ),
+    Fruit(
         title: "Cranberry",
         headline: "Scientific name: Vaccinium subg. Oxycoccus",
         image: "cranberry",
@@ -479,6 +541,38 @@ let fruitData: [Fruit] = [
               Oxygen Radical Absorbance Capacity or ORAC (measurement of the antioxidant strength of food items) demonstrates cranberry at an ORAC score of 9584 µmol TE units per 100 g, one of the highest among edible berries.
           """,
         nutrition: ["190 kJ (46 kcal)","4.04 g","0.13 g","0.39 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
+    ),
+    Fruit(
+        title: "Custard apple",
+        headline: "Scientific name: Annona Reticulata",
+        image: "custard_apple",
+        gradientColors: [Color("ColorCustardAppleLight"), Color("ColorCustardAppleDark")],
+        description: """
+          Custard apple is a delicious, pleasantly fragrant fruit in the Annona family. The fruit is popular for its sweet and slightly tangy, creamy textured flesh. It is also known as bullock's heart in the English speaking countries.
+
+          Botanically, custard is a "multiple-fruit" wherein the fruit is developed from the merger of several individual flowers (ovaries) into a large fruit mass (infructescence).
+
+          The custard apple plant is a large shrub belonging to the Annonaceae family. It is native to the tropical rainforests of Central America and naturalized in many parts of the world, spreading along the tropical stretches, from South America to Africa and Asia.
+
+          Custard apple is a globular, round to heart-shaped fruit with polygonal indentations on its surface. Many cultivars exist, and depending upon the variety there can be green, brown, yellow, maroon fruits.
+
+          Custard apple features tough, outer skin. Inside, individual arils consist of cream-white sheath enveloping single, glossy, deep brown color seeds. The flesh just underneath its surface has a granular texture. Skin and seeds are inedible and discarded. Its flavor described as a reminiscence of mangosteen, sweet and pleasantly tangy, melts inside the mouth.
+
+          Custard apple is smaller in size than cherimoya (A. cherimola), Pond apple (A. glabra) and soursop (A. muricata) but a bit larger than Sugar apple (Atis fruit) (A. squamosa) is grown abundantly in the Philippines. Oftentimes, Sugar apple is termed interchangeably to custard apple.
+
+          Health benefits of custard apple
+
+              Custard apple has relatively more calories than cherimoya. 100 g of the fruit carries 101 calories against 56 calories of cherimoya. The major portion of the calorie comes from simple carbohydrates. It, however, contain no saturated fats or cholesterol.
+
+              As in other Annona family fruits, custards also contain several polyphenolic antioxidants. Among them, the most prominent are Annonaceous acetogenins. Acetogenin compounds such as asimicin and annonacin are potent cytotoxins. These compounds have been found to have anti-cancer, anti-malarial and de-worming properties.
+
+              Custards compose of more vitamin-C (19.2 mg/100 g) than that of in cherimoya. Sugar-apples, however, carry the highest (36.3 mg/100 g) amount of this vitamin among all the Annona fruits. Vitamin-C is a powerful natural antioxidant. Consumption of fruits rich in vitamin-C helps the human body develop resistance against infectious agents and scavenge harmful, pro-inflammatory free radicals from the body.
+
+              Custard apple is a modest source of B-complex vitamins, especially vitamin B-6 (pyridoxine, 17% per 100 g)). Pyridoxine helps keep up GABA neurochemical in the brain. High GABA levels in the blood help calm down nervous irritability, tension, and headache ailments.
+
+              Custards contain minerals such as calcium, copper, magnesium, iron (9% of RDI per 100 g) and manganese. Additionally, they compose more potassium (382 mg per 100 g) than cherimoya (287 mg per 100 g).
+          """,
+        nutrition: ["393 kJ (94 kcal)","0 g","0.29 g","2.06 g","A, B1, B2, B3, B5, B6, B9, C","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
     ),
     Fruit(
         title: "Date",
@@ -519,6 +613,80 @@ let fruitData: [Fruit] = [
                 Further, the fruit has moderate levels of the B-complex group of vitamins as well as vitamin-K. It contains healthy amounts of pyridoxine (vitamin B-6), niacin, pantothenic acid, and riboflavin. These vitamins are acting as cofactors help body metabolize carbohydrates, protein, and fats. Vitamin-K is essential for many coagulant factors in the blood as well as in bone metabolism.
           """,
         nutrition: ["1178 kJ (282 kcal)","63.35 g","0.39 g","2.45 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
+    ),
+    Fruit(
+        title: "Dragon fruit",
+        headline: "Scientific name: Hylocereus Undatus",
+        image: "dragon",
+        gradientColors: [Color("ColorDragonLight"), Color("ColorDragonDark")],
+        description: """
+            Sweet, juicy dragon fruit is obtained from the cactus family plants of Central American origin, in the genus: Hylocereus. They sold as pitihaya or pithaya (Spanish name) in the western markets. It is one of the popular South-East Asian countries, especially Thailand, Malaysia, and Singapore. Some of the common names are strawberry pear, thanh long (viatnamese), Huolóng guo (Chinese), Doragonfurutsu, and Kæwmangkr (in Thai).
+
+            Three common types of Dragon fruit species are:
+
+                Red color fruit coat with white color flesh (Hylocereus undatus): Most common type.
+
+                Red color fruit coat with red color flesh (Hylocereus polyrhizus).
+
+                Yellow color fruit coat with white color flesh (Hylocereus megalanthus).
+
+            Hylocereus species grow well under the tropical climates. In general, cuttings of the mother plants preferred for plantation over seedling. Being a delicate stem plants, cacti needs trellis to support upright growth. It begins fuiting from the second year of plantation. By the month of April, many attractive, cream-white colored flowers appear on the plant which bloom at night. Fruits will be ready for harvesting 30-35 days after successful pollination of flowering. Fruiting period which begins by June will continue up to November. Mature fruits picked up frequently for up to six times within this period.
+
+            The outer coat in immature dragon fruits is bright green in color. As the fruit matures, it turns red in color with ripening. On the inside, ripe fruit features juicy, semi-translucent, pearly-white flesh is dotted with black seeds dispersing uniformly all over the flesh. The fruit features the texture of kiwifruit, and flavor that is reminiscence of melons.
+
+            Health benefits of dragon fruit
+
+                Dragon fruit is modest in calories, comparable to that of kiwifruit, carrying about 50 calories per 100 g. Nonetheless, it holds many health-benefting antioxidants, minerals, vitamins, and fiber.
+
+                Crunchy black seeds of dragon fruit carry an antioxidant phytochemical compound phytoalbumin. Phytoalbumin thought to improve appetite, work as laxative, and good for skin and hair health.
+
+                The fruit is an excellent source of antioxidant vitamin-C; providing about 8-9 mg per 100 g or about 12-15% of the DRI (daily-recommended intake). Consumption of foods rich in vitamin-C helps the body develop resistance to combat against infectious agents and scavenge harmful free radicals.
+
+                Red flesh type pithaya carries contains very healthy levels of vitamin-A, and carotenes. Together; these compounds have been known to have antioxidant properties and are essential for vision. Vitamin-A also required for maintaining healthy mucosa and skin. Consumption of natural fruits rich in carotenes is known to protect from lung and oral cavity cancers.
+
+                It also contains good amounts of minerals like phosphorus, manganese, iron, and magnesium. Manganese used by the human body as a co-factor for the powerful antioxidant enzyme, superoxide dismutase. Magnesium is an important bone-strengthening mineral like calcium.
+          """,
+        nutrition: ["1100 kJ (260 kcal)","82.14 g","0 g","3.57 g","C","Calcium, Iron, Phosphorus"]
+    ),
+    Fruit(
+        title: "Durian fruit",
+        headline: "Scientific name: Durio Zibethinus",
+        image: "durian",
+        gradientColors: [Color("ColorDurianLight"), Color("ColorDurianDark")],
+        description: """
+            Delicious, soft, durian fruit is one of the popular tropical fruits known for its one of a kind fragrance and flavor. Durian is widely recognized as the "King of Fruits" in many South-East Asian countries.
+
+            The durian tree is tropical in origin and belongs to the family of Malvaceae, in the genus, Durio; a large family of plant species which also include some of the interesting relatives such as okra, cocoa beans, hibiscus, and cotton.
+
+            The exotic durian is native to Brunei, Indonesia, and Malaysian rainforests. While there are 30 known species of Durio exist, only 9 of them have been identified for producing edible fruits. Durian tree starts bearing fruits after four or five years after plantation. The tree can grow up to 50 meters in height depending on the species.
+
+            Durian is a seasonal fruit; its season lasts typically from June until August which coincides with that of the other tropical specific fruits like mangosteen, jackfruit, and mango.
+
+            Durian fruit is distinctive for its large size, unique odor, and formidable thorn-covered husk. It can reach up to 30 cm (12 in) long and 15 cm (6 in) in diameter, and typically weighs one to four kilograms (two to seven lb). In shape, it varies from round to oblong; the color of its husk (rind) is green with brown, and its flesh features creamy-yellow to saffron color bulbs depending upon the species.
+
+            The flesh or pulp of durian can be consumed at various stages of ripeness and is used as flavoring agent in a wide variety of culinary and sweet preparations in Southeast Asian cuisines. Durian seeds are small, round to oval shape kernels and appear like that of jackfruit seeds. Although boiled seeds can be eaten safely, many discard them. The seeds feature a bland taste akin to jackfruit seeds.
+
+            Its edible flesh emits a distinctive odor which can be described as robust and penetrating, appreciable from far even while its husk is intact. This unusual stinky and intense odor of the durian fruit may have prompted many people to express diverse and peculiar opinions ranging from profound gratitude to disgusting!
+
+            Health Benefits of Durian fruit
+
+                Durian, like other tropical fruits such as Banana, avocado, and jackfruit, is high in energy, minerals, and vitamins. 100 g fresh fruit carries 147 calories.
+
+                The fruit is made of soft, easily digestible flesh made of simple sugars like fructose and sucrose that when eaten replenishes energy and revitalizes the body instantly. Though it contains a relatively higher amounts of fats among the fruits, it is free from saturated fats and cholesterol.
+
+                Durian is rich in dietary fiber, which makes it a good bulk laxative. The fiber content helps protect the colon mucous membrane by decreasing exposure time to toxins. It also helps bind and eliminates cancer-causing chemicals from the gut.
+
+                The durian fruit is a good source of antioxidant vitamin-C (about 33% of RDA). Consumption of foods rich in vitamin-C helps the human body develop resistance against infectious agents and scavenge harmful free radicals.
+
+                It is an excellent source of health benefiting B-complex groups of vitamins; a rare feature for fruits, such as niacin, riboflavin, pantothenic acid (vitamin B5), pyridoxine (vitamin B-6) and thiamin (vitamin B-1). These vitamins are essential for the body as it requires them from external sources to replenish.
+
+                Further, it also contains a good amount of minerals like manganese, copper, iron and magnesium. Manganese is utilized by the body as a co-factor for the antioxidant enzyme, superoxide dismutase. Copper is required in the production of red blood cells. Iron is essential for red blood cell (RBC's) formation.
+
+                Fresh durian fruit is a very rich source of potassium. Potassium is an essential electrolyte inside cells and body fluids that help controlling heart rate and blood pressure.
+
+                Additionally, it also contains high levels of essential amino acid, tryptophan (also referred as "nature's sleeping pill"). Tryptophan in the humans metabolizes into serotonin and melatonin; the two neurochemicals that play a vital role in sleep initiation and soothe nervous irritability.
+          """,
+        nutrition: ["615 kJ (147 kcal)","0 g","5.33 g","1.47 g","A, B1, B2, B3, B5, B6, B9, C","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
     ),
     Fruit(
         title: "Elderberry",
@@ -595,6 +763,42 @@ let fruitData: [Fruit] = [
               Dried figs are excellent sources of minerals like calcium, copper, potassium, manganese, iron, selenium and zinc. 100 g of dried figs contain 680 mg of potassium, 162 mg of calcium, and 2.03 mg of iron. Potassium is an important component of cell and body fluids that helps controlling heart rate and blood pressure. Copper required in the production of red blood cells. Iron is essential for red blood cell formation as well for cellular oxidation. (Source: USDA National Nutrient Database).
           """,
         nutrition: ["310 kJ (74 kcal)","16.3 g","0.3 g","0.8 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
+    Fruit(
+        title: "Galia melon",
+        headline: "Scientific name: Cucumis Melo var. Reticulates",
+        image: "galia",
+        gradientColors: [Color("ColorGaliaLight"), Color("ColorGaliaDark")],
+        description: """
+          Galia melons are hybrid variant of summer cantaloupes, first developed in Israel. The fruit characteristically features beige color, thick netted rind and soft, juicy, light green sugary flesh inside.
+
+          The fruit is quite popular in Europe and US for its juicy, aromatic and refreshing delicate pale green flesh. It is closely related to cantaloupes, muskmelons, charentias and ogen in the cucumis melo (gourd/cucumber) family.
+
+          Galia melon grows best on arid desert climate and well-draining sandy soil. Early on, the crop requires some moisture in soil to flourish. Like other melons, it runs along soil surface as a trailing vine and requires honeybees for fruiting.
+
+          Galia always comes in round shapes. The fruit is conspicuous by raised pattern of fine netting on its rough skin. At maturity, it attains 4- 6 inches in diameter and weighs about 2 lbs. Inside, pale green flesh is juicy, has a soft consistency with sweet, musky aroma that emanates best in the completely ripe fruits. Flesh encloses central cavity filled with a large number of pale, pointed seeds encased in a web of mucilaginous fibrils.
+
+          Yubari melon (Yubari king) is a special hybrid cultivar type grown in Yubari city in Hokkaido, Japan. Surrounded by mountains and well-drained volcanic ash soil, the produce commands special prize for its sweet mellow flavor.
+
+          Health Benefits of Galia melon
+
+              Galia melons are very low in calorie, sweet and delicious summer melons. Their rich flavorful flesh composes just 34 calories/100g and very minute amounts of fats. Nonetheless, the fruit is rich in numerous health promoting polyphenolic plant derived compounds, vitamins, and minerals that are absolute for optimum health.
+
+              It is also rich in antioxidant flavonoids such as beta-carotene, lutein, zeaxanthin, and cryptoxanthin. These antioxidants have the ability to help protect cells and other structures in the body from oxygen-free radicals and hence; offer protection against colon, prostate, breast, endometrial, lung, and pancreatic cancers.
+
+              The fruit is an excellent source of Vitamin-A, (100 g provides 3382 IU or about 112% of recommended daily levels) one of the highest among cucurbita fruits. Vitamin-A is a powerful antioxidant and is essential for healthy vision.
+
+              Vitamin A and carotenes help for maintaining healthy mucosa and skin in humans. Consumption of natural fruits rich in vitamin-A has been known to help protect from lung and oral cavity cancers.
+
+              Zeaxanthin, an important dietary carotenoid, selectively absorbed into the retinal macula lutea in the eye where it is thought to provide antioxidant and protective UV light-filtering functions. It, thus, offers protection of eyes from "Age-related macular degeneration" (ARMD) disease in the elderly.
+
+              Galia melon is good source of electrolytes, particularly potassium. 100 g fruit provides 267 mg of this electrolyte. Potassium is an important component of cell and body fluids and helps control heart rate and blood pressure. It thus offers protection against stroke and coronary heart diseases.
+
+              The fruit also contains moderate levels of B-complex vitamins, such as niacin, pantothenic acid, and vitamin C, and minerals like manganese. Consumption of foods rich in vitamin-C helps the human body develop resistance against infectious agents and scavenge harmful oxygen-free radicals.
+
+              Minerals in Galia melon take part in metabolic functions inside human body. Manganese is used as a co-factor for the antioxidant enzyme, superoxide dismutase. Commercially, Galia melon are being used to extract an enzyme superoxide dismutase (SOD), which plays a vital role as a first-line antioxidant defences in the human body.
+          """,
+        nutrition: ["142 kJ (34 kcal)","0 g","0.19 g","0.84 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
     ),
     Fruit(
         title: "Goji berry",
@@ -789,6 +993,44 @@ let fruitData: [Fruit] = [
         nutrition: ["285 kJ (68 kcal)","8.92 g","0.95 g","2.55 g","A, B1, B2, B3, B5, B6, B9, C, K","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
     ),
     Fruit(
+        title: "Horned melon",
+        headline: "Scientific name: Cucumis Metuliferus",
+        image: "horned",
+        gradientColors: [Color("ColorHornedLight"), Color("ColorHornedDark")],
+        description: """
+          Horned melon is a cucumber family fruit juicy, emerald-green, jellylike flesh. Some of common names of this semi-arid, yellow orange, oblong-shaped fruit are kiwano, melano, African horned cucumber, jelly melon, hedged gourd, horned melon, etc.
+
+          Horned melon is native to the semiarid regions of South Africa; Botswana in the south to Nigeria in the central Africa. Nowadays, it is grown as far as New Zealand and Australia for the export market to USA and Europe.
+
+          Horned melon is a monoecious, climbing, annual herb. In its natural habitat, it climbs on any supports it comes across like trees, or shrubs.
+
+          It bears several attractive, oval to ellipsoid fruits, each measuring about 3 to 5 inches in length and 2 to 3 inches across, and has thick, shiny, variegated skin studded with many bumpy thorns all over the surface.
+
+          Inside, kiwano has the same appearance as cucumbers. The edible part consists of numerous flattened seeds, 6-9 mm long and embedded in a light green or emerald-green, jelly-like flesh. Unlike as in cucumbers, however, the peel is inedible and should be discarded.
+
+          Its flesh tastes rather bland or very mild sweet, described as musky, banana flavor.
+
+          Health benefits of horned melon
+
+              Horned melons are low calorie fruits. 100 grams of fresh fruit composes just 44 calories. Nonetheless, this tropical melon is endowed with health benefiting phyto-nutrients, dietary-fiber, minerals and vitamins.
+
+              The antioxidants present in kiwanos have scientifically proven to be anti-inflammatory, skin-protective and may help prevent from cancers.
+
+              Fresh melons carry good amount of phenolic compounds such as β-carotene, and zea-xanthin. Zeaxanthin helps protect retina from the "age-related macular related macular disease" (ARMD) by filtering harmful ultra-violet rays, especially in the older adults.
+
+              Further, kiwano carries 143 IU/100 g of vitamin-A. Together with pigment compounds, vitamin A plays as antioxidant and take part in night-vision, maintenance of healthy mucosa and skin, and bones. Consumption of natural vegetables and fruits rich in flavonoids is known to help protect from lung and oral cavity cancers.
+
+              Fresh kiwano fruit contains 5.3 mg (9% of DV) of vitamin-C. Consumption of foods rich in vitamin-C helps the body develop resistance against infectious agents and scavenge harmful free radicals.
+
+              Fresh Horned melon is modest source of potassium and other electrolytes. Potassium is an important component of cell and body fluids that helps controlling heart rate and blood pressure caused by sodium.
+
+              100 g of fesh fruit provides 1.1.3 mg (14% DV) of iron and 40 mg (10% DV) of magnesium. It is also a good source of mnerals like phosporus, calcium, magnesium and other trace elements.
+
+              Further, they carry average levels of vital B-complex vitamins such as thiamin, niacin, folic acid, riboflavin and pantotheinc acids.
+          """,
+        nutrition: ["183 kJ (44 kcal)","0 g","1.26 g","1.78 g","A, B1, B2, B3, B5, B6, B9, C, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
+    Fruit(
         title: "Jackfruit",
         headline: "Scientific name: Artocarpus Heterophyllus",
         image: "jackfruit",
@@ -867,44 +1109,6 @@ let fruitData: [Fruit] = [
         nutrition: ["331 kJ (79 kcal)","20.23 g","0.2 g","1.2 g","A, B1, B2, B3, B5, B6, C","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
     ),
     Fruit(
-        title: "Persimmon fruit or Kaki",
-        headline: "Scientific name: Diospyros virginiana",
-        image: "kaki",
-        gradientColors: [Color("ColorKakiLight"), Color("ColorKakiDark")],
-        description: """
-          Persimmon fruit is a golden yellow, round or oval, flavorful, smooth textured delicacy of the Far East-Asian origin. Its sweet, delicious flesh is packed with much health promoting nutrients such as vitamins, minerals, and antioxidants vital for optimum health.
-
-          Botanically, persimmons belong to the family of Ebenaceae, in the genus: Diospyros. This delicate fruit is native to China. From China, it spread to the Korean peninsula and Japan a very long time ago and later was introduced to California during the middle of the 19th century.
-
-          Persimmons are either multi-trunked or single-stemmed deciduous trees, which may grow up to 25 ft in height. They grow best in areas where winters are moderate and summers relatively mild.
-
-          Persimmon trees classified broadly into two general categories: those that bear "astringent fruit" (while unripe) and those that bear "non-astringent" fruits. An astringent cultivar, which is commonly cultivated in Japan known as “Hachiya,” is high in tannins and must be allowed to ripen completely on the tree itself until it attains jelly-soft consistency before accepted to be fit for consumption. A non-astringent persimmon, on the other hand, contains less tannin and can be eaten while it is crispy, as in apples. Astringency can be removed by treating the fruit with carbon dioxide or alcohol.
-
-          During each season, persimmon tree bears many fruits that vary by cultivar from spherical to heart to flatten or squash-like in shape. They also greatly vary in size from as little as a few ounces to more than a pound. The color of the fruit ranges from light yellow-orange to dark orange-red. The entire fruit is edible except for the seed and calyx.
-
-          Astringent varieties: Eureka, Hachiya, Saijo, Tamopan, Tanenashi, Triumph, etc.
-
-          Non-astringent varieties: Fuyu (Fuyugaki), Gosho/Giant Fuyu/O'Gosho, Imoto, Izu, Jiro, Maekawajiro, Okugosho, Suruga, etc.
-
-          Health benefits of persimmon fruit
-
-              Persimmon fruit is moderately high in calories (provides 70 calories/100 g) but very low in fats. Its smooth textured flesh is a very good source of dietary fiber. 100 g of fresh fruit holds 3.6 g or 9.5% of recommended daily intake of soluble and insoluble fiber.
-
-              Persimmons contain health benefiting flavonoid polyphenolic antioxidants such as catechins and gallocatechin in addition to having an important anti-tumor compound, betulinic acid. Catechins found to have anti-infective, anti-inflammatory and anti-hemorrhagic (prevents bleeding from small blood vessels) properties.
-
-              Some of other antioxidant compounds found abundantly in this fruit are vitamin-A, β-carotene, lycopene, lutein, zeaxanthin and cryptoxanthin. Together, these compounds work as protective scavengers against oxygen-derived free radicals and reactive oxygen species (ROS) that play a role in aging and various disease processes.
-
-              Zeaxanthin, an important dietary carotenoid, is selectively absorbed into the retinal macula lutea in the eyes where it thought to provide antioxidant and protective light-filtering functions. It, thus, helps prevent "Age-related macular related macular disease"(ARMD) in the elderly.
-
-              Persimmons are also a very good source of vitamin-C, another powerful antioxidant (especially native Chinese and American persimmons; provide 80% of DRI). Regular consumption of foods rich in vitamin-C helps the body develop resistance against infectious agents and scavenge harmful, pro-inflammatory free radicals.
-
-              It is good in many valuable B-complex vitamins such as folic acid, pyridoxine (vitamin B-6), thiamin, etc. These vitamins act as co-factors for numerous metabolic enzymatic functions in the body.
-
-              Fresh and dry Persimmon fruits also contain healthy amounts of minerals like potassium, manganese (15% of DRI), copper (12% of DRI), and phosphorus. Manganese is a co-factor for the enzyme, superoxide dismutase, which is a very powerful free radical scavenger. Copper is a co-factor for many vital enzymes, including cytochrome c-oxidase and superoxide dismutase (other minerals function as cofactors for this enzyme are manganese and zinc). Copper also required for the production of red blood cells.
-          """,
-        nutrition: ["293 kJ (70 kcal)","12.53 g","0.19 g","0.58 g","A, B1, B2, B3, B6, B9 C, Choline, E, K","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
-    ),
-    Fruit(
         title: "Kiwi",
         headline: "Scientific name: Actinidia Chinensis",
         image: "kiwi",
@@ -981,6 +1185,42 @@ let fruitData: [Fruit] = [
               Further, kumquats are a modest source of minerals like calcium, copper, potassium, manganese, iron, selenium, and zinc. Calicum is the chief element required for bone and teeth formation. Copper needed in the production of red blood cells. Iron required for red blood cell formation as well for cellular oxidation.
           """,
         nutrition: ["296 kJ (71 kcal)","9.36 g","0.86 g","1.88 g","A, B1, B2, B3, B5, B6, B9, C, Choline, E","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
+    Fruit(
+        title: "Lanzones",
+        headline: "Scientific name: Lansium Domesticum Correa",
+        image: "lanzones",
+        gradientColors: [Color("ColorLanzonesLight"), Color("ColorLanzonesDark")],
+        description: """
+          Lanzone fruit is a sweet, delicious, round to oval berry native to Malayan Peninsular tropical fruiting trees in the Mahogany family. Its refreshingly sweet and tangy flavor is liked by many fruit lovers in the South East Asian countries.
+
+          It is chiefly grown in the Malaysia, Indonesia, Philippines, Thailand and Brunei. Some of the common names are Duku, langsat, lansa, langseh, langsep, lansone, or kokosan, etc.
+
+          Lanzone tree grows well under tropical humid environments. It is a long erect plant which begins to yield after about 4 years of plantation and continue to bear fruits for over 100 years. Duku, longkong, paete and Jolo are popular cultivars among the farmers.
+
+          Small, yellow flowers appear from April to June, which develop into greenish berries in clusters. The fruits are ready for harvesting between August and November when their surface color turns brownish yellow.
+
+          Each lanzones berry measures about 3.5 to 4 cm in diameter with thick, hairy outer skin. The leathery skin in raw unripe fruits emits clear milk-like resin.
+
+          Inside, the segmented fleshy aril is almost gel-like, semi-translucent. It s flavor is sweet and lightly acidic like longan or lychee, juicy and refreshing. The seeds are soft, bitter and should be discarded.
+
+          Health benefits of Lanzones
+
+              Fresh lanzones fruit carries 57 calories per 100 g of edible portion. It has no saturated fats or cholesterol but composes of good amounts of dietary fiber, vitamins, and antioxidants.
+
+              Fresh arils contain only a fewer polyphenols antioxidants. However, its skin and seeds contain abundant polyphenols. Quantitative analysis showed that lanzone peel had the highest total flavonoids (213.45 mg quercetin/g dried material) among tropical fruits.
+
+              The fruit is very juicy and refreshing. Its simple sugars, fructose and sucrose, boosts energy and help revitalize through electrolytes, minerals and vitamins.
+
+              Its fresh arils hold small amounts of vitamin-C (just 2 mg/100 g).
+
+              It carries good amounts of dietary fiber, 0.8 g per 100 g. Good fiber diet help control cholesterol levels and body weight.
+
+              Fresh fruits are very good source of B-complex vitamins such as thiamin, riboflavin, niacin, and folates. These vitamins are essential since they function by acting as co-factors to help the body metabolize carbohydrates, protein, and fats.
+
+              Further, it also carries small amounts of minerals like calcium (19 mg), phosphorus (31 mg) and iron (0.9 mg). Being a juicy tropical fruit, it holds good amounts of potassium, an important component of cell and body fluids help control heart rate and blood pressure; thus, it offers protection against high blood pressure and stroke.
+          """,
+        nutrition: ["238 kJ (57 kcal)","0 g","14.2 g","1 g","A, B1, B2, B3, B5, B6, B9, C","Calcium, Iron, Phosphorus, Potassium, Sodium"]
     ),
     Fruit(
         title: "Lemon",
@@ -1066,6 +1306,40 @@ let fruitData: [Fruit] = [
         nutrition: ["126 kJ (30 kcal)","1.7 g","0.2 g","0.7 g","B1, B2, B3, B5, B6, B9, C","Calcium, Iron, Magnesium, Phosphorus, Potassium"]
     ),
     Fruit(
+        title: "Loquat fruit",
+        headline: "Scientific name: Eriobotrya Japonica",
+        image: "loquat",
+        gradientColors: [Color("ColorLoquatLight"), Color("ColorLoquatDark")],
+        description: """
+        Succulent, tangy yet sweet, wonderfully delicious loquat fruit is rich in vitamins, minerals, and anti-oxidants. This unique fruit originated in the wild, evergreen rainforests of Southeastern China, from where it spread all across the world including Japan. Some of the common names of loquat include Japanese plum, Japanese medlar, Maltese plum, etc.
+
+        Loquat plant can be described as an evergreen, large shrub or small tree belonging to the family of Rosaceae, in the genus; Eriobotrya.
+
+        The botanical name is Eriobotrya japonica and closely related to the "apples."
+
+        Loquat fruits begin appearing in the trees by the end of winter season. Mature fruits can be ready to harvest by June in Japan; however, their harvesting season may vary from region to region. The fruits are oval to pear in shape, appear in bunches of 5-20, and measure about 3 cm in width and 3-5 cm in length.
+
+        In general, the fruits are allowed to ripen on the tree itself before harvesting. Ripe fruits have a soft texture. Externally, its yellow to orange color skin is fuzzy but smooth. Internally, the flesh is either white or golden yellow depending on the cultivar type. Each fruit contains 3-5, centrally placed large, brown seeds. Seeds are inedible and may carry toxic cyanogen-glycosides.
+
+        Being a member of Rosaceae family of fruits, loquats have similar taste and flavor as that of apples; tart, and sweet with a pleasant aroma. However, they are soft and juicy in texture instead of crispy as in apples. Loquat's leaves also employed in traditional medicines, and as herbal tea in many parts of the world.
+
+        Health Benefits of Loquat fruit
+
+            Delicious, loquats carry lower calories; provide just 47 calories per 100 g. Nonetheless, they are rich in insoluble dietary fiber, pectin. Pectin holds back moisture inside the colon, and thus functions as bulk laxative. This way, it helps protect the colon mucosa by cutting exposure time of toxic substances as well as binding to cancer-causing chemicals in the colon.
+
+            Pectin has also been shown to reduce blood cholesterol levels by lowering its reabsorption in the colon through binding bile acids, resulting in its excretion from the body.
+
+            Loquat fruit is an excellent source of vitamin-A (provides about 1528 IU or 51% of daily recommended levels of this vitamin per 100g), and phenolic flavonoid antioxidants such as chlorogenic acid, neo-chlorogenic acid, hydroxybenzoic acid, feruloyl quinic acid, protocatechuic acid, epicatechin, coumaric acids and ferulic acid. Ripe fruits have more chlorogenic acid concentrations.
+
+            Vitamin-A helps maintain the integrity of mucosa and skin. Lab studies suggest that consumption of natural fruits rich in vitamin-A, and flavonoids may offer protection from lung and oral cavity cancers.
+
+            Fresh fruit is good in potassium and some B-complex vitamins such as folates, vitamin B-6 and niacin and contain small amounts of vitamin-C. Potassium is an important component of cell and body fluids that helps to regulate heart rate and blood pressure.
+
+            Furthermore, the fruit is also an excellent source of iron, copper, calcium, manganese, and other minerals. The body uses manganese as a co-factor for the antioxidant enzyme, superoxide dismutase. Copper is essential in the production of red blood cells. Iron is required for as a cofactor in cellular oxidation as well in red blood cell formation.
+        """,
+        nutrition: ["197 kJ (47 kcal)","0 g","0.2 g","0.43 g","A, B1, B2, B3, B6, B9, C","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Zinc"]
+    ),
+    Fruit(
         title: "Lychee",
         headline: "Scientific name: Litchi Chinensis",
         image: "lychee",
@@ -1096,6 +1370,46 @@ let fruitData: [Fruit] = [
             Litchi also carries many minerals like potassium and copper. Potassium is an important component of cell and body fluids help control heart rate and blood pressure; thus, it offers protection against stroke and coronary heart diseases. Copper required in the production of red blood cells.
         """,
         nutrition: ["276 kJ (66 kcal)","15.23 g","0.44 g","0.83 g","B1, B2, B3, B6, B9, C","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
+    ),
+    Fruit(
+        title: "Mamey Sapote",
+        headline: "Scientific name: Pouteria Sapota",
+        image: "mamey",
+        gradientColors: [Color("ColorMameyLight"), Color("ColorMameyDark")],
+        description: """
+        Mamey sapote is a delicious tropical fruit, closely related to sapodilla (sapota). The plant is medium sized fruiting tree native to low land forests of Central America.
+
+        Mamey is a medium-sized tropical, fruiting tree belongs to the family of Sapotaceae, in the genus: Pouteria. Some of the common names are Red sapote, mamey colorado, marmalade plum, etc.
+
+        Pouteria sapota, like other Sapotaceae plants, features erect, thick central trunk and a few large limbs. Most trees shed most of the leaves in late winter or spring, but new shoots appear rapidly. The fruit is cultivated in other tropical countries such as Australia, USA, Philippines, Indonesia, and Malaysia.
+
+        After about 6-7 years of plantation, th tree bears small, whitish flowers which develop into oblong shaped fruits. The fruit is a large berry, ovoid to ellipsoid in shape, with an attached calyx at the base. The fruit measures about 6 to 10 cm in diameter and 8 to 15 cm in length. Its outer skin is rough, leathery, thick with a russet brown, somewhat scurfy surface as in sapodilla.
+
+        On the inside, the pulp of ripe fruits is soft, finely granular, salmon pink, deep-orange, or reddish-brown in color. The flesh is sweet, somewhat custardy flavor. The fruit contains a single, hard, glossy, elliptical seed at its center. Mamey fruit weighs ranges from 300 grams to as large as 2.5 kg.
+
+        Health benefits of Mamey sapote
+
+            Mamey sapote relatively carries more calories than many other tropical fruits like banana, jackfruit, and its close family member sapodilla 100 g of fresh fruit holds 124 calories.
+
+            Mamey sapote composes soft, easily digestible pulp made up of simple sugars like fructose and sucrose. It is one of the food that can instantly replenishes energy and revitalizes the body. It is also one of the recommended supplement food included in the treatment plan for under-nourished children and low body weight (BMI) people to regain weight and strength.
+
+            Mamey fruit is an excellent source of dietary fiber (5.4 g/100g), which makes it a good bulk laxative. Unlike in most leafy vegetables, mamey fruit fiber composes soluble fibers which helps in smoother bowel movements and work to protect colon mucosa from bacteria and cancer-causing toxins.
+
+            Its pulp carries several polyphenolic antioxidant compounds like tannin. Tannins are a composite family of naturally occurring polyphenols. Research studies suggest that tannins possess astringent properties, and shown to have potential anti-inflammatory, antiviral, antibacterial, and anti-parasitic effects. Hence, these compounds may found useful applications in traditional medicines as antidiarrheal, hemostatic (stops bleeding) and as a remedy for hemorrhoids.
+
+            Moreover, the anti-inflammatory actions of tannins found helpful in the treatment of reflux esophagitis (GER), erosive gastritis, enteritis, and irritating bowel disorders. Some other fruits that also rich in tannins include pomegranate, persimmon, and grapes.
+
+            Mamey sapote holds some of the well-known antioxidant vitamins like vitamin-C at higher proportions than its cousin sapodilla. Fresh mamey has 24 mg or 38% of recommended daily intake per 100 g of fruit. Consumption of foods rich in vitamin-C helps the human body attain immunity against viral infectious agents and help scavenge harmful oxygen free radicals.
+
+            Additionally, it contains several other health promoting flavonoid poly-phenolic antioxidants such as lycopene, lutein, zeaxanthin, and β-carotenes in good concentrations. Together, these compounds help act as protective scavengers against oxygen-derived free radicals and reactive oxygen species (ROS) that play a role in aging and various disease processes.
+
+            Mamey (Red sapote) is better source of vitamin-B6 (pyridoxine) and niacin (B-3) than sapodilla. It provides about 55% and 9% against just 3% and 1% of daily-recommended allowance of sapodilla per 100 g. Pyridoxine is an essential B-complex vitamin that has a beneficial role in the treatment of neuritis, and anemia.
+
+            Further, vitamin B-6 helps decrease homocysteine levels within the human body. Homocysteine is one of the triggering factors in coronary artery disease (CHD) and stroke episodes.
+
+            Fresh ripe red sapote has higher levels of potassium than sapodilla (454 mg vs. 193 mg). Further its mineral and other B-complex group of vitamins composition is also superior to sapodilla. It holds more copper, iron and vitamins like folate, riboflavin and pantothenic acid than sapodilla. These compounds are essential for optimal health as they involve in various metabolic processes in the body as cofactors for the enzymes.
+        """,
+        nutrition: ["519 kJ (124 kcal)","20.14 g","0.46 g","1.45 g","A, B1, B2, B3, B6, B9, C, E","Calcium, Copper, Iron, Magnesium, Phosphorus, Potassium, Sodium, Zinc"]
     ),
     Fruit(
         title: "Mango",
@@ -1134,6 +1448,84 @@ let fruitData: [Fruit] = [
               Additionally, mango peel is also rich in phytonutrients, such as the pigment antioxidants like carotenoids and polyphenols.
           """,
         nutrition: ["250 kJ (60 kcal)","13.7 g","0.38 g","0.82 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
+    Fruit(
+        title: "Mangosteen",
+        headline: " Scientific name: Garcinia Mangostana",
+        image: "mangosteen",
+        gradientColors: [Color("ColorMangosteenLight"), Color("ColorMangosteenDark")],
+        description: """
+          Unique for its appearance and flavor, mangosteen is often revered as "the Queen" of tropical fruits, particularly in the South-East Asian regions. This exotic, round, purple color fruit is quite popular for its snow-white, juicy, delicious arils all of the Asian countries, and in recent years by the European and American fruit lovers as well!
+
+          Botanically, it is the fruit belonging to the family of Clusiaceae, of the genus: Garcinia. Known as "Mangkhud- (มังคุด)" in Thai, Thailand is the largest producer and exporter of mangosteens.
+
+          Mangosteen plant is an evergreen, upright tree reaching about 20- 60 ft in height. It commonly found in tropical rainforests of Indonesia, Malaysia, Thailand, and the Philippines as well as in some cultivated orchards in Sri Lanka, and India, where annual precipitation and relative humidity are favorable for its growth. Fresh purple fruits can be available in the markets from June until October.
+
+          Each tree bears several deep-purple, round shape fruits capped with light green calyx at the stem end. Completely matured fruit measures about 3-7 cm in diameter. Its tough outer rind is about 7-12 mm thick which contains bitter yellow latex that stains clothes black.
+
+          Internally; it features 4 to 10 juicy, snow-white, soft, fleshy, triangular segments as in oranges. Each segment may carry 1-4 off-white colored seeds. Seeds are inedible and bitter in taste. The flavor of the fruit can be best described as sweet, mildly tangy, fragrant, and delicious.
+
+          Different species of Garcinia grown all around the Southeast Asia, Africa, and South America all along the tropical belt. Cherapu or Button mangosteen (Garcinia prainiana) is native to Malaysia. It features somewhat flat, mandarin orange-like shape with a thin rind that can be peeled very easily by hand, again as in oranges.
+
+          Lemon drop mangosteens (Garcinia madruno) are small size (2-4 cm diameter) fruits, native to Malayan peninsula.
+
+          African mangosteen or Imbe (Garcinia livingstonei) is native to West Africa. They are slightly larger than lemon drop type.
+
+          Health benefits of mangosteen
+
+              Delicious and juicy, mangosteen is one of the popular tropical fruits. It comprises of an impressive list of essential nutrients which required for normal growth and development and overall nutritional well-being.
+
+              It is moderately low in calories (63 calories per 100 g) and contains no saturated fats or cholesterol. Nonetheless, it is rich in dietary fiber (100 g provides about 13% of RDA).
+
+              Mangosteen is good source of vitamin-C and provides about 12% of RDA per 100 g. Vitamin-C is a powerful water soluble antioxidant. Consumption of fruits rich in vitamin-C helps the human body develop resistance to combat viral flu and help scavenge harmful, pro-inflammatory free-radicals.
+
+              Fresh fruit is a mild source of B-complex vitamins such as thiamin, niacin, and folates. These vitamins are acting as cofactors the help body metabolize carbohydrates, protein, and fats.
+
+              Further, it also contains a splendid amount of minerals like copper, manganese, and magnesium. Potassium is an important component of cell and body fluids and helps control heart rate, and blood pressure, thus, it offers protection against stroke and coronary heart diseases.
+          """,
+        nutrition: ["305 kJ (73 kcal)","0 g","0.58 g","0.41 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
+    ),
+    Fruit(
+        title: "Mulberry",
+        headline: " Scientific name: Morus Nigra",
+        image: "mulberry",
+        gradientColors: [Color("ColorMulberryLight"), Color("ColorMulberryDark")],
+        description: """
+          Refreshingly succulent, tart and sweet mulberries are indeed rich in numerous health benefiting flavonoid phytonutrients. Botanically, they are the berries obtained from the silkworm tree belonging to the Moraceae family, within the Genus: Morus. In Spanish, they are known as moras.
+
+          More than hundred species of Morus exist. In the taxonomy, the species generally identified by the color of flower buds and leaves, but not by the color of the berries. So, a mulberry plant can exhibit different colored berries; black, purple, red, white, etc., on the same plant.
+
+          Three species have been recognized for their economic importance.
+
+              White mulberry (Morus alba) is native to eastern and central China.
+
+              Red or American mulberry (Morus rubra) is native to the eastern United States.
+
+              Black mulberry (Morus nigra) is native to western Asia.
+
+          Mulberries are large, deciduous trees native to the warm, temperate, and subtropical regions of Asia, Africa, and the Americas. Technically, mulberry fruit is an aggregation of small fruits arranged concentrically around the central axis as in blackberry or loganberries. Each fruit measures 2-5 cm in length. In most species, mulberries feature purple-red color while ripening; however, there can be white, red, purple or multiple variegated colors on the same berry.
+
+          Health benefits of mulberries
+
+              Delicious, fleshy, succulent mulberries are less in calories (just 43 calories per 100 g). They compose of health-promoting phytonutrient compounds like polyphenol pigment antioxidants, minerals, and vitamins that are essential for optimum health.
+
+              Mulberries have significantly high amounts of phenolic flavonoid phytochemicals called anthocyanins. Scientific studies have shown that consumption of berries has potential health effects against cancer, aging and neurological diseases, inflammation, diabetes, and bacterial infections.
+
+              The berries contain resveratrol, another polyphenol flavonoid antioxidant. Resveratrol protects against stroke risk by altering molecular mechanisms in the blood vessels; reducing their susceptibility to damage through reduced activity of angiotensin (a systemic hormone causing blood vessel constriction that would elevate blood pressure) but potentiating production of the vasodilator hormone, nitric oxide.
+
+              Also, these berries are excellent sources of vitamin-C (36.4 mg per 100, about 61% of RDI), which is also a powerful natural antioxidant. Consumption of foods rich in vitamin-C helps the body develop resistance against infectious agents, counter inflammation and scavenge harmful free radicals.
+
+              Further, the berries also contain small amounts of vitamin-A, and vitamin-E in addition to the antioxidants mentioned above. Consumption of mulberry provides another group of health promoting flavonoid poly phenolic antioxidants such as lutein, zeaxanthin, ß-carotene and a-carotene in small but notably significant amounts. Altogether, these compounds help act as protect from harmful effects of oxygen-derived free radicals and reactive oxygen species (ROS) that play a role in aging and various disease processes.
+
+              Zeaxanthin, an important dietary carotenoid selectively concentrates into the retinal macula lutea, where it thought to provide antioxidant functions and protects the retina from the harmful ultraviolet rays through light-filtering actions.
+
+              Mulberries are an excellent source of iron, which is a rare feature among berries, contain 1.85 mg/100 g of fruits (about 23% of RDI). Iron, being a component of hemoglobin inside the red blood cells, determines the oxygen-carrying capacity of the blood.
+
+              They also a good source of minerals like potassium, manganese, and magnesium. Potassium is an important component of cell and body fluids that helps controlling heart rate and blood pressure. The body uses manganese as a co-factor for the antioxidant enzyme, superoxide dismutase.
+
+              They are rich in B-complex group of vitamins, and vitamin K. Contain very good amounts of vitamin B-6, niacin, riboflavin and folic acid. These vitamins function as co-factors and help the human body in the metabolism of carbohydrates, protein, and fats.
+          """,
+        nutrition: ["180 kJ (43 kcal)","8.1 g","0.39 g","1.44 g","A, B1, B2, B3, B6, B9, C, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
     ),
     Fruit(
         title: "Nectarine",
@@ -1342,6 +1734,44 @@ let fruitData: [Fruit] = [
         nutrition: ["239 kJ (57 kcal)","9.75 g","0.14 g","0.36 g","B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
     Fruit(
+        title: "Persimmon fruit or Kaki",
+        headline: "Scientific name: Diospyros virginiana",
+        image: "kaki",
+        gradientColors: [Color("ColorKakiLight"), Color("ColorKakiDark")],
+        description: """
+          Persimmon fruit is a golden yellow, round or oval, flavorful, smooth textured delicacy of the Far East-Asian origin. Its sweet, delicious flesh is packed with much health promoting nutrients such as vitamins, minerals, and antioxidants vital for optimum health.
+
+          Botanically, persimmons belong to the family of Ebenaceae, in the genus: Diospyros. This delicate fruit is native to China. From China, it spread to the Korean peninsula and Japan a very long time ago and later was introduced to California during the middle of the 19th century.
+
+          Persimmons are either multi-trunked or single-stemmed deciduous trees, which may grow up to 25 ft in height. They grow best in areas where winters are moderate and summers relatively mild.
+
+          Persimmon trees classified broadly into two general categories: those that bear "astringent fruit" (while unripe) and those that bear "non-astringent" fruits. An astringent cultivar, which is commonly cultivated in Japan known as “Hachiya,” is high in tannins and must be allowed to ripen completely on the tree itself until it attains jelly-soft consistency before accepted to be fit for consumption. A non-astringent persimmon, on the other hand, contains less tannin and can be eaten while it is crispy, as in apples. Astringency can be removed by treating the fruit with carbon dioxide or alcohol.
+
+          During each season, persimmon tree bears many fruits that vary by cultivar from spherical to heart to flatten or squash-like in shape. They also greatly vary in size from as little as a few ounces to more than a pound. The color of the fruit ranges from light yellow-orange to dark orange-red. The entire fruit is edible except for the seed and calyx.
+
+          Astringent varieties: Eureka, Hachiya, Saijo, Tamopan, Tanenashi, Triumph, etc.
+
+          Non-astringent varieties: Fuyu (Fuyugaki), Gosho/Giant Fuyu/O'Gosho, Imoto, Izu, Jiro, Maekawajiro, Okugosho, Suruga, etc.
+
+          Health benefits of persimmon fruit
+
+              Persimmon fruit is moderately high in calories (provides 70 calories/100 g) but very low in fats. Its smooth textured flesh is a very good source of dietary fiber. 100 g of fresh fruit holds 3.6 g or 9.5% of recommended daily intake of soluble and insoluble fiber.
+
+              Persimmons contain health benefiting flavonoid polyphenolic antioxidants such as catechins and gallocatechin in addition to having an important anti-tumor compound, betulinic acid. Catechins found to have anti-infective, anti-inflammatory and anti-hemorrhagic (prevents bleeding from small blood vessels) properties.
+
+              Some of other antioxidant compounds found abundantly in this fruit are vitamin-A, β-carotene, lycopene, lutein, zeaxanthin and cryptoxanthin. Together, these compounds work as protective scavengers against oxygen-derived free radicals and reactive oxygen species (ROS) that play a role in aging and various disease processes.
+
+              Zeaxanthin, an important dietary carotenoid, is selectively absorbed into the retinal macula lutea in the eyes where it thought to provide antioxidant and protective light-filtering functions. It, thus, helps prevent "Age-related macular related macular disease"(ARMD) in the elderly.
+
+              Persimmons are also a very good source of vitamin-C, another powerful antioxidant (especially native Chinese and American persimmons; provide 80% of DRI). Regular consumption of foods rich in vitamin-C helps the body develop resistance against infectious agents and scavenge harmful, pro-inflammatory free radicals.
+
+              It is good in many valuable B-complex vitamins such as folic acid, pyridoxine (vitamin B-6), thiamin, etc. These vitamins act as co-factors for numerous metabolic enzymatic functions in the body.
+
+              Fresh and dry Persimmon fruits also contain healthy amounts of minerals like potassium, manganese (15% of DRI), copper (12% of DRI), and phosphorus. Manganese is a co-factor for the enzyme, superoxide dismutase, which is a very powerful free radical scavenger. Copper is a co-factor for many vital enzymes, including cytochrome c-oxidase and superoxide dismutase (other minerals function as cofactors for this enzyme are manganese and zinc). Copper also required for the production of red blood cells.
+          """,
+        nutrition: ["293 kJ (70 kcal)","12.53 g","0.19 g","0.58 g","A, B1, B2, B3, B6, B9 C, Choline, E, K","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
+    ),
+    Fruit(
         title: "Pineapple",
         headline: "Scientific name: Ananas Comosus",
         image: "pineapple",
@@ -1372,6 +1802,34 @@ let fruitData: [Fruit] = [
               Further, ananas fruit is rich in the B-complex group of vitamins like folates, thiamin, pyridoxine, riboflavin and minerals like copper, manganese, and potassium. Potassium is an important component of cell and body fluids, helps controlling heart rate and blood pressure. Copper is an essential cofactor for red blood cell synthesis. Manganese is a co-factor for the enzyme superoxide dismutase, which is a very powerful free radical scavenger.
           """,
         nutrition: ["209 kJ (50 kcal)","9.85 g","0.12 g","0.54 g","B1, B2, B3, B5, B6, B9, C, Choline","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
+    ),
+    Fruit(
+        title: "Pineapple Guava",
+        headline: "Scientific name: Acca Sellowiana",
+        image: "pineapple_guava",
+        gradientColors: [Color("ColorPineappleGuavaLight"), Color("ColorPineappleGuavaDark")],
+        description: """
+          Pineapple guava, also known as Feijoa, is a sweet, juicy and delicious fruit of South-American origin. The fruit and its products are widely popular in Brazil, Argentina, Bolivia in South America and New Zealand in the Oceania.
+
+          Botanically, it is a small tree (shrub) in the Myrtle (Myrtaceae) family. Guava, rose apple and allspice are other closely related plants in the Myrtaceae family.
+
+          Acca sellowiana (feijoa) is an evergreen shrub that reaches about 8–15 feet in height and spread out into a large bush. Its oval-shaped, thick, fleshy, deep-green leaves feature gray surface underneath. The plant bears attractive golden-yellow flowers with white petals and long maroon color stamen. After about 5 to 6 months of flowering, fruits ready to eat cover all over the bush.
+
+          Pineapple guava is oval fruit which closely resembles unripe medium-size deep-green guava from a distance. It measures about 1/5 to 2.5 inches in length, 2 inches in diameter, and weigh about 50 g. Once ripe, the fruit drops off from the tree which is gathered and eaten immediately. It emanates sweet fruity aroma that reminiscences blend of banana and pineapple or pineapple and guava (and hence, the name pineapple guava). If not consumed, the whole fruit would perish rather soon unless preserved.
+
+          Inside, it features central, jelly textured seed pulp surrounded by soft, grey-white flesh. Its flesh is sweet, somewhat tart, and strongly aromatic. Although its skin is edible as in guava, it generally discarded.
+
+          Health benefits of Pineapple guava
+
+              Pineapple guava is low in calories; 100 g of fresh fruit holds only 55 calories. Nonetheless, it is low-fat, cholesterol-free fruit packed with vitamins, and antioxidant profile that help immensely towards healthy state of wellbeing that is free from illnesses.
+
+              The fruit is a very rich source of soluble dietary fiber (6.4 g per 100 g of fruit, about 17% of DRA), which makes it a good bulk laxative. The fiber content helps protect the colon mucous membrane by decreasing exposure time to toxins as well as binding to cancer-causing chemicals in the colon.
+
+              Feijoa fruit is an excellent source of antioxidant vitamin-C. 100 g fresh fruit provides 32.9 mg of this vitamin, about 55% of DRI (daily-recommended intake). Vitamin-C is a water-soluble antioxidant that works well against viral illness through immune-boosting means. Regular consumption of fruits rich in vitamin-C helps the human body develop resistance against infectious agents and scavenge cancer causing harmful free radicals from the body.
+
+              Pineapple guava contains small proportions B-complex vitamins such as pantothenic acid, niacin, vitamin-B6 (pyridoxine), and vitamin E and K, as well as minerals like calcium, magnesium, copper, and manganese.
+          """,
+        nutrition: ["230 kJ (55 kcal)","8.2 g","0.6 g","0.98 g","B1, B2, B3, B5, B6, B9, C, E, K", "Calcium, Copper,  Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
     Fruit(
         title: "Plum",
@@ -1474,6 +1932,39 @@ let fruitData: [Fruit] = [
         nutrition: ["238 kJ (57 kcal)","0 g","0.1 g","0.4 g","B1, B2, B3, B5, B6, B9, C","Calcium, Iron, Magnesium, Phosphorus, Potassium"]
     ),
     Fruit(
+        title: "Rambutan",
+        headline: "Scientific name: Nephelium Lappaceum L.",
+        image: "rambutan",
+        gradientColors: [Color("ColorRambutanLight"), Color("ColorRambutanDark")],
+        description: """
+          Rambutan is another delicious fruit in the lychee family (Sapindaceae) of tropical fruiting trees. Their outer rind is covered with soft, pliable, hairy spines and hence acquired the name "rambut" in Malay. Botanically.
+
+          Some of the common names are ramboostan, hairy lychee, litchi chevelu or ramboutan (French), Ngeāa (เงาะ- Thai), Chôm chôm (Vietnamese), etc.
+
+          Nephelium lappaceum is an evergreen tree about 10-12 m tall and grows well in humid, tropical climates. Round, ovoid fruits appear by June in clusters about 90 days after the fruit setting on the panicles.
+
+          Rambutan fruit measures about 1.8 in long and 1 to 1.5 in wide. The outer skin is 2 to 3 mm thick and covered with soft, long, kinky spines (hairs) that turn red or yellow when ripe. Inside, the juicy, rice-white, edible aril (flesh) is attached to a single, large seed as in litchi in clinging types. Freestone cultivars also exist and preferred over clinging varieties.
+
+          The flavor and texture is almost similar to lychees but bit more acidic. Seeds are inedible and poisonous.
+
+          Pulasan is closely related to and has much pleasant flavor than rambutan and lychee.
+
+          Health benefits of Rambutan
+
+              Fresh rambutan fruit carries 75 calories per 100 g of edible portion. It has no saturated fats or cholesterol but composes of good amounts of dietary fiber, vitamins, and antioxidants.
+              Unlike lychee, rambutans do not contain "Oligonol", a low molecular weight polyphenol. Nonetheless, it carries other antioxidants like vitamin C, and polyphenols.
+
+              Rambutan carries about 30 mg of vitamin-C; 50% of daily recommended value. Studies suggest that consumption of fruits rich in vitamin-C helps human body develop resistance to combat infectious agents and scavenge harmful, pro-inflammatory free radicals.
+
+              It carries good amounts of dietary fiber, 0.24 g per 100 g.
+
+              Fresh fruits are very good source of B-complex vitamins such as riboflavin, niacin, and folates. These vitamins are essential since they function by acting as co-factors to help the body metabolize carbohydrates, protein, and fats.
+
+              Rambutan also carries many minerals like calcium (10.6 mg), phosphorus (12.9 mg) and copper. Being a juicy tropical fruit, it holds good amounts of potassium, an important component of cell and body fluids help control heart rate and blood pressure; thus, it offers protection against stroke and coronary heart diseases. Copper required in the production of red blood cells.
+          """,
+        nutrition: ["343 kJ (82 kcal)","02 g","0.21 g","0.65 g","B1, B2, B3, B6, B9, C, Choline, E, K","Calcium, Iron, Magnesium, Manganese Phosphorus, Potassium, Sodium, Zinc"]
+    ),
+    Fruit(
         title: "Raspberry",
         headline: "Scientific name: Rubus Idaeus",
         image: "raspberry",
@@ -1508,6 +1999,46 @@ let fruitData: [Fruit] = [
               They are rich in the B-complex group of vitamins and vitamin-K. The berries contain very good amounts of vitamin B-6, niacin, riboflavin, and folic acid. These vitamins function as co-factors and help the body in the metabolism of carbohydrates, protein, and fats.
           """,
         nutrition: ["220 kJ (53 kcal)","4.42 g","0.65 g","1.2 g","B1, B2, B3, B5, B6, B9, C, Choline, E, K","Calcium, Iron, Magnesium, Manganese Phosphorus, Potassium, Zinc"]
+    ),
+    Fruit(
+        title: "Sapodilla",
+        headline: "Scientific name: Manilkara Zapota",
+        image: "sapodilla",
+        gradientColors: [Color("ColorSapodillaLight"), Color("ColorSapodillaDark")],
+        description: """
+          Sapodilla or sapota (chikoo) is another popular tropical fruit in line with mango, banana, jackfruit, etc. Sapota composes of soft, easily digestible pulp made of simple sugars like fructose and sucrose.
+
+          Sapota is a tropical evergreen, fruit-bearing tree belongs to the family of Sapotaceae, in the genus: Manilkara. The fruit, popular as nasebrry, is one of the most relished tropical delicacy in the Caribbean islands.
+
+          Sapote thought to have originated in the Central American rain forests, probably in Mexico and Belize. Today, its cultivation has spread all over the tropical belt and grown as a major commercial crop in India, Sri Lanka, Indonesia, and Malaysia. The tree is one of fast growing, wind and drought resistant, and it flourishes well even under dry arid regions receiving scanty rains. However, water irrigation during summer would result in good fruit yields.
+
+          Botanically, each sapodilla fruit is a berry; round or oval measures about 10 cm in diameter and weigh about 150 g. A tree bears as many as 2,000 fruits/year.
+
+          Sapota fruit has gray/brown, sandy, kiwifruit-like outer surface but without the fuzziness. Unripe fruits possess white, hard, inedible pulp that secretes sticky latex containing toxic substance saponin. This milky latex gradually disappears, and its white flesh turns brown as the fruit ripe. Once ripen, it becomes soft, acquires a sweet taste and smooth or grainy texture with slight musky flavor. It contains about 3-10 black, smooth, shiny biconvex/bean shaped, inedible seeds, located at its center.
+
+          Health benefits of sapodilla
+
+              Sapodilla is one of the high-calorie fruits; 100 g provides 83 calories (almost same as that of calories in sweet potato, and banana). Additionally, it is an excellent source of dietary fiber (5.6 g/100g), which makes it a good bulk laxative. This fiber content helps relieve constipation episodes and help protect mucosa of the colon from cancer-causing toxins.
+
+              The fruit is rich in antioxidant polyphenolic compound tannin. Tannins are a composite family of naturally occurring polyphenols. Research studies suggest that tannins possess astringent properties, and shown to have potential anti-inflammatory, antiviral, antibacterial, and anti-parasitic effects. Hence, these compounds may found useful applications in traditional medicines as antidiarrheal, hemostatic (stops bleeding) and as a remedy for hemorrhoids.
+
+              Furthermore, the anti-inflammatory effect of tannins helps limit conditions like erosive gastritis, reflux esophagitis, enteritis, and irritating bowel disorders. Some other fruits that also rich in tannins include pomegranate, persimmon, and grapes.
+
+              Sapote contains a good amount of antioxidant vitamins like vitamin-C (24.5% of recommended daily intake per 100 g of fruit), and vitamin A. Vitamin-A is essential for vision. It also required for maintaining healthy mucosa and skin. Consumption of natural fruits rich in vitamin-A has been known to offer protection from lung and oral cavity cancers. So also, consumption of foods containing vitamin-C helps the body develop resistance to combat infectious agents and help scavenge harmful free radicals from the human body
+
+              Fresh ripe sapodilla is a good source of minerals like potassium, copper, iron and vitamins like folate, niacin and pantothenic acid. These compounds are essential for optimal health as they involve in various metabolic processes in the body as cofactors for the enzymes.
+
+          There exists many cultivars of sapodilla are grown worldwide like:-
+
+              Brown Sugar variety -Fruit is medium to small, 2 to 2-1/2 inches long, nearly round. Skin is light, scruffy brown. Flesh pale brown, fragrant, juicy, very sweet and creamy, texture slightly granular. Quality is superb.
+
+              Prolific variety - the fruit is round-conical, 2-1/2 to 3-1/2 inches long and broad. Skin is scruffy, brown, becoming nearly smooth at maturity. Flesh is light-pinkish, mildly fragrant, texture smooth, flavor sweet, quality good. The tree bears early, consistently and heavily.
+
+              Russel type- The fruit is large, round, 3 to 5 inches in diameter and length. Skin is scruffy brown with gray patches. Flesh is pinkish, mildly fragrant, texture somewhat granular. Flavor is rich and sweet.
+
+              Tikal- A new seedling selection with excellent flavor. It is elliptic, light brown and smaller than Prolific variety. Ripe very early.
+          """,
+        nutrition: ["347 kJ (83 kcal)","0 g","1.1 g","0.44 g","A, B2, B3, B5, B6, B9, C","Calcium, Copper, Iron, Magnesium, Manganese Phosphorus, Potassium, Sodium, Zinc"]
     ),
     Fruit(
         title: "Star Fruit",
@@ -1688,8 +2219,8 @@ let fruitData: [Fruit] = [
         nutrition: ["127 kJ (30 kcal)","6.2 g","0.15 g","0.61 g","A, B1, B2, B3, B5, B6, C, Choline","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
     )]
 
-let driedFruitData: [DriedFruit] = [
-    DriedFruit(
+let driedFruitData: [Fruit] = [
+    Fruit(
         title: "Dried Apricot",
         headline: "Scientific name: Prunus Armenia",
         image: "dried_apricot",
@@ -1727,7 +2258,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["1009 kJ (241 kcal)","53 g","0.5 g","3.4 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Dried Dates",
         headline: "Scientific name: Phoenix Dactylifera",
         image: "dried_dates",
@@ -1767,7 +2298,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["1159 kJ (277 kcal)","66 g","0.2 g","1.8 g","A, B1, B2, B3, B5, B6, B9, C, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Dried Fig",
         headline: "Scientific name: Ficus Carica",
         image: "dried_fig",
@@ -1801,7 +2332,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["1041 kJ (249 kcal)","47.9 g","0.93 g","3.3 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Dried Goji Berry",
         headline: "Scientific name: Lycium Barbarum",
         image: "dried_goji_berry",
@@ -1847,7 +2378,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["1460 kJ (349 kcal)","45.61 g","0.39 g","14.26 g","A, C","Calcium, Iron, Sodium"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Dried Raisins",
         headline: "Scientific name: Vitis Vinifera",
         image: "dried_raisin",
@@ -1899,7 +2430,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["1251 kJ (299 kcal)","0 g","0.46 g","3.07 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Almonds",
         headline: "Scientific name: Prunus Dulcis",
         image: "almond",
@@ -1935,7 +2466,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["2423 kJ (579 kcal)","4.4 g","49.9 g","21.2 g","A, B1, B2, B3, B5, B6, B9, C, Choline, D, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Brazil nuts",
         headline: "Scientific name: Bertholletia Excelsa",
         image: "brazil_nut",
@@ -1977,7 +2508,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["2757 kJ (659 kcal)","2.33 g","67.1 g","14.32 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Buckwheat",
         headline: "Scientific name: Fagopyrum Esculentum",
         image: "buckwheat",
@@ -2015,7 +2546,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["1435 kJ (343 kcal)","0 g","3.40 g","13.25 g","A, B1, B2, B3, B5, B6, B9, C","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Cashew nut",
         headline: "Scientific name: Anacardium Occidentale",
         image: "cashew_nut",
@@ -2061,7 +2592,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["2314 kJ (553 kcal)","5.91 g","43.85 g","18.22 g","A, B1, B2, B3, B5, B6, B9, B12, C, D, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Chestnut",
         headline: "Scientific name: Castanea Sativa",
         image: "chestnut",
@@ -2099,7 +2630,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["820 kJ (200 kcal)","11 g","1.3 g","1.6 g","A, B1, B2, B3, B5, B6, B9, B12, C","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Chia",
         headline: "Scientific name: Salvia Hispanica",
         image: "chia",
@@ -2145,7 +2676,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["2030 kJ (486 kcal)","0 g","30.7 g","16.5 g","A, B1, B2, B3, B9, C, E","Calcium, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Coconut",
         headline: "Scientific name: Cocos Nucifera",
         image: "coconut",
@@ -2185,7 +2716,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["1480 kJ (354 kcal)","6.23 g","33.49 g","3.33 g","A, B1, B2, B3, B5, B9, C, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Flax seed",
         headline: "Scientific name: Linum Usitatissimum",
         image: "flax_seed",
@@ -2227,7 +2758,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["2234 kJ (534 kcal)","1.55 g","42.16 g","18.29 g","B1, B2, B3, B5, B9, C","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Hazelnut",
         headline: "Scientific name: Corylus Avellana",
         image: "hazelnut",
@@ -2267,7 +2798,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["2629 kJ (628 kcal)","4.34 g","60.75 g","14.95 g","A, B1, B2, B3, B5, B6, B9, C, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium,  Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Lotus seed",
         headline: "Scientific name: Nelumbo Nucifera",
         image: "lotus_seed",
@@ -2317,7 +2848,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["278 kJ (66 kcal)","0.50 g","0.07 g","1.58 g","A, B1, B2, B3, B5, B6, B9, Choline, C","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Sodium,  Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Macadamia",
         headline: "Scientific name: Macadamia Integrifolia",
         image: "macadamia",
@@ -2359,7 +2890,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["3080 kJ (740 kcal)","4.57 g","75.8 g","7.9 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Peanut",
         headline: "Scientific name: Arachis Hypogaea",
         image: "peanut",
@@ -2409,7 +2940,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["2385 kJ (570 kcal)","0 g","48 g","25 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Pecans",
         headline: "Scientific name: Carya Illinoinensis",
         image: "pecans",
@@ -2451,7 +2982,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["2889 kJ (690 kcal)","3.97 g","71.97 g","9.17 g","A, B1, B2, B3, B5, B6, B9, C, D, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Pine nut",
         headline: "Scientific name: Pinus Pinea",
         image: "pine",
@@ -2497,7 +3028,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["2815 kJ (673 kcal)","3.6 g","68.4 g","13.7 g","A, B1, B2, B3, B5, B6, B9, Choline, C, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Pistachio",
         headline: "Scientific name: Pistacia Vera",
         image: "pistachio",
@@ -2544,7 +3075,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["2351 kJ (582 kcal)","7.66 g","45.39 g","20.27 g","A, B1, B2, B3, B5, B6, B9, C, D, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Poppy seed",
         headline: "Scientific name: Papaver somniferum",
         image: "poppy",
@@ -2592,7 +3123,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["2196 kJ (525 kcal)","2.99 g","41.56 g","21.22 g","A, B1, B2, B3, B5, B6, B9, C, Choline, E, K","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Pumpkin seed",
         headline: "Scientific name: Cucurbita Pepo",
         image: "pumpkin",
@@ -2634,7 +3165,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["2401 kJ (574 kcal)","1.29 g","49.05 g","29.84 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Quinoa",
         headline: "Scientific name: Chenopodium Quinoa",
         image: "quinoa",
@@ -2679,7 +3210,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["1539 kJ (368 kcal)","0 g","6.1 g","14.1 g","A, B1, B2, B3, B6, B9, Choline, E","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Sesame",
         headline: "Scientific name: Sesamum Indicum",
         image: "sesame",
@@ -2719,7 +3250,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["2400 kJ (573 kcal)","0.3 g","49.7 g","17.7 g","A, B1, B2, B3, B6, B9, E","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Sunflower seed",
         headline: "Scientific name: Helianthus Annuus",
         image: "sunflower",
@@ -2761,7 +3292,7 @@ let driedFruitData: [DriedFruit] = [
           """,
         nutrition: ["2445 kJ (584 kcal)","2.62 g","51.46 g","20.78 g","A, B1, B2, B3, B5, B6, B9, C, E","Calcium, Copper, Iron, Magnesium, Manganese, Phosphorus, Potassium, Selenium, Sodium, Zinc"]
     ),
-    DriedFruit(
+    Fruit(
         title: "Walnut",
         headline: "Scientific name: Juglans Regia",
         image: "walnut",

@@ -12,8 +12,10 @@ struct ContentView: View {
     
     @State private var isShowingSettings: Bool = false
     
+    @State private var searchText = ""
+    
     var fruit: [Fruit] = fruitData
-    var driedFruit: [DriedFruit] = driedFruitData
+    var driedFruit: [Fruit] = driedFruitData
     
     // MARK: - BODY
     
@@ -28,41 +30,34 @@ struct ContentView: View {
                         }
                     }
                 }
+                
+                
+                
+                Section(header: Text("Dried fruits").padding(.leading, -10)) {
+                    ForEach(driedFruit) { item in
+                        NavigationLink(destination: FruitDetailView(fruit: item)) {
+                            FruitRowView(fruit: item)
+                                .padding(.vertical, 4)
+                        }
+                    }
+                }
+                
+//                SearchBar(text: $searchText)
+//                    .padding(.top, -30)
+//                
+//                List(fruit.filter({ searchText.isEmpty ? true : $0.fruitData.contains(searchText) })) { item in
+//                    Text(item.fruitData)
+                
             }
-            
-//            NavigationView {
-//                List {
-//                    Section(header: Text("Dried fruits").padding(.leading, -10)) {
-//                        ForEach(driedFruit) { item in
-//                            NavigationLink(destination: FruitDetailView(driedFruit: item)) {
-//                                FruitRowView(driedFruit: item)
-//                                    .padding(.vertical, 4)
-//                            }
-//                        }
-//                    }
-//                }
-                .navigationTitle("Category")
-                //            .navigationBarItems(trailing: Button(action: {}) { Text("Fetch Creatures") })
-                .navigationBarItems(trailing:
-                                        Button(action: {
-                                            isShowingSettings = true
-                                        }) {
-                                            Image(systemName: "slider.horizontal.3")
-                                        } //: BUTTON
-                                        .sheet(isPresented: $isShowingSettings, content: {
-                                            SettingsView()
-                                        })
-                )
-            } //: NAVIGATION
+            .navigationTitle("Category")
             .navigationViewStyle(StackNavigationViewStyle())
         }
     }
-    
-    // MARK: - PREVIEW
-    
-    struct ContentView_Previews: PreviewProvider {
-        static var previews: some View {
-            ContentView(fruit: fruitData)
-        }
+}
+
+// MARK: - PREVIEW
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView(fruit: fruitData)
     }
-//}
+}

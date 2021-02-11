@@ -25,6 +25,7 @@
 		EDC81B6025B376C70050C847 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC81B5F25B376C70050C847 /* SettingsLabelView.swift */; };
 		EDC81B6A25B377350050C847 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC81B6925B377350050C847 /* FruitData.swift */; };
 		EDC81B6D25B377760050C847 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC81B6C25B377760050C847 /* FruitModel.swift */; };
+		EDC994CB25D595C40096055F /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC994CA25D595C40096055F /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		EDC81B5F25B376C70050C847 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
 		EDC81B6925B377350050C847 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		EDC81B6C25B377760050C847 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
+		EDC994CA25D595C40096055F /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				EDC81B4725B372B20050C847 /* FruitDetailView.swift */,
 				ED78DEE925CF03DD00A61E1F /* DriedFruitDetailView.swift */,
 				EDC81B4A25B372E90050C847 /* SettingsView.swift */,
+				EDC994CA25D595C40096055F /* SearchBar.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				EDC81B5A25B3768E0050C847 /* SourceLinkView.swift in Sources */,
 				EDC81B4B25B372E90050C847 /* SettingsView.swift in Sources */,
 				EDC81B5425B373FD0050C847 /* FruitRowView.swift in Sources */,
+				EDC994CB25D595C40096055F /* SearchBar.swift in Sources */,
 				EDC81B4825B372B20050C847 /* FruitDetailView.swift in Sources */,
 				EDC81B5D25B376AD0050C847 /* FruitNutrientsView.swift in Sources */,
 				EDC81B6D25B377760050C847 /* FruitModel.swift in Sources */,
