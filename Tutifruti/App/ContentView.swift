@@ -11,27 +11,31 @@ struct ContentView: View {
     // MARK: - PROPERTIES
     
     @State private var isShowingSettings: Bool = false
-    
     @State private var searchText = ""
     
     var fruit: [Fruit] = fruitData
     var driedFruit: [Fruit] = driedFruitData
+    var filteredFruit: [Fruit] {
+        guard !searchText.isEmpty else { return fruit }
+        return fruit.filter {
+            $0.title.contains(searchText)
+        }
+    }
     
     // MARK: - BODY
     
     var body: some View {
         NavigationView {
             List {
+                SearchBar(text: $searchText)
                 Section(header: Text("Fruits").padding(.leading, -10)) {
-                    ForEach(fruit) { item in
+                    ForEach(filteredFruit) { item in
                         NavigationLink(destination: FruitDetailView(fruit: item)) {
                             FruitRowView(fruit: item)
                                 .padding(.vertical, 4)
                         }
                     }
                 }
-                
-                
                 
                 Section(header: Text("Dried fruits").padding(.leading, -10)) {
                     ForEach(driedFruit) { item in
@@ -41,13 +45,6 @@ struct ContentView: View {
                         }
                     }
                 }
-                
-//                SearchBar(text: $searchText)
-//                    .padding(.top, -30)
-//                
-//                List(fruit.filter({ searchText.isEmpty ? true : $0.fruitData.contains(searchText) })) { item in
-//                    Text(item.fruitData)
-                
             }
             .navigationTitle("Category")
             .navigationViewStyle(StackNavigationViewStyle())

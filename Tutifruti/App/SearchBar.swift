@@ -11,13 +11,11 @@ struct SearchBar: View {
     
     // MARK: - PROPERTIES
     @Binding var text: String
- 
     @State private var isEditing = false
  
     // MARK: - BODY
     var body: some View {
         HStack {
- 
             TextField("Search ...", text: $text)
                 .padding(7)
                 .padding(.horizontal, 25)

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		ED78C21325B6447A009C6D70 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED78C21225B6447A009C6D70 /* Launch Screen.storyboard */; };
-		ED78DEEA25CF03DD00A61E1F /* DriedFruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED78DEE925CF03DD00A61E1F /* DriedFruitDetailView.swift */; };
 		EDC81B2825B371260050C847 /* TutifrutiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC81B2725B371260050C847 /* TutifrutiApp.swift */; };
 		EDC81B2A25B371260050C847 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC81B2925B371260050C847 /* ContentView.swift */; };
 		EDC81B2C25B371260050C847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC81B2B25B371260050C847 /* Assets.xcassets */; };
@@ -30,7 +29,6 @@
 
 /* Begin PBXFileReference section */
 		ED78C21225B6447A009C6D70 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "Tutifruti/Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
-		ED78DEE925CF03DD00A61E1F /* DriedFruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriedFruitDetailView.swift; sourceTree = "<group>"; };
 		EDC81B2425B371260050C847 /* Tutifruti.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutifruti.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC81B2725B371260050C847 /* TutifrutiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutifrutiApp.swift; sourceTree = "<group>"; };
 		EDC81B2925B371260050C847 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,7 +106,6 @@
 				EDC81B2925B371260050C847 /* ContentView.swift */,
 				EDC81B4425B372520050C847 /* OnboardingView.swift */,
 				EDC81B4725B372B20050C847 /* FruitDetailView.swift */,
-				ED78DEE925CF03DD00A61E1F /* DriedFruitDetailView.swift */,
 				EDC81B4A25B372E90050C847 /* SettingsView.swift */,
 				EDC994CA25D595C40096055F /* SearchBar.swift */,
 			);
@@ -227,7 +224,6 @@
 				EDC81B6D25B377760050C847 /* FruitModel.swift in Sources */,
 				EDC81B6025B376C70050C847 /* SettingsLabelView.swift in Sources */,
 				EDC81B4525B372520050C847 /* OnboardingView.swift in Sources */,
-				ED78DEEA25CF03DD00A61E1F /* DriedFruitDetailView.swift in Sources */,
 				EDC81B5725B376720050C847 /* FruitHeaderView.swift in Sources */,
 				EDC81B4E25B373130050C847 /* FruitCardView.swift in Sources */,
 				EDC81B2A25B371260050C847 /* ContentView.swift in Sources */,
