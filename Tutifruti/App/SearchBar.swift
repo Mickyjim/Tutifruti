@@ -12,10 +12,11 @@ struct SearchBar: View {
     // MARK: - PROPERTIES
     @Binding var text: String
     @State private var isEditing = false
- 
+     
     // MARK: - BODY
     var body: some View {
         HStack {
+            
             TextField("Search ...", text: $text)
                 .padding(7)
                 .padding(.horizontal, 25)
@@ -27,10 +28,11 @@ struct SearchBar: View {
                             .foregroundColor(.gray)
                             .frame(minWidth: 0, maxWidth: .infinity, alignment: .leading)
                             .padding(.leading, 8)
-                 
+                        
                         if isEditing {
                             Button(action: {
                                 self.text = ""
+                                
                             }) {
                                 Image(systemName: "multiply.circle.fill")
                                     .foregroundColor(.gray)
@@ -43,12 +45,14 @@ struct SearchBar: View {
                 .onTapGesture {
                     self.isEditing = true
                 }
- 
+            
             if isEditing {
                 Button(action: {
                     self.isEditing = false
                     self.text = ""
- 
+                    
+                    // Dismiss the keyboard
+                    UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
                 }) {
                     Text("Cancel")
                 }
@@ -61,9 +65,9 @@ struct SearchBar: View {
 }
 
 // MARK: - PREVIEW
-
 struct SearchBar_Previews: PreviewProvider {
     static var previews: some View {
         SearchBar(text: .constant(""))
     }
 }
+

@@ -17,7 +17,7 @@ struct OnboardingView: View {
         TabView {
             ForEach(fruits[0...5]) { item in
                 FruitCardView(fruit: item)
-            } //: LOOP
+            }
         } //: TAB
         .tabViewStyle(PageTabViewStyle())
         .padding(.vertical, 20)

@@ -47,6 +47,20 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Category")
+            
+            //: Settings button
+            .navigationBarItems(
+              trailing:
+                Button(action: {
+                  isShowingSettings = true
+                }) {
+                  Image(systemName: "slider.horizontal.3")
+                }
+                .sheet(isPresented: $isShowingSettings) {
+                  SettingsView()
+                }
+            )
+            //: NAVIGATION
             .navigationViewStyle(StackNavigationViewStyle())
         }
     }
