@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    // MARK: - PROPERTIES
     
+    // MARK: - PROPERTIES
     @State private var isShowingSettings: Bool = false
     @State private var searchText = ""
     
@@ -23,10 +23,11 @@ struct ContentView: View {
     }
     
     // MARK: - BODY
-    
     var body: some View {
         NavigationView {
             List {
+                
+                // Fruit header implementation
                 SearchBar(text: $searchText)
                 Section(header: Text("Fruits").padding(.leading, -10)) {
                     ForEach(filteredFruit) { item in
@@ -37,6 +38,7 @@ struct ContentView: View {
                     }
                 }
                 
+                // DriedFruit header implementation
                 Section(header: Text("Dried fruits").padding(.leading, -10)) {
                     ForEach(driedFruit) { item in
                         NavigationLink(destination: FruitDetailView(fruit: item)) {
@@ -46,6 +48,7 @@ struct ContentView: View {
                     }
                 }
             }
+            
             .navigationTitle("Category")
             
             //: Settings button
@@ -60,7 +63,8 @@ struct ContentView: View {
                   SettingsView()
                 }
             )
-            //: NAVIGATION
+            
+            //: Navigation
             .navigationViewStyle(StackNavigationViewStyle())
         }
     }

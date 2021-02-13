@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct SourceLinkView: View {
+    
+    // MARK: - BODY
     var body: some View {
         GroupBox() {
             HStack {
@@ -21,6 +23,7 @@ struct SourceLinkView: View {
     }
 }
 
+// MARK: - PREVIEW
 struct SourceLinkView_Previews: PreviewProvider {
     static var previews: some View {
         SourceLinkView()

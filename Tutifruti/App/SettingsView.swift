@@ -8,20 +8,19 @@
 import SwiftUI
 
 struct SettingsView: View {
-    // MARK: - PROPERTIES
     
+    // MARK: - PROPERTIES
     @Environment(\.presentationMode) var presentationMode
     
     @AppStorage("isOnboarding") var isOnboarding: Bool = false
     
     // MARK: - BODY
-    
     var body: some View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(spacing: 20) {
-                    // MARK: - SECTION 1
                     
+                    // MARK: - SECTION 1
                     GroupBox(
                         label:
                             SettingsLabelView(labelText: "Medical Disclaimer", labelImage: "info.circle")) {
@@ -44,7 +43,9 @@ The information in the site does not mention brand names, nor does it endorse an
                     }
                 }
                 
-            }//: VSTACK
+            }
+            
+            //: VSTACK
             .navigationBarTitle(Text("Disclaimer"), displayMode: .large)
             .navigationBarItems(
                 trailing: Button(action: {
@@ -54,12 +55,10 @@ The information in the site does not mention brand names, nor does it endorse an
                 }
             )
             .padding()
-        } //: SCROLL
-    }//: NAVIGATION
-    
+        }
+    }
     
     // MARK: - PREVIEW
-    
     struct SettingsView_Previews: PreviewProvider {
         static var previews: some View {
             SettingsView()

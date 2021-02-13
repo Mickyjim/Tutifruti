@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct FruitNutrientsView: View {
-    // MARK: - PROPERTIES
     
+    // MARK: - PROPERTIES
     var fruit: Fruit
     let nutrients: [String] = ["Energy", "Sugar", "Fat", "Proteins", "Vitamins", "Minerals"]
-    // MARK: - BODY
     
+    // MARK: - BODY
     var body: some View {
         GroupBox() {
             DisclosureGroup("Nutritional value per 100g") {
@@ -35,13 +35,11 @@ struct FruitNutrientsView: View {
                     }
                 }
             }
-        } //: BOX
-        
+        }
     }
 }
 
 // MARK: - PREVIEW
-
 struct FruitNutrientsView_Previews: PreviewProvider {
     static var previews: some View {
         FruitNutrientsView(fruit: fruitData[0])

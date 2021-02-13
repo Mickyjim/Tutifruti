@@ -9,8 +9,11 @@ import SwiftUI
 
 @main
 struct TutifrutiApp: App {
+    
+    // MARK: - PROPERTIES
     @AppStorage("isOnboarding") var isOnboarding: Bool = true
     
+    // MARK: - BODY
     var body: some Scene {
         WindowGroup {
             if isOnboarding {

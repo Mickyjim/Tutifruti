@@ -8,12 +8,11 @@
 import SwiftUI
 
 struct FruitRowView: View {
-    // MARK: - PROPERTIES
     
+    // MARK: - PROPERTIES
     var fruit: Fruit
     
     // MARK: - BODY
-    
     var body: some View {
         HStack {
             Image(fruit.image)
@@ -33,12 +32,11 @@ struct FruitRowView: View {
                     .font(.caption)
                     .foregroundColor(Color.secondary)
             }
-        } //:HSTACK
+        }
     }
 }
 
 // MARK: PREVIEW
-
 struct FruitRowView_Previews: PreviewProvider {
     static var previews: some View {
         FruitRowView(fruit: fruitData[0])

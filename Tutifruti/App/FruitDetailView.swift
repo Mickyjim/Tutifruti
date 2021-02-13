@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct FruitDetailView: View {
-    // MARK: - PROPERTIES
     
+    // MARK: - PROPERTIES
     var fruit: Fruit
     
     // MARK: - BODY
@@ -17,54 +17,62 @@ struct FruitDetailView: View {
         NavigationView {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(alignment: .center, spacing: 20) {
-                    // HEADER
+                    
+                    // Item image header
                     FruitHeaderView(fruit: fruit)
                     
                     VStack(alignment: .leading, spacing: 20) {
-                        // TITLE
+                        
+                        // Item title
                         Text(fruit.title)
                             .font(.largeTitle)
                             .fontWeight(.heavy)
                             .foregroundColor(fruit.gradientColors[1])
                         
-                        // HEADLINE
+                        // Item headline
                         Text(fruit.headline)
                             .font(.headline)
                             .multilineTextAlignment(.leading)
                         
                         
-                        // NUTRIENTS
+                        // Item nutrients
                         FruitNutrientsView(fruit: fruit)
                         
-                        // SUBHEADLINE
+                        // Item subheadline
                         Text("Learn more about \(fruit.title)" .uppercased())
                             .fontWeight(.bold)
                             .foregroundColor(fruit.gradientColors[1])
                         
-                        // DESCRIPTION
+                        // Item description
                         Text(fruit.description)
                             .multilineTextAlignment(.leading)
                         
-                        // LINK
+                        // Link to source
                         SourceLinkView()
                             .padding(.top, 10)
                             .padding(.bottom, 30)
-                        
-                    } //: VSTACK
+                    }
+                    
+                    //: VSTACK
                     .padding(.horizontal, 20)
                     .frame(maxWidth: 640, alignment: .center)
-                } //: VSTACK
+                }
+                
+                //: VSTACK
                 .navigationBarTitle(fruit.title, displayMode: .inline)
                 .navigationBarHidden(true)
-            } //: SCROLL
+            }
+            
+            //: Scroll
             .edgesIgnoringSafeArea(.top)
-        } //: NAVIGATION
+        }
+        
+        //: Navigation
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
 // MARK: - PREVIEW
-
 struct FruitDetailView_Previews: PreviewProvider {
     static var previews: some View {
         FruitDetailView(fruit: fruitData[0])

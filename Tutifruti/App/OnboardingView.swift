@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct OnboardingView: View {
-    // MARK: - PROPERTIES
     
+    // MARK: - PROPERTIES
     var fruits: [Fruit] = fruitData
     
     // MARK: - BODY
@@ -18,14 +18,15 @@ struct OnboardingView: View {
             ForEach(fruits[0...5]) { item in
                 FruitCardView(fruit: item)
             }
-        } //: TAB
+        }
+        
+        //: Tab implementation
         .tabViewStyle(PageTabViewStyle())
         .padding(.vertical, 20)
     }
 }
 
 // MARK: - PREVIEW
-
 struct OnboardingView_Previews: PreviewProvider {
     static var previews: some View {
         OnboardingView(fruits: fruitData)
