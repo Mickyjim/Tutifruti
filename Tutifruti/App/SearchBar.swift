@@ -16,7 +16,6 @@ struct SearchBar: View {
     // MARK: - BODY
     var body: some View {
         HStack {
-            
             TextField("Search ...", text: $text)
                 .padding(7)
                 .padding(.horizontal, 25)

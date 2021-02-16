@@ -25,43 +25,46 @@ struct ContentView: View {
     // MARK: - BODY
     var body: some View {
         NavigationView {
-            List {
-                
-                // Fruit header implementation
+            VStack {
+                // SearchBar placement
                 SearchBar(text: $searchText)
-                Section(header: Text("Fruits").padding(.leading, -10)) {
-                    ForEach(filteredFruit) { item in
-                        NavigationLink(destination: FruitDetailView(fruit: item)) {
-                            FruitRowView(fruit: item)
-                                .padding(.vertical, 4)
+                List {
+                    // Fruit header implementation
+                    Section(header: Text("Fruits").padding(.leading, -10)) {
+                        ForEach(filteredFruit) { item in
+                            NavigationLink(destination: FruitDetailView(fruit: item)) {
+                                FruitRowView(fruit: item)
+                                    .padding(.vertical, 4)
+                            }
+                        }
+                    }
+                    
+                    // DriedFruit header implementation
+                    Section(header: Text("Dried fruits").padding(.leading, -10)) {
+                        ForEach(driedFruit) { item in
+                            NavigationLink(destination: FruitDetailView(fruit: item)) {
+                                FruitRowView(fruit: item)
+                                    .padding(.vertical, 4)
+                            }
                         }
                     }
                 }
                 
-                // DriedFruit header implementation
-                Section(header: Text("Dried fruits").padding(.leading, -10)) {
-                    ForEach(driedFruit) { item in
-                        NavigationLink(destination: FruitDetailView(fruit: item)) {
-                            FruitRowView(fruit: item)
-                                .padding(.vertical, 4)
-                        }
-                    }
-                }
             }
             
             .navigationTitle("Category")
             
             //: Settings button
             .navigationBarItems(
-              trailing:
-                Button(action: {
-                  isShowingSettings = true
-                }) {
-                  Image(systemName: "slider.horizontal.3")
-                }
-                .sheet(isPresented: $isShowingSettings) {
-                  SettingsView()
-                }
+                trailing:
+                    Button(action: {
+                        isShowingSettings = true
+                    }) {
+                        Image(systemName: "slider.horizontal.3")
+                    }
+                    .sheet(isPresented: $isShowingSettings) {
+                        SettingsView()
+                    }
             )
             
             //: Navigation

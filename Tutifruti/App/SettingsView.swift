@@ -23,7 +23,7 @@ struct SettingsView: View {
                     // MARK: - SECTION 1
                     GroupBox(
                         label:
-                            SettingsLabelView(labelText: "Medical Disclaimer", labelImage: "info.circle")) {
+                            SettingsLabelView(labelText: "Please read the following", labelImage: "info.circle")) {
                         Divider().padding(.vertical, 4)
                         
                         HStack(alignment: .center, spacing: 10) {
@@ -46,7 +46,7 @@ The information in the site does not mention brand names, nor does it endorse an
             }
             
             //: VSTACK
-            .navigationBarTitle(Text("Disclaimer"), displayMode: .large)
+            .navigationBarTitle(Text("Medical Disclaimer"), displayMode: .large)
             .navigationBarItems(
                 trailing: Button(action: {
                     presentationMode.wrappedValue.dismiss()
