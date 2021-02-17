@@ -15,9 +15,19 @@ struct ContentView: View {
     
     var fruit: [Fruit] = fruitData
     var driedFruit: [Fruit] = driedFruitData
+    
+    // filtering variable for Fruits in SearchBar
     var filteredFruit: [Fruit] {
         guard !searchText.isEmpty else { return fruit }
         return fruit.filter {
+            $0.title.contains(searchText)
+        }
+    }
+    
+    // filtering variable for DriedFruits in SearchBar
+    var filteredDriedFruit: [Fruit] {
+        guard !searchText.isEmpty else { return driedFruit }
+        return driedFruit.filter {
             $0.title.contains(searchText)
         }
     }
@@ -41,7 +51,7 @@ struct ContentView: View {
                     
                     // DriedFruit header implementation
                     Section(header: Text("Dried fruits").padding(.leading, -10)) {
-                        ForEach(driedFruit) { item in
+                        ForEach(filteredDriedFruit) { item in
                             NavigationLink(destination: FruitDetailView(fruit: item)) {
                                 FruitRowView(fruit: item)
                                     .padding(.vertical, 4)
